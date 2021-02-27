@@ -12,13 +12,27 @@ pub fn parse(s string) string {
 	return line
 }
 
-fn get_items(s string) []string {
+pub fn get_items(s string) []string {
 	mut item_list := []string{}
 	mut item := []byte{}
 	mut active := false
+	mut first := false
 	for c in s {
+		if c == ` ` {
+			if active {
+				active = false
+				first = false
+				item = []byte{}
+			}
+		}
 		if c == `:` {
+			if first {
+				continue
+			}
 			active = !active
+			if active {
+				first = true
+			}
 			if !active {
 				if item.len == 0 {
 					continue
@@ -28,6 +42,7 @@ fn get_items(s string) []string {
 				item = []byte{}
 			}
 		} else if active {
+			first = false
 			item << c
 		}
 	}
