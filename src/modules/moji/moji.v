@@ -4,7 +4,7 @@ pub fn parse(s string) string {
 	mut line := s
 	item_list := get_items(line)
 	for item in item_list {
-		emoji := data[item]
+		emoji := string(data[item])
 		if emoji.len > 0 {
 			line = line.replace_once(item, emoji)
 		}

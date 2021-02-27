@@ -5,1785 +5,1785 @@ module moji
 
 pub const (
 	data = map{
-		':+1:':                                   '👍'
-		':-1:':                                   '👎'
-		':100:':                                  '💯'
-		':1234:':                                 '🔢'
-		':1st_place_medal:':                      '🥇'
-		':2nd_place_medal:':                      '🥈'
-		':3rd_place_medal:':                      '🥉'
-		':8ball:':                                '🎱'
-		':a:':                                    '🅰'
-		':ab:':                                   '🆎'
-		':abacus:':                               '🧮'
-		':abc:':                                  '🔤'
-		':abcd:':                                 '🔡'
-		':accept:':                               '🉑'
-		':adhesive_bandage:':                     '🩹'
-		':adult:':                                '🧑'
-		':aerial_tramway:':                       '🚡'
-		':afghanistan:':                          '🇦🇫'
-		':airplane:':                             '✈'
-		':aland_islands:':                        '🇦🇽'
-		':alarm_clock:':                          '⏰'
-		':albania:':                              '🇦🇱'
-		':alembic:':                              '⚗'
-		':algeria:':                              '🇩🇿'
-		':alien:':                                '👽'
-		':ambulance:':                            '🚑'
-		':american_samoa:':                       '🇦🇸'
-		':amphora:':                              '🏺'
-		':anchor:':                               '⚓'
-		':andorra:':                              '🇦🇩'
-		':angel:':                                '👼'
-		':anger:':                                '💢'
-		':angola:':                               '🇦🇴'
-		':angry:':                                '😠'
-		':anguilla:':                             '🇦🇮'
-		':anguished:':                            '😧'
-		':ant:':                                  '🐜'
-		':antarctica:':                           '🇦🇶'
-		':antigua_barbuda:':                      '🇦🇬'
-		':apple:':                                '🍎'
-		':aquarius:':                             '♒'
-		':argentina:':                            '🇦🇷'
-		':aries:':                                '♈'
-		':armenia:':                              '🇦🇲'
-		':arrow_backward:':                       '◀'
-		':arrow_double_down:':                    '⏬'
-		':arrow_double_up:':                      '⏫'
-		':arrow_down:':                           '⬇'
-		':arrow_down_small:':                     '🔽'
-		':arrow_forward:':                        '▶'
-		':arrow_heading_down:':                   '⤵'
-		':arrow_heading_up:':                     '⤴'
-		':arrow_left:':                           '⬅'
-		':arrow_lower_left:':                     '↙'
-		':arrow_lower_right:':                    '↘'
-		':arrow_right:':                          '➡'
-		':arrow_right_hook:':                     '↪'
-		':arrow_up:':                             '⬆'
-		':arrow_up_down:':                        '↕'
-		':arrow_up_small:':                       '🔼'
-		':arrow_upper_left:':                     '↖'
-		':arrow_upper_right:':                    '↗'
-		':arrows_clockwise:':                     '🔃'
-		':arrows_counterclockwise:':              '🔄'
-		':art:':                                  '🎨'
-		':articulated_lorry:':                    '🚛'
-		':artificial_satellite:':                 '🛰'
-		':artist:':                               '🧑🎨'
-		':aruba:':                                '🇦🇼'
-		':ascension_island:':                     '🇦🇨'
-		':asterisk:':                             '*⃣'
-		':astonished:':                           '😲'
-		':astronaut:':                            '🧑🚀'
-		':athletic_shoe:':                        '👟'
-		':atm:':                                  '🏧'
-		':atom_symbol:':                          '⚛'
-		':australia:':                            '🇦🇺'
-		':austria:':                              '🇦🇹'
-		':auto_rickshaw:':                        '🛺'
-		':avocado:':                              '🥑'
-		':axe:':                                  '🪓'
-		':azerbaijan:':                           '🇦🇿'
-		':b:':                                    '🅱'
-		':baby:':                                 '👶'
-		':baby_bottle:':                          '🍼'
-		':baby_chick:':                           '🐤'
-		':baby_symbol:':                          '🚼'
-		':back:':                                 '🔙'
-		':bacon:':                                '🥓'
-		':badger:':                               '🦡'
-		':badminton:':                            '🏸'
-		':bagel:':                                '🥯'
-		':baggage_claim:':                        '🛄'
-		':baguette_bread:':                       '🥖'
-		':bahamas:':                              '🇧🇸'
-		':bahrain:':                              '🇧🇭'
-		':balance_scale:':                        '⚖'
-		':bald_man:':                             '👨🦲'
-		':bald_woman:':                           '👩🦲'
-		':ballet_shoes:':                         '🩰'
-		':balloon:':                              '🎈'
-		':ballot_box:':                           '🗳'
-		':ballot_box_with_check:':                '☑'
-		':bamboo:':                               '🎍'
-		':banana:':                               '🍌'
-		':bangbang:':                             '‼'
-		':bangladesh:':                           '🇧🇩'
-		':banjo:':                                '🪕'
-		':bank:':                                 '🏦'
-		':bar_chart:':                            '📊'
-		':barbados:':                             '🇧🇧'
-		':barber:':                               '💈'
-		':baseball:':                             '⚾'
-		':basket:':                               '🧺'
-		':basketball:':                           '🏀'
-		':basketball_man:':                       '⛹♂'
-		':basketball_woman:':                     '⛹♀'
-		':bat:':                                  '🦇'
-		':bath:':                                 '🛀'
-		':bathtub:':                              '🛁'
-		':battery:':                              '🔋'
-		':beach_umbrella:':                       '🏖'
-		':bear:':                                 '🐻'
-		':bearded_person:':                       '🧔'
-		':bed:':                                  '🛏'
-		':bee:':                                  '🐝'
-		':beer:':                                 '🍺'
-		':beers:':                                '🍻'
-		':beetle:':                               '🐞'
-		':beginner:':                             '🔰'
-		':belarus:':                              '🇧🇾'
-		':belgium:':                              '🇧🇪'
-		':belize:':                               '🇧🇿'
-		':bell:':                                 '🔔'
-		':bellhop_bell:':                         '🛎'
-		':benin:':                                '🇧🇯'
-		':bento:':                                '🍱'
-		':bermuda:':                              '🇧🇲'
-		':beverage_box:':                         '🧃'
-		':bhutan:':                               '🇧🇹'
-		':bicyclist:':                            '🚴'
-		':bike:':                                 '🚲'
-		':biking_man:':                           '🚴♂'
-		':biking_woman:':                         '🚴♀'
-		':bikini:':                               '👙'
-		':billed_cap:':                           '🧢'
-		':biohazard:':                            '☣'
-		':bird:':                                 '🐦'
-		':birthday:':                             '🎂'
-		':black_circle:':                         '⚫'
-		':black_flag:':                           '🏴'
-		':black_heart:':                          '🖤'
-		':black_joker:':                          '🃏'
-		':black_large_square:':                   '⬛'
-		':black_medium_small_square:':            '◾'
-		':black_medium_square:':                  '◼'
-		':black_nib:':                            '✒'
-		':black_small_square:':                   '▪'
-		':black_square_button:':                  '🔲'
-		':blond_haired_man:':                     '👱♂'
-		':blond_haired_person:':                  '👱'
-		':blond_haired_woman:':                   '👱♀'
-		':blonde_woman:':                         '👱♀'
-		':blossom:':                              '🌼'
-		':blowfish:':                             '🐡'
-		':blue_book:':                            '📘'
-		':blue_car:':                             '🚙'
-		':blue_heart:':                           '💙'
-		':blue_square:':                          '🟦'
-		':blush:':                                '😊'
-		':boar:':                                 '🐗'
-		':boat:':                                 '⛵'
-		':bolivia:':                              '🇧🇴'
-		':bomb:':                                 '💣'
-		':bone:':                                 '🦴'
-		':book:':                                 '📖'
-		':bookmark:':                             '🔖'
-		':bookmark_tabs:':                        '📑'
-		':books:':                                '📚'
-		':boom:':                                 '💥'
-		':boot:':                                 '👢'
-		':bosnia_herzegovina:':                   '🇧🇦'
-		':botswana:':                             '🇧🇼'
-		':bouncing_ball_man:':                    '⛹♂'
-		':bouncing_ball_person:':                 '⛹'
-		':bouncing_ball_woman:':                  '⛹♀'
-		':bouquet:':                              '💐'
-		':bouvet_island:':                        '🇧🇻'
-		':bow:':                                  '🙇'
-		':bow_and_arrow:':                        '🏹'
-		':bowing_man:':                           '🙇♂'
-		':bowing_woman:':                         '🙇♀'
-		':bowl_with_spoon:':                      '🥣'
-		':bowling:':                              '🎳'
-		':boxing_glove:':                         '🥊'
-		':boy:':                                  '👦'
-		':brain:':                                '🧠'
-		':brazil:':                               '🇧🇷'
-		':bread:':                                '🍞'
-		':breast_feeding:':                       '🤱'
-		':bricks:':                               '🧱'
-		':bride_with_veil:':                      '👰'
-		':bridge_at_night:':                      '🌉'
-		':briefcase:':                            '💼'
-		':british_indian_ocean_territory:':       '🇮🇴'
-		':british_virgin_islands:':               '🇻🇬'
-		':broccoli:':                             '🥦'
-		':broken_heart:':                         '💔'
-		':broom:':                                '🧹'
-		':brown_circle:':                         '🟤'
-		':brown_heart:':                          '🤎'
-		':brown_square:':                         '🟫'
-		':brunei:':                               '🇧🇳'
-		':bug:':                                  '🐛'
-		':building_construction:':                '🏗'
-		':bulb:':                                 '💡'
-		':bulgaria:':                             '🇧🇬'
-		':bullettrain_front:':                    '🚅'
-		':bullettrain_side:':                     '🚄'
-		':burkina_faso:':                         '🇧🇫'
-		':burrito:':                              '🌯'
-		':burundi:':                              '🇧🇮'
-		':bus:':                                  '🚌'
-		':business_suit_levitating:':             '🕴'
-		':busstop:':                              '🚏'
-		':bust_in_silhouette:':                   '👤'
-		':busts_in_silhouette:':                  '👥'
-		':butter:':                               '🧈'
-		':butterfly:':                            '🦋'
-		':cactus:':                               '🌵'
-		':cake:':                                 '🍰'
-		':calendar:':                             '📆'
-		':call_me_hand:':                         '🤙'
-		':calling:':                              '📲'
-		':cambodia:':                             '🇰🇭'
-		':camel:':                                '🐫'
-		':camera:':                               '📷'
-		':camera_flash:':                         '📸'
-		':cameroon:':                             '🇨🇲'
-		':camping:':                              '🏕'
-		':canada:':                               '🇨🇦'
-		':canary_islands:':                       '🇮🇨'
-		':cancer:':                               '♋'
-		':candle:':                               '🕯'
-		':candy:':                                '🍬'
-		':canned_food:':                          '🥫'
-		':canoe:':                                '🛶'
-		':cape_verde:':                           '🇨🇻'
-		':capital_abcd:':                         '🔠'
-		':capricorn:':                            '♑'
-		':car:':                                  '🚗'
-		':card_file_box:':                        '🗃'
-		':card_index:':                           '📇'
-		':card_index_dividers:':                  '🗂'
-		':caribbean_netherlands:':                '🇧🇶'
-		':carousel_horse:':                       '🎠'
-		':carrot:':                               '🥕'
-		':cartwheeling:':                         '🤸'
-		':cat2:':                                 '🐈'
-		':cat:':                                  '🐱'
-		':cayman_islands:':                       '🇰🇾'
-		':cd:':                                   '💿'
-		':central_african_republic:':             '🇨🇫'
-		':ceuta_melilla:':                        '🇪🇦'
-		':chad:':                                 '🇹🇩'
-		':chains:':                               '⛓'
-		':chair:':                                '🪑'
-		':champagne:':                            '🍾'
-		':chart:':                                '💹'
-		':chart_with_downwards_trend:':           '📉'
-		':chart_with_upwards_trend:':             '📈'
-		':checkered_flag:':                       '🏁'
-		':cheese:':                               '🧀'
-		':cherries:':                             '🍒'
-		':cherry_blossom:':                       '🌸'
-		':chess_pawn:':                           '♟'
-		':chestnut:':                             '🌰'
-		':chicken:':                              '🐔'
-		':child:':                                '🧒'
-		':children_crossing:':                    '🚸'
-		':chile:':                                '🇨🇱'
-		':chipmunk:':                             '🐿'
-		':chocolate_bar:':                        '🍫'
-		':chopsticks:':                           '🥢'
-		':christmas_island:':                     '🇨🇽'
-		':christmas_tree:':                       '🎄'
-		':church:':                               '⛪'
-		':cinema:':                               '🎦'
-		':circus_tent:':                          '🎪'
-		':city_sunrise:':                         '🌇'
-		':city_sunset:':                          '🌆'
-		':cityscape:':                            '🏙'
-		':cl:':                                   '🆑'
-		':clamp:':                                '🗜'
-		':clap:':                                 '👏'
-		':clapper:':                              '🎬'
-		':classical_building:':                   '🏛'
-		':climbing:':                             '🧗'
-		':climbing_man:':                         '🧗♂'
-		':climbing_woman:':                       '🧗♀'
-		':clinking_glasses:':                     '🥂'
-		':clipboard:':                            '📋'
-		':clipperton_island:':                    '🇨🇵'
-		':clock1030:':                            '🕥'
-		':clock10:':                              '🕙'
-		':clock1130:':                            '🕦'
-		':clock11:':                              '🕚'
-		':clock1230:':                            '🕧'
-		':clock12:':                              '🕛'
-		':clock130:':                             '🕜'
-		':clock1:':                               '🕐'
-		':clock230:':                             '🕝'
-		':clock2:':                               '🕑'
-		':clock330:':                             '🕞'
-		':clock3:':                               '🕒'
-		':clock430:':                             '🕟'
-		':clock4:':                               '🕓'
-		':clock530:':                             '🕠'
-		':clock5:':                               '🕔'
-		':clock630:':                             '🕡'
-		':clock6:':                               '🕕'
-		':clock730:':                             '🕢'
-		':clock7:':                               '🕖'
-		':clock830:':                             '🕣'
-		':clock8:':                               '🕗'
-		':clock930:':                             '🕤'
-		':clock9:':                               '🕘'
-		':closed_book:':                          '📕'
-		':closed_lock_with_key:':                 '🔐'
-		':closed_umbrella:':                      '🌂'
-		':cloud:':                                '☁'
-		':cloud_with_lightning:':                 '🌩'
-		':cloud_with_lightning_and_rain:':        '⛈'
-		':cloud_with_rain:':                      '🌧'
-		':cloud_with_snow:':                      '🌨'
-		':clown_face:':                           '🤡'
-		':clubs:':                                '♣'
-		':cn:':                                   '🇨🇳'
-		':coat:':                                 '🧥'
-		':cocktail:':                             '🍸'
-		':coconut:':                              '🥥'
-		':cocos_islands:':                        '🇨🇨'
-		':coffee:':                               '☕'
-		':coffin:':                               '⚰'
-		':cold_face:':                            '🥶'
-		':cold_sweat:':                           '😰'
-		':collision:':                            '💥'
-		':colombia:':                             '🇨🇴'
-		':comet:':                                '☄'
-		':comoros:':                              '🇰🇲'
-		':compass:':                              '🧭'
-		':computer:':                             '💻'
-		':computer_mouse:':                       '🖱'
-		':confetti_ball:':                        '🎊'
-		':confounded:':                           '😖'
-		':confused:':                             '😕'
-		':congo_brazzaville:':                    '🇨🇬'
-		':congo_kinshasa:':                       '🇨🇩'
-		':congratulations:':                      '㊗'
-		':construction:':                         '🚧'
-		':construction_worker:':                  '👷'
-		':construction_worker_man:':              '👷♂'
-		':construction_worker_woman:':            '👷♀'
-		':control_knobs:':                        '🎛'
-		':convenience_store:':                    '🏪'
-		':cook:':                                 '🧑🍳'
-		':cook_islands:':                         '🇨🇰'
-		':cookie:':                               '🍪'
-		':cool:':                                 '🆒'
-		':cop:':                                  '👮'
-		':copyright:':                            '©'
-		':corn:':                                 '🌽'
-		':costa_rica:':                           '🇨🇷'
-		':cote_divoire:':                         '🇨🇮'
-		':couch_and_lamp:':                       '🛋'
-		':couple:':                               '👫'
-		':couple_with_heart:':                    '💑'
-		':couple_with_heart_man_man:':            '👨❤👨'
-		':couple_with_heart_woman_man:':          '👩❤👨'
-		':couple_with_heart_woman_woman:':        '👩❤👩'
-		':couplekiss:':                           '💏'
-		':couplekiss_man_man:':                   '👨❤💋👨'
-		':couplekiss_man_woman:':                 '👩❤💋👨'
-		':couplekiss_woman_woman:':               '👩❤💋👩'
-		':cow2:':                                 '🐄'
-		':cow:':                                  '🐮'
-		':cowboy_hat_face:':                      '🤠'
-		':crab:':                                 '🦀'
-		':crayon:':                               '🖍'
-		':credit_card:':                          '💳'
-		':crescent_moon:':                        '🌙'
-		':cricket:':                              '🦗'
-		':cricket_game:':                         '🏏'
-		':croatia:':                              '🇭🇷'
-		':crocodile:':                            '🐊'
-		':croissant:':                            '🥐'
-		':crossed_fingers:':                      '🤞'
-		':crossed_flags:':                        '🎌'
-		':crossed_swords:':                       '⚔'
-		':crown:':                                '👑'
-		':cry:':                                  '😢'
-		':crying_cat_face:':                      '😿'
-		':crystal_ball:':                         '🔮'
-		':cuba:':                                 '🇨🇺'
-		':cucumber:':                             '🥒'
-		':cup_with_straw:':                       '🥤'
-		':cupcake:':                              '🧁'
-		':cupid:':                                '💘'
-		':curacao:':                              '🇨🇼'
-		':curling_stone:':                        '🥌'
-		':curly_haired_man:':                     '👨🦱'
-		':curly_haired_woman:':                   '👩🦱'
-		':curly_loop:':                           '➰'
-		':currency_exchange:':                    '💱'
-		':curry:':                                '🍛'
-		':cursing_face:':                         '🤬'
-		':custard:':                              '🍮'
-		':customs:':                              '🛃'
-		':cut_of_meat:':                          '🥩'
-		':cyclone:':                              '🌀'
-		':cyprus:':                               '🇨🇾'
-		':czech_republic:':                       '🇨🇿'
-		':dagger:':                               '🗡'
-		':dancer:':                               '💃'
-		':dancers:':                              '👯'
-		':dancing_men:':                          '👯♂'
-		':dancing_women:':                        '👯♀'
-		':dango:':                                '🍡'
-		':dark_sunglasses:':                      '🕶'
-		':dart:':                                 '🎯'
-		':dash:':                                 '💨'
-		':date:':                                 '📅'
-		':de:':                                   '🇩🇪'
-		':deaf_man:':                             '🧏♂'
-		':deaf_person:':                          '🧏'
-		':deaf_woman:':                           '🧏♀'
-		':deciduous_tree:':                       '🌳'
-		':deer:':                                 '🦌'
-		':denmark:':                              '🇩🇰'
-		':department_store:':                     '🏬'
-		':derelict_house:':                       '🏚'
-		':desert:':                               '🏜'
-		':desert_island:':                        '🏝'
-		':desktop_computer:':                     '🖥'
-		':detective:':                            '🕵'
-		':diamond_shape_with_a_dot_inside:':      '💠'
-		':diamonds:':                             '♦'
-		':diego_garcia:':                         '🇩🇬'
-		':disappointed:':                         '😞'
-		':disappointed_relieved:':                '😥'
-		':diving_mask:':                          '🤿'
-		':diya_lamp:':                            '🪔'
-		':dizzy:':                                '💫'
-		':dizzy_face:':                           '😵'
-		':djibouti:':                             '🇩🇯'
-		':dna:':                                  '🧬'
-		':do_not_litter:':                        '🚯'
-		':dog2:':                                 '🐕'
-		':dog:':                                  '🐶'
-		':dollar:':                               '💵'
-		':dolls:':                                '🎎'
-		':dolphin:':                              '🐬'
-		':dominica:':                             '🇩🇲'
-		':dominican_republic:':                   '🇩🇴'
-		':door:':                                 '🚪'
-		':doughnut:':                             '🍩'
-		':dove:':                                 '🕊'
-		':dragon:':                               '🐉'
-		':dragon_face:':                          '🐲'
-		':dress:':                                '👗'
-		':dromedary_camel:':                      '🐪'
-		':drooling_face:':                        '🤤'
-		':drop_of_blood:':                        '🩸'
-		':droplet:':                              '💧'
-		':drum:':                                 '🥁'
-		':duck:':                                 '🦆'
-		':dumpling:':                             '🥟'
-		':dvd:':                                  '📀'
-		':e-mail:':                               '📧'
-		':eagle:':                                '🦅'
-		':ear:':                                  '👂'
-		':ear_of_rice:':                          '🌾'
-		':ear_with_hearing_aid:':                 '🦻'
-		':earth_africa:':                         '🌍'
-		':earth_americas:':                       '🌎'
-		':earth_asia:':                           '🌏'
-		':ecuador:':                              '🇪🇨'
-		':egg:':                                  '🥚'
-		':eggplant:':                             '🍆'
-		':egypt:':                                '🇪🇬'
-		':eight:':                                '8⃣'
-		':eight_pointed_black_star:':             '✴'
-		':eight_spoked_asterisk:':                '✳'
-		':eject_button:':                         '⏏'
-		':el_salvador:':                          '🇸🇻'
-		':electric_plug:':                        '🔌'
-		':elephant:':                             '🐘'
-		':elf:':                                  '🧝'
-		':elf_man:':                              '🧝♂'
-		':elf_woman:':                            '🧝♀'
-		':email:':                                '✉'
-		':end:':                                  '🔚'
-		':england:':                              '🏴󠁧󠁢󠁥󠁮󠁧󠁿'
-		':envelope:':                             '✉'
-		':envelope_with_arrow:':                  '📩'
-		':equatorial_guinea:':                    '🇬🇶'
-		':eritrea:':                              '🇪🇷'
-		':es:':                                   '🇪🇸'
-		':estonia:':                              '🇪🇪'
-		':ethiopia:':                             '🇪🇹'
-		':eu:':                                   '🇪🇺'
-		':euro:':                                 '💶'
-		':european_castle:':                      '🏰'
-		':european_post_office:':                 '🏤'
-		':european_union:':                       '🇪🇺'
-		':evergreen_tree:':                       '🌲'
-		':exclamation:':                          '❗'
-		':exploding_head:':                       '🤯'
-		':expressionless:':                       '😑'
-		':eye:':                                  '👁'
-		':eye_speech_bubble:':                    '👁🗨'
-		':eyeglasses:':                           '👓'
-		':eyes:':                                 '👀'
-		':face_with_head_bandage:':               '🤕'
-		':face_with_thermometer:':                '🤒'
-		':facepalm:':                             '🤦'
-		':facepunch:':                            '👊'
-		':factory:':                              '🏭'
-		':factory_worker:':                       '🧑🏭'
-		':fairy:':                                '🧚'
-		':fairy_man:':                            '🧚♂'
-		':fairy_woman:':                          '🧚♀'
-		':falafel:':                              '🧆'
-		':falkland_islands:':                     '🇫🇰'
-		':fallen_leaf:':                          '🍂'
-		':family:':                               '👪'
-		':family_man_boy:':                       '👨👦'
-		':family_man_boy_boy:':                   '👨👦👦'
-		':family_man_girl:':                      '👨👧'
-		':family_man_girl_boy:':                  '👨👧👦'
-		':family_man_girl_girl:':                 '👨👧👧'
-		':family_man_man_boy:':                   '👨👨👦'
-		':family_man_man_boy_boy:':               '👨👨👦👦'
-		':family_man_man_girl:':                  '👨👨👧'
-		':family_man_man_girl_boy:':              '👨👨👧👦'
-		':family_man_man_girl_girl:':             '👨👨👧👧'
-		':family_man_woman_boy:':                 '👨👩👦'
-		':family_man_woman_boy_boy:':             '👨👩👦👦'
-		':family_man_woman_girl:':                '👨👩👧'
-		':family_man_woman_girl_boy:':            '👨👩👧👦'
-		':family_man_woman_girl_girl:':           '👨👩👧👧'
-		':family_woman_boy:':                     '👩👦'
-		':family_woman_boy_boy:':                 '👩👦👦'
-		':family_woman_girl:':                    '👩👧'
-		':family_woman_girl_boy:':                '👩👧👦'
-		':family_woman_girl_girl:':               '👩👧👧'
-		':family_woman_woman_boy:':               '👩👩👦'
-		':family_woman_woman_boy_boy:':           '👩👩👦👦'
-		':family_woman_woman_girl:':              '👩👩👧'
-		':family_woman_woman_girl_boy:':          '👩👩👧👦'
-		':family_woman_woman_girl_girl:':         '👩👩👧👧'
-		':farmer:':                               '🧑🌾'
-		':faroe_islands:':                        '🇫🇴'
-		':fast_forward:':                         '⏩'
-		':fax:':                                  '📠'
-		':fearful:':                              '😨'
-		':feet:':                                 '🐾'
-		':female_detective:':                     '🕵♀'
-		':female_sign:':                          '♀'
-		':ferris_wheel:':                         '🎡'
-		':ferry:':                                '⛴'
-		':field_hockey:':                         '🏑'
-		':fiji:':                                 '🇫🇯'
-		':file_cabinet:':                         '🗄'
-		':file_folder:':                          '📁'
-		':film_projector:':                       '📽'
-		':film_strip:':                           '🎞'
-		':finland:':                              '🇫🇮'
-		':fire:':                                 '🔥'
-		':fire_engine:':                          '🚒'
-		':fire_extinguisher:':                    '🧯'
-		':firecracker:':                          '🧨'
-		':firefighter:':                          '🧑🚒'
-		':fireworks:':                            '🎆'
-		':first_quarter_moon:':                   '🌓'
-		':first_quarter_moon_with_face:':         '🌛'
-		':fish:':                                 '🐟'
-		':fish_cake:':                            '🍥'
-		':fishing_pole_and_fish:':                '🎣'
-		':fist:':                                 '✊'
-		':fist_left:':                            '🤛'
-		':fist_oncoming:':                        '👊'
-		':fist_raised:':                          '✊'
-		':fist_right:':                           '🤜'
-		':five:':                                 '5⃣'
-		':flags:':                                '🎏'
-		':flamingo:':                             '🦩'
-		':flashlight:':                           '🔦'
-		':flat_shoe:':                            '🥿'
-		':fleur_de_lis:':                         '⚜'
-		':flight_arrival:':                       '🛬'
-		':flight_departure:':                     '🛫'
-		':flipper:':                              '🐬'
-		':floppy_disk:':                          '💾'
-		':flower_playing_cards:':                 '🎴'
-		':flushed:':                              '😳'
-		':flying_disc:':                          '🥏'
-		':flying_saucer:':                        '🛸'
-		':fog:':                                  '🌫'
-		':foggy:':                                '🌁'
-		':foot:':                                 '🦶'
-		':football:':                             '🏈'
-		':footprints:':                           '👣'
-		':fork_and_knife:':                       '🍴'
-		':fortune_cookie:':                       '🥠'
-		':fountain:':                             '⛲'
-		':fountain_pen:':                         '🖋'
-		':four:':                                 '4⃣'
-		':four_leaf_clover:':                     '🍀'
-		':fox_face:':                             '🦊'
-		':fr:':                                   '🇫🇷'
-		':framed_picture:':                       '🖼'
-		':free:':                                 '🆓'
-		':french_guiana:':                        '🇬🇫'
-		':french_polynesia:':                     '🇵🇫'
-		':french_southern_territories:':          '🇹🇫'
-		':fried_egg:':                            '🍳'
-		':fried_shrimp:':                         '🍤'
-		':fries:':                                '🍟'
-		':frog:':                                 '🐸'
-		':frowning:':                             '😦'
-		':frowning_face:':                        '☹'
-		':frowning_man:':                         '🙍♂'
-		':frowning_person:':                      '🙍'
-		':frowning_woman:':                       '🙍♀'
-		':fu:':                                   '🖕'
-		':fuelpump:':                             '⛽'
-		':full_moon:':                            '🌕'
-		':full_moon_with_face:':                  '🌝'
-		':funeral_urn:':                          '⚱'
-		':gabon:':                                '🇬🇦'
-		':gambia:':                               '🇬🇲'
-		':game_die:':                             '🎲'
-		':garlic:':                               '🧄'
-		':gb:':                                   '🇬🇧'
-		':gear:':                                 '⚙'
-		':gem:':                                  '💎'
-		':gemini:':                               '♊'
-		':genie:':                                '🧞'
-		':genie_man:':                            '🧞♂'
-		':genie_woman:':                          '🧞♀'
-		':georgia:':                              '🇬🇪'
-		':ghana:':                                '🇬🇭'
-		':ghost:':                                '👻'
-		':gibraltar:':                            '🇬🇮'
-		':gift:':                                 '🎁'
-		':gift_heart:':                           '💝'
-		':giraffe:':                              '🦒'
-		':girl:':                                 '👧'
-		':globe_with_meridians:':                 '🌐'
-		':gloves:':                               '🧤'
-		':goal_net:':                             '🥅'
-		':goat:':                                 '🐐'
-		':goggles:':                              '🥽'
-		':golf:':                                 '⛳'
-		':golfing:':                              '🏌'
-		':golfing_man:':                          '🏌♂'
-		':golfing_woman:':                        '🏌♀'
-		':gorilla:':                              '🦍'
-		':grapes:':                               '🍇'
-		':greece:':                               '🇬🇷'
-		':green_apple:':                          '🍏'
-		':green_book:':                           '📗'
-		':green_circle:':                         '🟢'
-		':green_heart:':                          '💚'
-		':green_salad:':                          '🥗'
-		':green_square:':                         '🟩'
-		':greenland:':                            '🇬🇱'
-		':grenada:':                              '🇬🇩'
-		':grey_exclamation:':                     '❕'
-		':grey_question:':                        '❔'
-		':grimacing:':                            '😬'
-		':grin:':                                 '😁'
-		':grinning:':                             '😀'
-		':guadeloupe:':                           '🇬🇵'
-		':guam:':                                 '🇬🇺'
-		':guard:':                                '💂'
-		':guardsman:':                            '💂♂'
-		':guardswoman:':                          '💂♀'
-		':guatemala:':                            '🇬🇹'
-		':guernsey:':                             '🇬🇬'
-		':guide_dog:':                            '🦮'
-		':guinea:':                               '🇬🇳'
-		':guinea_bissau:':                        '🇬🇼'
-		':guitar:':                               '🎸'
-		':gun:':                                  '🔫'
-		':guyana:':                               '🇬🇾'
-		':haircut:':                              '💇'
-		':haircut_man:':                          '💇♂'
-		':haircut_woman:':                        '💇♀'
-		':haiti:':                                '🇭🇹'
-		':hamburger:':                            '🍔'
-		':hammer:':                               '🔨'
-		':hammer_and_pick:':                      '⚒'
-		':hammer_and_wrench:':                    '🛠'
-		':hamster:':                              '🐹'
-		':hand:':                                 '✋'
-		':hand_over_mouth:':                      '🤭'
-		':handbag:':                              '👜'
-		':handball_person:':                      '🤾'
-		':handshake:':                            '🤝'
-		':hankey:':                               '💩'
-		':hash:':                                 '#⃣'
-		':hatched_chick:':                        '🐥'
-		':hatching_chick:':                       '🐣'
-		':headphones:':                           '🎧'
-		':health_worker:':                        '🧑⚕'
-		':hear_no_evil:':                         '🙉'
-		':heard_mcdonald_islands:':               '🇭🇲'
-		':heart:':                                '❤'
-		':heart_decoration:':                     '💟'
-		':heart_eyes:':                           '😍'
-		':heart_eyes_cat:':                       '😻'
-		':heartbeat:':                            '💓'
-		':heartpulse:':                           '💗'
-		':hearts:':                               '♥'
-		':heavy_check_mark:':                     '✔'
-		':heavy_division_sign:':                  '➗'
-		':heavy_dollar_sign:':                    '💲'
-		':heavy_exclamation_mark:':               '❗'
-		':heavy_heart_exclamation:':              '❣'
-		':heavy_minus_sign:':                     '➖'
-		':heavy_multiplication_x:':               '✖'
-		':heavy_plus_sign:':                      '➕'
-		':hedgehog:':                             '🦔'
-		':helicopter:':                           '🚁'
-		':herb:':                                 '🌿'
-		':hibiscus:':                             '🌺'
-		':high_brightness:':                      '🔆'
-		':high_heel:':                            '👠'
-		':hiking_boot:':                          '🥾'
-		':hindu_temple:':                         '🛕'
-		':hippopotamus:':                         '🦛'
-		':hocho:':                                '🔪'
-		':hole:':                                 '🕳'
-		':honduras:':                             '🇭🇳'
-		':honey_pot:':                            '🍯'
-		':honeybee:':                             '🐝'
-		':hong_kong:':                            '🇭🇰'
-		':horse:':                                '🐴'
-		':horse_racing:':                         '🏇'
-		':hospital:':                             '🏥'
-		':hot_face:':                             '🥵'
-		':hot_pepper:':                           '🌶'
-		':hotdog:':                               '🌭'
-		':hotel:':                                '🏨'
-		':hotsprings:':                           '♨'
-		':hourglass:':                            '⌛'
-		':hourglass_flowing_sand:':               '⏳'
-		':house:':                                '🏠'
-		':house_with_garden:':                    '🏡'
-		':houses:':                               '🏘'
-		':hugs:':                                 '🤗'
-		':hungary:':                              '🇭🇺'
-		':hushed:':                               '😯'
-		':ice_cream:':                            '🍨'
-		':ice_cube:':                             '🧊'
-		':ice_hockey:':                           '🏒'
-		':ice_skate:':                            '⛸'
-		':icecream:':                             '🍦'
-		':iceland:':                              '🇮🇸'
-		':id:':                                   '🆔'
-		':ideograph_advantage:':                  '🉐'
-		':imp:':                                  '👿'
-		':inbox_tray:':                           '📥'
-		':incoming_envelope:':                    '📨'
-		':india:':                                '🇮🇳'
-		':indonesia:':                            '🇮🇩'
-		':infinity:':                             '♾'
-		':information_desk_person:':              '💁'
-		':information_source:':                   'ℹ'
-		':innocent:':                             '😇'
-		':interrobang:':                          '⁉'
-		':iphone:':                               '📱'
-		':iran:':                                 '🇮🇷'
-		':iraq:':                                 '🇮🇶'
-		':ireland:':                              '🇮🇪'
-		':isle_of_man:':                          '🇮🇲'
-		':israel:':                               '🇮🇱'
-		':it:':                                   '🇮🇹'
-		':izakaya_lantern:':                      '🏮'
-		':jack_o_lantern:':                       '🎃'
-		':jamaica:':                              '🇯🇲'
-		':japan:':                                '🗾'
-		':japanese_castle:':                      '🏯'
-		':japanese_goblin:':                      '👺'
-		':japanese_ogre:':                        '👹'
-		':jeans:':                                '👖'
-		':jersey:':                               '🇯🇪'
-		':jigsaw:':                               '🧩'
-		':jordan:':                               '🇯🇴'
-		':joy:':                                  '😂'
-		':joy_cat:':                              '😹'
-		':joystick:':                             '🕹'
-		':jp:':                                   '🇯🇵'
-		':judge:':                                '🧑⚖'
-		':juggling_person:':                      '🤹'
-		':kaaba:':                                '🕋'
-		':kangaroo:':                             '🦘'
-		':kazakhstan:':                           '🇰🇿'
-		':kenya:':                                '🇰🇪'
-		':key:':                                  '🔑'
-		':keyboard:':                             '⌨'
-		':keycap_ten:':                           '🔟'
-		':kick_scooter:':                         '🛴'
-		':kimono:':                               '👘'
-		':kiribati:':                             '🇰🇮'
-		':kiss:':                                 '💋'
-		':kissing:':                              '😗'
-		':kissing_cat:':                          '😽'
-		':kissing_closed_eyes:':                  '😚'
-		':kissing_heart:':                        '😘'
-		':kissing_smiling_eyes:':                 '😙'
-		':kite:':                                 '🪁'
-		':kiwi_fruit:':                           '🥝'
-		':kneeling_man:':                         '🧎♂'
-		':kneeling_person:':                      '🧎'
-		':kneeling_woman:':                       '🧎♀'
-		':knife:':                                '🔪'
-		':koala:':                                '🐨'
-		':koko:':                                 '🈁'
-		':kosovo:':                               '🇽🇰'
-		':kr:':                                   '🇰🇷'
-		':kuwait:':                               '🇰🇼'
-		':kyrgyzstan:':                           '🇰🇬'
-		':lab_coat:':                             '🥼'
-		':label:':                                '🏷'
-		':lacrosse:':                             '🥍'
-		':lantern:':                              '🏮'
-		':laos:':                                 '🇱🇦'
-		':large_blue_circle:':                    '🔵'
-		':large_blue_diamond:':                   '🔷'
-		':large_orange_diamond:':                 '🔶'
-		':last_quarter_moon:':                    '🌗'
-		':last_quarter_moon_with_face:':          '🌜'
-		':latin_cross:':                          '✝'
-		':latvia:':                               '🇱🇻'
-		':laughing:':                             '😆'
-		':leafy_green:':                          '🥬'
-		':leaves:':                               '🍃'
-		':lebanon:':                              '🇱🇧'
-		':ledger:':                               '📒'
-		':left_luggage:':                         '🛅'
-		':left_right_arrow:':                     '↔'
-		':left_speech_bubble:':                   '🗨'
-		':leftwards_arrow_with_hook:':            '↩'
-		':leg:':                                  '🦵'
-		':lemon:':                                '🍋'
-		':leo:':                                  '♌'
-		':leopard:':                              '🐆'
-		':lesotho:':                              '🇱🇸'
-		':level_slider:':                         '🎚'
-		':liberia:':                              '🇱🇷'
-		':libra:':                                '♎'
-		':libya:':                                '🇱🇾'
-		':liechtenstein:':                        '🇱🇮'
-		':light_rail:':                           '🚈'
-		':link:':                                 '🔗'
-		':lion:':                                 '🦁'
-		':lips:':                                 '👄'
-		':lipstick:':                             '💄'
-		':lithuania:':                            '🇱🇹'
-		':lizard:':                               '🦎'
-		':llama:':                                '🦙'
-		':lobster:':                              '🦞'
-		':lock:':                                 '🔒'
-		':lock_with_ink_pen:':                    '🔏'
-		':lollipop:':                             '🍭'
-		':loop:':                                 '➿'
-		':lotion_bottle:':                        '🧴'
-		':lotus_position:':                       '🧘'
-		':lotus_position_man:':                   '🧘♂'
-		':lotus_position_woman:':                 '🧘♀'
-		':loud_sound:':                           '🔊'
-		':loudspeaker:':                          '📢'
-		':love_hotel:':                           '🏩'
-		':love_letter:':                          '💌'
-		':love_you_gesture:':                     '🤟'
-		':low_brightness:':                       '🔅'
-		':luggage:':                              '🧳'
-		':luxembourg:':                           '🇱🇺'
-		':lying_face:':                           '🤥'
-		':m:':                                    'Ⓜ'
-		':macau:':                                '🇲🇴'
-		':macedonia:':                            '🇲🇰'
-		':madagascar:':                           '🇲🇬'
-		':mag:':                                  '🔍'
-		':mag_right:':                            '🔎'
-		':mage:':                                 '🧙'
-		':mage_man:':                             '🧙♂'
-		':mage_woman:':                           '🧙♀'
-		':magnet:':                               '🧲'
-		':mahjong:':                              '🀄'
-		':mailbox:':                              '📫'
-		':mailbox_closed:':                       '📪'
-		':mailbox_with_mail:':                    '📬'
-		':mailbox_with_no_mail:':                 '📭'
-		':malawi:':                               '🇲🇼'
-		':malaysia:':                             '🇲🇾'
-		':maldives:':                             '🇲🇻'
-		':male_detective:':                       '🕵♂'
-		':male_sign:':                            '♂'
-		':mali:':                                 '🇲🇱'
-		':malta:':                                '🇲🇹'
-		':man:':                                  '👨'
-		':man_artist:':                           '👨🎨'
-		':man_astronaut:':                        '👨🚀'
-		':man_cartwheeling:':                     '🤸♂'
-		':man_cook:':                             '👨🍳'
-		':man_dancing:':                          '🕺'
-		':man_facepalming:':                      '🤦♂'
-		':man_factory_worker:':                   '👨🏭'
-		':man_farmer:':                           '👨🌾'
-		':man_firefighter:':                      '👨🚒'
-		':man_health_worker:':                    '👨⚕'
-		':man_in_manual_wheelchair:':             '👨🦽'
-		':man_in_motorized_wheelchair:':          '👨🦼'
-		':man_in_tuxedo:':                        '🤵'
-		':man_judge:':                            '👨⚖'
-		':man_juggling:':                         '🤹♂'
-		':man_mechanic:':                         '👨🔧'
-		':man_office_worker:':                    '👨💼'
-		':man_pilot:':                            '👨✈'
-		':man_playing_handball:':                 '🤾♂'
-		':man_playing_water_polo:':               '🤽♂'
-		':man_scientist:':                        '👨🔬'
-		':man_shrugging:':                        '🤷♂'
-		':man_singer:':                           '👨🎤'
-		':man_student:':                          '👨🎓'
-		':man_teacher:':                          '👨🏫'
-		':man_technologist:':                     '👨💻'
-		':man_with_gua_pi_mao:':                  '👲'
-		':man_with_probing_cane:':                '👨🦯'
-		':man_with_turban:':                      '👳♂'
-		':mandarin:':                             '🍊'
-		':mango:':                                '🥭'
-		':mans_shoe:':                            '👞'
-		':mantelpiece_clock:':                    '🕰'
-		':manual_wheelchair:':                    '🦽'
-		':maple_leaf:':                           '🍁'
-		':marshall_islands:':                     '🇲🇭'
-		':martial_arts_uniform:':                 '🥋'
-		':martinique:':                           '🇲🇶'
-		':mask:':                                 '😷'
-		':massage:':                              '💆'
-		':massage_man:':                          '💆♂'
-		':massage_woman:':                        '💆♀'
-		':mate:':                                 '🧉'
-		':mauritania:':                           '🇲🇷'
-		':mauritius:':                            '🇲🇺'
-		':mayotte:':                              '🇾🇹'
-		':meat_on_bone:':                         '🍖'
-		':mechanic:':                             '🧑🔧'
-		':mechanical_arm:':                       '🦾'
-		':mechanical_leg:':                       '🦿'
-		':medal_military:':                       '🎖'
-		':medal_sports:':                         '🏅'
-		':medical_symbol:':                       '⚕'
-		':mega:':                                 '📣'
-		':melon:':                                '🍈'
-		':memo:':                                 '📝'
-		':men_wrestling:':                        '🤼♂'
-		':menorah:':                              '🕎'
-		':mens:':                                 '🚹'
-		':mermaid:':                              '🧜♀'
-		':merman:':                               '🧜♂'
-		':merperson:':                            '🧜'
-		':metal:':                                '🤘'
-		':metro:':                                '🚇'
-		':mexico:':                               '🇲🇽'
-		':microbe:':                              '🦠'
-		':micronesia:':                           '🇫🇲'
-		':microphone:':                           '🎤'
-		':microscope:':                           '🔬'
-		':middle_finger:':                        '🖕'
-		':milk_glass:':                           '🥛'
-		':milky_way:':                            '🌌'
-		':minibus:':                              '🚐'
-		':minidisc:':                             '💽'
-		':mobile_phone_off:':                     '📴'
-		':moldova:':                              '🇲🇩'
-		':monaco:':                               '🇲🇨'
-		':money_mouth_face:':                     '🤑'
-		':money_with_wings:':                     '💸'
-		':moneybag:':                             '💰'
-		':mongolia:':                             '🇲🇳'
-		':monkey:':                               '🐒'
-		':monkey_face:':                          '🐵'
-		':monocle_face:':                         '🧐'
-		':monorail:':                             '🚝'
-		':montenegro:':                           '🇲🇪'
-		':montserrat:':                           '🇲🇸'
-		':moon:':                                 '🌔'
-		':moon_cake:':                            '🥮'
-		':morocco:':                              '🇲🇦'
-		':mortar_board:':                         '🎓'
-		':mosque:':                               '🕌'
-		':mosquito:':                             '🦟'
-		':motor_boat:':                           '🛥'
-		':motor_scooter:':                        '🛵'
-		':motorcycle:':                           '🏍'
-		':motorized_wheelchair:':                 '🦼'
-		':motorway:':                             '🛣'
-		':mount_fuji:':                           '🗻'
-		':mountain:':                             '⛰'
-		':mountain_bicyclist:':                   '🚵'
-		':mountain_biking_man:':                  '🚵♂'
-		':mountain_biking_woman:':                '🚵♀'
-		':mountain_cableway:':                    '🚠'
-		':mountain_railway:':                     '🚞'
-		':mountain_snow:':                        '🏔'
-		':mouse2:':                               '🐁'
-		':mouse:':                                '🐭'
-		':movie_camera:':                         '🎥'
-		':moyai:':                                '🗿'
-		':mozambique:':                           '🇲🇿'
-		':mrs_claus:':                            '🤶'
-		':muscle:':                               '💪'
-		':mushroom:':                             '🍄'
-		':musical_keyboard:':                     '🎹'
-		':musical_note:':                         '🎵'
-		':musical_score:':                        '🎼'
-		':mute:':                                 '🔇'
-		':myanmar:':                              '🇲🇲'
-		':nail_care:':                            '💅'
-		':name_badge:':                           '📛'
-		':namibia:':                              '🇳🇦'
-		':national_park:':                        '🏞'
-		':nauru:':                                '🇳🇷'
-		':nauseated_face:':                       '🤢'
-		':nazar_amulet:':                         '🧿'
-		':necktie:':                              '👔'
-		':negative_squared_cross_mark:':          '❎'
-		':nepal:':                                '🇳🇵'
-		':nerd_face:':                            '🤓'
-		':netherlands:':                          '🇳🇱'
-		':neutral_face:':                         '😐'
-		':new:':                                  '🆕'
-		':new_caledonia:':                        '🇳🇨'
-		':new_moon:':                             '🌑'
-		':new_moon_with_face:':                   '🌚'
-		':new_zealand:':                          '🇳🇿'
-		':newspaper:':                            '📰'
-		':newspaper_roll:':                       '🗞'
-		':next_track_button:':                    '⏭'
-		':ng:':                                   '🆖'
-		':ng_man:':                               '🙅♂'
-		':ng_woman:':                             '🙅♀'
-		':nicaragua:':                            '🇳🇮'
-		':niger:':                                '🇳🇪'
-		':nigeria:':                              '🇳🇬'
-		':night_with_stars:':                     '🌃'
-		':nine:':                                 '9⃣'
-		':niue:':                                 '🇳🇺'
-		':no_bell:':                              '🔕'
-		':no_bicycles:':                          '🚳'
-		':no_entry:':                             '⛔'
-		':no_entry_sign:':                        '🚫'
-		':no_good:':                              '🙅'
-		':no_good_man:':                          '🙅♂'
-		':no_good_woman:':                        '🙅♀'
-		':no_mobile_phones:':                     '📵'
-		':no_mouth:':                             '😶'
-		':no_pedestrians:':                       '🚷'
-		':no_smoking:':                           '🚭'
-		':non-potable_water:':                    '🚱'
-		':norfolk_island:':                       '🇳🇫'
-		':north_korea:':                          '🇰🇵'
-		':northern_mariana_islands:':             '🇲🇵'
-		':norway:':                               '🇳🇴'
-		':nose:':                                 '👃'
-		':notebook:':                             '📓'
-		':notebook_with_decorative_cover:':       '📔'
-		':notes:':                                '🎶'
-		':nut_and_bolt:':                         '🔩'
-		':o2:':                                   '🅾'
-		':o:':                                    '⭕'
-		':ocean:':                                '🌊'
-		':octopus:':                              '🐙'
-		':oden:':                                 '🍢'
-		':office:':                               '🏢'
-		':office_worker:':                        '🧑💼'
-		':oil_drum:':                             '🛢'
-		':ok:':                                   '🆗'
-		':ok_hand:':                              '👌'
-		':ok_man:':                               '🙆♂'
-		':ok_person:':                            '🙆'
-		':ok_woman:':                             '🙆♀'
-		':old_key:':                              '🗝'
-		':older_adult:':                          '🧓'
-		':older_man:':                            '👴'
-		':older_woman:':                          '👵'
-		':om:':                                   '🕉'
-		':oman:':                                 '🇴🇲'
-		':on:':                                   '🔛'
-		':oncoming_automobile:':                  '🚘'
-		':oncoming_bus:':                         '🚍'
-		':oncoming_police_car:':                  '🚔'
-		':oncoming_taxi:':                        '🚖'
-		':one:':                                  '1⃣'
-		':one_piece_swimsuit:':                   '🩱'
-		':onion:':                                '🧅'
-		':open_book:':                            '📖'
-		':open_file_folder:':                     '📂'
-		':open_hands:':                           '👐'
-		':open_mouth:':                           '😮'
-		':open_umbrella:':                        '☂'
-		':ophiuchus:':                            '⛎'
-		':orange:':                               '🍊'
-		':orange_book:':                          '📙'
-		':orange_circle:':                        '🟠'
-		':orange_heart:':                         '🧡'
-		':orange_square:':                        '🟧'
-		':orangutan:':                            '🦧'
-		':orthodox_cross:':                       '☦'
-		':otter:':                                '🦦'
-		':outbox_tray:':                          '📤'
-		':owl:':                                  '🦉'
-		':ox:':                                   '🐂'
-		':oyster:':                               '🦪'
-		':package:':                              '📦'
-		':page_facing_up:':                       '📄'
-		':page_with_curl:':                       '📃'
-		':pager:':                                '📟'
-		':paintbrush:':                           '🖌'
-		':pakistan:':                             '🇵🇰'
-		':palau:':                                '🇵🇼'
-		':palestinian_territories:':              '🇵🇸'
-		':palm_tree:':                            '🌴'
-		':palms_up_together:':                    '🤲'
-		':panama:':                               '🇵🇦'
-		':pancakes:':                             '🥞'
-		':panda_face:':                           '🐼'
-		':paperclip:':                            '📎'
-		':paperclips:':                           '🖇'
-		':papua_new_guinea:':                     '🇵🇬'
-		':parachute:':                            '🪂'
-		':paraguay:':                             '🇵🇾'
-		':parasol_on_ground:':                    '⛱'
-		':parking:':                              '🅿'
-		':parrot:':                               '🦜'
-		':part_alternation_mark:':                '〽'
-		':partly_sunny:':                         '⛅'
-		':partying_face:':                        '🥳'
-		':passenger_ship:':                       '🛳'
-		':passport_control:':                     '🛂'
-		':pause_button:':                         '⏸'
-		':paw_prints:':                           '🐾'
-		':peace_symbol:':                         '☮'
-		':peach:':                                '🍑'
-		':peacock:':                              '🦚'
-		':peanuts:':                              '🥜'
-		':pear:':                                 '🍐'
-		':pen:':                                  '🖊'
-		':pencil2:':                              '✏'
-		':pencil:':                               '📝'
-		':penguin:':                              '🐧'
-		':pensive:':                              '😔'
-		':people_holding_hands:':                 '🧑🤝🧑'
-		':performing_arts:':                      '🎭'
-		':persevere:':                            '😣'
-		':person_bald:':                          '🧑🦲'
-		':person_curly_hair:':                    '🧑🦱'
-		':person_fencing:':                       '🤺'
-		':person_in_manual_wheelchair:':          '🧑🦽'
-		':person_in_motorized_wheelchair:':       '🧑🦼'
-		':person_red_hair:':                      '🧑🦰'
-		':person_white_hair:':                    '🧑🦳'
-		':person_with_probing_cane:':             '🧑🦯'
-		':person_with_turban:':                   '👳'
-		':peru:':                                 '🇵🇪'
-		':petri_dish:':                           '🧫'
-		':philippines:':                          '🇵🇭'
-		':phone:':                                '☎'
-		':pick:':                                 '⛏'
-		':pie:':                                  '🥧'
-		':pig2:':                                 '🐖'
-		':pig:':                                  '🐷'
-		':pig_nose:':                             '🐽'
-		':pill:':                                 '💊'
-		':pilot:':                                '🧑✈'
-		':pinching_hand:':                        '🤏'
-		':pineapple:':                            '🍍'
-		':ping_pong:':                            '🏓'
-		':pirate_flag:':                          '🏴☠'
-		':pisces:':                               '♓'
-		':pitcairn_islands:':                     '🇵🇳'
-		':pizza:':                                '🍕'
-		':place_of_worship:':                     '🛐'
-		':plate_with_cutlery:':                   '🍽'
-		':play_or_pause_button:':                 '⏯'
-		':pleading_face:':                        '🥺'
-		':point_down:':                           '👇'
-		':point_left:':                           '👈'
-		':point_right:':                          '👉'
-		':point_up:':                             '☝'
-		':point_up_2:':                           '👆'
-		':poland:':                               '🇵🇱'
-		':police_car:':                           '🚓'
-		':police_officer:':                       '👮'
-		':policeman:':                            '👮♂'
-		':policewoman:':                          '👮♀'
-		':poodle:':                               '🐩'
-		':poop:':                                 '💩'
-		':popcorn:':                              '🍿'
-		':portugal:':                             '🇵🇹'
-		':post_office:':                          '🏣'
-		':postal_horn:':                          '📯'
-		':postbox:':                              '📮'
-		':potable_water:':                        '🚰'
-		':potato:':                               '🥔'
-		':pouch:':                                '👝'
-		':poultry_leg:':                          '🍗'
-		':pound:':                                '💷'
-		':pout:':                                 '😡'
-		':pouting_cat:':                          '😾'
-		':pouting_face:':                         '🙎'
-		':pouting_man:':                          '🙎♂'
-		':pouting_woman:':                        '🙎♀'
-		':pray:':                                 '🙏'
-		':prayer_beads:':                         '📿'
-		':pregnant_woman:':                       '🤰'
-		':pretzel:':                              '🥨'
-		':previous_track_button:':                '⏮'
-		':prince:':                               '🤴'
-		':princess:':                             '👸'
-		':printer:':                              '🖨'
-		':probing_cane:':                         '🦯'
-		':puerto_rico:':                          '🇵🇷'
-		':punch:':                                '👊'
-		':purple_circle:':                        '🟣'
-		':purple_heart:':                         '💜'
-		':purple_square:':                        '🟪'
-		':purse:':                                '👛'
-		':pushpin:':                              '📌'
-		':put_litter_in_its_place:':              '🚮'
-		':qatar:':                                '🇶🇦'
-		':question:':                             '❓'
-		':rabbit2:':                              '🐇'
-		':rabbit:':                               '🐰'
-		':raccoon:':                              '🦝'
-		':racehorse:':                            '🐎'
-		':racing_car:':                           '🏎'
-		':radio:':                                '📻'
-		':radio_button:':                         '🔘'
-		':radioactive:':                          '☢'
-		':rage:':                                 '😡'
-		':railway_car:':                          '🚃'
-		':railway_track:':                        '🛤'
-		':rainbow:':                              '🌈'
-		':rainbow_flag:':                         '🏳🌈'
-		':raised_back_of_hand:':                  '🤚'
-		':raised_eyebrow:':                       '🤨'
-		':raised_hand:':                          '✋'
-		':raised_hand_with_fingers_splayed:':     '🖐'
-		':raised_hands:':                         '🙌'
-		':raising_hand:':                         '🙋'
-		':raising_hand_man:':                     '🙋♂'
-		':raising_hand_woman:':                   '🙋♀'
-		':ram:':                                  '🐏'
-		':ramen:':                                '🍜'
-		':rat:':                                  '🐀'
-		':razor:':                                '🪒'
-		':receipt:':                              '🧾'
-		':record_button:':                        '⏺'
-		':recycle:':                              '♻'
-		':red_car:':                              '🚗'
-		':red_circle:':                           '🔴'
-		':red_envelope:':                         '🧧'
-		':red_haired_man:':                       '👨🦰'
-		':red_haired_woman:':                     '👩🦰'
-		':red_square:':                           '🟥'
-		':registered:':                           '®'
-		':relaxed:':                              '☺'
-		':relieved:':                             '😌'
-		':reminder_ribbon:':                      '🎗'
-		':repeat:':                               '🔁'
-		':repeat_one:':                           '🔂'
-		':rescue_worker_helmet:':                 '⛑'
-		':restroom:':                             '🚻'
-		':reunion:':                              '🇷🇪'
-		':revolving_hearts:':                     '💞'
-		':rewind:':                               '⏪'
-		':rhinoceros:':                           '🦏'
-		':ribbon:':                               '🎀'
-		':rice:':                                 '🍚'
-		':rice_ball:':                            '🍙'
-		':rice_cracker:':                         '🍘'
-		':rice_scene:':                           '🎑'
-		':right_anger_bubble:':                   '🗯'
-		':ring:':                                 '💍'
-		':ringed_planet:':                        '🪐'
-		':robot:':                                '🤖'
-		':rocket:':                               '🚀'
-		':rofl:':                                 '🤣'
-		':roll_eyes:':                            '🙄'
-		':roll_of_paper:':                        '🧻'
-		':roller_coaster:':                       '🎢'
-		':romania:':                              '🇷🇴'
-		':rooster:':                              '🐓'
-		':rose:':                                 '🌹'
-		':rosette:':                              '🏵'
-		':rotating_light:':                       '🚨'
-		':round_pushpin:':                        '📍'
-		':rowboat:':                              '🚣'
-		':rowing_man:':                           '🚣♂'
-		':rowing_woman:':                         '🚣♀'
-		':ru:':                                   '🇷🇺'
-		':rugby_football:':                       '🏉'
-		':runner:':                               '🏃'
-		':running:':                              '🏃'
-		':running_man:':                          '🏃♂'
-		':running_shirt_with_sash:':              '🎽'
-		':running_woman:':                        '🏃♀'
-		':rwanda:':                               '🇷🇼'
-		':sa:':                                   '🈂'
-		':safety_pin:':                           '🧷'
-		':safety_vest:':                          '🦺'
-		':sagittarius:':                          '♐'
-		':sailboat:':                             '⛵'
-		':sake:':                                 '🍶'
-		':salt:':                                 '🧂'
-		':samoa:':                                '🇼🇸'
-		':san_marino:':                           '🇸🇲'
-		':sandal:':                               '👡'
-		':sandwich:':                             '🥪'
-		':santa:':                                '🎅'
-		':sao_tome_principe:':                    '🇸🇹'
-		':sari:':                                 '🥻'
-		':sassy_man:':                            '💁♂'
-		':sassy_woman:':                          '💁♀'
-		':satellite:':                            '📡'
-		':satisfied:':                            '😆'
-		':saudi_arabia:':                         '🇸🇦'
-		':sauna_man:':                            '🧖♂'
-		':sauna_person:':                         '🧖'
-		':sauna_woman:':                          '🧖♀'
-		':sauropod:':                             '🦕'
-		':saxophone:':                            '🎷'
-		':scarf:':                                '🧣'
-		':school:':                               '🏫'
-		':school_satchel:':                       '🎒'
-		':scientist:':                            '🧑🔬'
-		':scissors:':                             '✂'
-		':scorpion:':                             '🦂'
-		':scorpius:':                             '♏'
-		':scotland:':                             '🏴󠁧󠁢󠁳󠁣󠁴󠁿'
-		':scream:':                               '😱'
-		':scream_cat:':                           '🙀'
-		':scroll:':                               '📜'
-		':seat:':                                 '💺'
-		':secret:':                               '㊙'
-		':see_no_evil:':                          '🙈'
-		':seedling:':                             '🌱'
-		':selfie:':                               '🤳'
-		':senegal:':                              '🇸🇳'
-		':serbia:':                               '🇷🇸'
-		':service_dog:':                          '🐕🦺'
-		':seven:':                                '7⃣'
-		':seychelles:':                           '🇸🇨'
-		':shallow_pan_of_food:':                  '🥘'
-		':shamrock:':                             '☘'
-		':shark:':                                '🦈'
-		':shaved_ice:':                           '🍧'
-		':sheep:':                                '🐑'
-		':shell:':                                '🐚'
-		':shield:':                               '🛡'
-		':shinto_shrine:':                        '⛩'
-		':ship:':                                 '🚢'
-		':shirt:':                                '👕'
-		':shit:':                                 '💩'
-		':shoe:':                                 '👞'
-		':shopping:':                             '🛍'
-		':shopping_cart:':                        '🛒'
-		':shorts:':                               '🩳'
-		':shower:':                               '🚿'
-		':shrimp:':                               '🦐'
-		':shrug:':                                '🤷'
-		':shushing_face:':                        '🤫'
-		':sierra_leone:':                         '🇸🇱'
-		':signal_strength:':                      '📶'
-		':singapore:':                            '🇸🇬'
-		':singer:':                               '🧑🎤'
-		':sint_maarten:':                         '🇸🇽'
-		':six:':                                  '6⃣'
-		':six_pointed_star:':                     '🔯'
-		':skateboard:':                           '🛹'
-		':ski:':                                  '🎿'
-		':skier:':                                '⛷'
-		':skull:':                                '💀'
-		':skull_and_crossbones:':                 '☠'
-		':skunk:':                                '🦨'
-		':sled:':                                 '🛷'
-		':sleeping:':                             '😴'
-		':sleeping_bed:':                         '🛌'
-		':sleepy:':                               '😪'
-		':slightly_frowning_face:':               '🙁'
-		':slightly_smiling_face:':                '🙂'
-		':slot_machine:':                         '🎰'
-		':sloth:':                                '🦥'
-		':slovakia:':                             '🇸🇰'
-		':slovenia:':                             '🇸🇮'
-		':small_airplane:':                       '🛩'
-		':small_blue_diamond:':                   '🔹'
-		':small_orange_diamond:':                 '🔸'
-		':small_red_triangle:':                   '🔺'
-		':small_red_triangle_down:':              '🔻'
-		':smile:':                                '😄'
-		':smile_cat:':                            '😸'
-		':smiley:':                               '😃'
-		':smiley_cat:':                           '😺'
-		':smiling_face_with_three_hearts:':       '🥰'
-		':smiling_imp:':                          '😈'
-		':smirk:':                                '😏'
-		':smirk_cat:':                            '😼'
-		':smoking:':                              '🚬'
-		':snail:':                                '🐌'
-		':snake:':                                '🐍'
-		':sneezing_face:':                        '🤧'
-		':snowboarder:':                          '🏂'
-		':snowflake:':                            '❄'
-		':snowman:':                              '⛄'
-		':snowman_with_snow:':                    '☃'
-		':soap:':                                 '🧼'
-		':sob:':                                  '😭'
-		':soccer:':                               '⚽'
-		':socks:':                                '🧦'
-		':softball:':                             '🥎'
-		':solomon_islands:':                      '🇸🇧'
-		':somalia:':                              '🇸🇴'
-		':soon:':                                 '🔜'
-		':sos:':                                  '🆘'
-		':sound:':                                '🔉'
-		':south_africa:':                         '🇿🇦'
-		':south_georgia_south_sandwich_islands:': '🇬🇸'
-		':south_sudan:':                          '🇸🇸'
-		':space_invader:':                        '👾'
-		':spades:':                               '♠'
-		':spaghetti:':                            '🍝'
-		':sparkle:':                              '❇'
-		':sparkler:':                             '🎇'
-		':sparkles:':                             '✨'
-		':sparkling_heart:':                      '💖'
-		':speak_no_evil:':                        '🙊'
-		':speaker:':                              '🔈'
-		':speaking_head:':                        '🗣'
-		':speech_balloon:':                       '💬'
-		':speedboat:':                            '🚤'
-		':spider:':                               '🕷'
-		':spider_web:':                           '🕸'
-		':spiral_calendar:':                      '🗓'
-		':spiral_notepad:':                       '🗒'
-		':sponge:':                               '🧽'
-		':spoon:':                                '🥄'
-		':squid:':                                '🦑'
-		':sri_lanka:':                            '🇱🇰'
-		':st_barthelemy:':                        '🇧🇱'
-		':st_helena:':                            '🇸🇭'
-		':st_kitts_nevis:':                       '🇰🇳'
-		':st_lucia:':                             '🇱🇨'
-		':st_martin:':                            '🇲🇫'
-		':st_pierre_miquelon:':                   '🇵🇲'
-		':st_vincent_grenadines:':                '🇻🇨'
-		':stadium:':                              '🏟'
-		':standing_man:':                         '🧍♂'
-		':standing_person:':                      '🧍'
-		':standing_woman:':                       '🧍♀'
-		':star2:':                                '🌟'
-		':star:':                                 '⭐'
-		':star_and_crescent:':                    '☪'
-		':star_of_david:':                        '✡'
-		':star_struck:':                          '🤩'
-		':stars:':                                '🌠'
-		':station:':                              '🚉'
-		':statue_of_liberty:':                    '🗽'
-		':steam_locomotive:':                     '🚂'
-		':stethoscope:':                          '🩺'
-		':stew:':                                 '🍲'
-		':stop_button:':                          '⏹'
-		':stop_sign:':                            '🛑'
-		':stopwatch:':                            '⏱'
-		':straight_ruler:':                       '📏'
-		':strawberry:':                           '🍓'
-		':stuck_out_tongue:':                     '😛'
-		':stuck_out_tongue_closed_eyes:':         '😝'
-		':stuck_out_tongue_winking_eye:':         '😜'
-		':student:':                              '🧑🎓'
-		':studio_microphone:':                    '🎙'
-		':stuffed_flatbread:':                    '🥙'
-		':sudan:':                                '🇸🇩'
-		':sun_behind_large_cloud:':               '🌥'
-		':sun_behind_rain_cloud:':                '🌦'
-		':sun_behind_small_cloud:':               '🌤'
-		':sun_with_face:':                        '🌞'
-		':sunflower:':                            '🌻'
-		':sunglasses:':                           '😎'
-		':sunny:':                                '☀'
-		':sunrise:':                              '🌅'
-		':sunrise_over_mountains:':               '🌄'
-		':superhero:':                            '🦸'
-		':superhero_man:':                        '🦸♂'
-		':superhero_woman:':                      '🦸♀'
-		':supervillain:':                         '🦹'
-		':supervillain_man:':                     '🦹♂'
-		':supervillain_woman:':                   '🦹♀'
-		':surfer:':                               '🏄'
-		':surfing_man:':                          '🏄♂'
-		':surfing_woman:':                        '🏄♀'
-		':suriname:':                             '🇸🇷'
-		':sushi:':                                '🍣'
-		':suspension_railway:':                   '🚟'
-		':svalbard_jan_mayen:':                   '🇸🇯'
-		':swan:':                                 '🦢'
-		':swaziland:':                            '🇸🇿'
-		':sweat:':                                '😓'
-		':sweat_drops:':                          '💦'
-		':sweat_smile:':                          '😅'
-		':sweden:':                               '🇸🇪'
-		':sweet_potato:':                         '🍠'
-		':swim_brief:':                           '🩲'
-		':swimmer:':                              '🏊'
-		':swimming_man:':                         '🏊♂'
-		':swimming_woman:':                       '🏊♀'
-		':switzerland:':                          '🇨🇭'
-		':symbols:':                              '🔣'
-		':synagogue:':                            '🕍'
-		':syria:':                                '🇸🇾'
-		':syringe:':                              '💉'
-		':t-rex:':                                '🦖'
-		':taco:':                                 '🌮'
-		':tada:':                                 '🎉'
-		':taiwan:':                               '🇹🇼'
-		':tajikistan:':                           '🇹🇯'
-		':takeout_box:':                          '🥡'
-		':tanabata_tree:':                        '🎋'
-		':tangerine:':                            '🍊'
-		':tanzania:':                             '🇹🇿'
-		':taurus:':                               '♉'
-		':taxi:':                                 '🚕'
-		':tea:':                                  '🍵'
-		':teacher:':                              '🧑🏫'
-		':technologist:':                         '🧑💻'
-		':teddy_bear:':                           '🧸'
-		':telephone:':                            '☎'
-		':telephone_receiver:':                   '📞'
-		':telescope:':                            '🔭'
-		':tennis:':                               '🎾'
-		':tent:':                                 '⛺'
-		':test_tube:':                            '🧪'
-		':thailand:':                             '🇹🇭'
-		':thermometer:':                          '🌡'
-		':thinking:':                             '🤔'
-		':thought_balloon:':                      '💭'
-		':thread:':                               '🧵'
-		':three:':                                '3⃣'
-		':thumbsdown:':                           '👎'
-		':thumbsup:':                             '👍'
-		':ticket:':                               '🎫'
-		':tickets:':                              '🎟'
-		':tiger2:':                               '🐅'
-		':tiger:':                                '🐯'
-		':timer_clock:':                          '⏲'
-		':timor_leste:':                          '🇹🇱'
-		':tipping_hand_man:':                     '💁♂'
-		':tipping_hand_person:':                  '💁'
-		':tipping_hand_woman:':                   '💁♀'
-		':tired_face:':                           '😫'
-		':tm:':                                   '™'
-		':togo:':                                 '🇹🇬'
-		':toilet:':                               '🚽'
-		':tokelau:':                              '🇹🇰'
-		':tokyo_tower:':                          '🗼'
-		':tomato:':                               '🍅'
-		':tonga:':                                '🇹🇴'
-		':tongue:':                               '👅'
-		':toolbox:':                              '🧰'
-		':tooth:':                                '🦷'
-		':top:':                                  '🔝'
-		':tophat:':                               '🎩'
-		':tornado:':                              '🌪'
-		':tr:':                                   '🇹🇷'
-		':trackball:':                            '🖲'
-		':tractor:':                              '🚜'
-		':traffic_light:':                        '🚥'
-		':train2:':                               '🚆'
-		':train:':                                '🚋'
-		':tram:':                                 '🚊'
-		':triangular_flag_on_post:':              '🚩'
-		':triangular_ruler:':                     '📐'
-		':trident:':                              '🔱'
-		':trinidad_tobago:':                      '🇹🇹'
-		':tristan_da_cunha:':                     '🇹🇦'
-		':triumph:':                              '😤'
-		':trolleybus:':                           '🚎'
-		':trophy:':                               '🏆'
-		':tropical_drink:':                       '🍹'
-		':tropical_fish:':                        '🐠'
-		':truck:':                                '🚚'
-		':trumpet:':                              '🎺'
-		':tshirt:':                               '👕'
-		':tulip:':                                '🌷'
-		':tumbler_glass:':                        '🥃'
-		':tunisia:':                              '🇹🇳'
-		':turkey:':                               '🦃'
-		':turkmenistan:':                         '🇹🇲'
-		':turks_caicos_islands:':                 '🇹🇨'
-		':turtle:':                               '🐢'
-		':tuvalu:':                               '🇹🇻'
-		':tv:':                                   '📺'
-		':twisted_rightwards_arrows:':            '🔀'
-		':two:':                                  '2⃣'
-		':two_hearts:':                           '💕'
-		':two_men_holding_hands:':                '👬'
-		':two_women_holding_hands:':              '👭'
-		':u5272:':                                '🈹'
-		':u5408:':                                '🈴'
-		':u55b6:':                                '🈺'
-		':u6307:':                                '🈯'
-		':u6708:':                                '🈷'
-		':u6709:':                                '🈶'
-		':u6e80:':                                '🈵'
-		':u7121:':                                '🈚'
-		':u7533:':                                '🈸'
-		':u7981:':                                '🈲'
-		':u7a7a:':                                '🈳'
-		':uganda:':                               '🇺🇬'
-		':uk:':                                   '🇬🇧'
-		':ukraine:':                              '🇺🇦'
-		':umbrella:':                             '☔'
-		':unamused:':                             '😒'
-		':underage:':                             '🔞'
-		':unicorn:':                              '🦄'
-		':united_arab_emirates:':                 '🇦🇪'
-		':united_nations:':                       '🇺🇳'
-		':unlock:':                               '🔓'
-		':up:':                                   '🆙'
-		':upside_down_face:':                     '🙃'
-		':uruguay:':                              '🇺🇾'
-		':us:':                                   '🇺🇸'
-		':us_outlying_islands:':                  '🇺🇲'
-		':us_virgin_islands:':                    '🇻🇮'
-		':uzbekistan:':                           '🇺🇿'
-		':v:':                                    '✌'
-		':vampire:':                              '🧛'
-		':vampire_man:':                          '🧛♂'
-		':vampire_woman:':                        '🧛♀'
-		':vanuatu:':                              '🇻🇺'
-		':vatican_city:':                         '🇻🇦'
-		':venezuela:':                            '🇻🇪'
-		':vertical_traffic_light:':               '🚦'
-		':vhs:':                                  '📼'
-		':vibration_mode:':                       '📳'
-		':video_camera:':                         '📹'
-		':video_game:':                           '🎮'
-		':vietnam:':                              '🇻🇳'
-		':violin:':                               '🎻'
-		':virgo:':                                '♍'
-		':volcano:':                              '🌋'
-		':volleyball:':                           '🏐'
-		':vomiting_face:':                        '🤮'
-		':vs:':                                   '🆚'
-		':vulcan_salute:':                        '🖖'
-		':waffle:':                               '🧇'
-		':wales:':                                '🏴󠁧󠁢󠁷󠁬󠁳'
-		':walking:':                              '🚶'
-		':walking_man:':                          '🚶♂'
-		':walking_woman:':                        '🚶♀'
-		':wallis_futuna:':                        '🇼🇫'
-		':waning_crescent_moon:':                 '🌘'
-		':waning_gibbous_moon:':                  '🌖'
-		':warning:':                              '⚠'
-		':wastebasket:':                          '🗑'
-		':watch:':                                '⌚'
-		':water_buffalo:':                        '🐃'
-		':water_polo:':                           '🤽'
-		':watermelon:':                           '🍉'
-		':wave:':                                 '👋'
-		':wavy_dash:':                            '〰'
-		':waxing_crescent_moon:':                 '🌒'
-		':waxing_gibbous_moon:':                  '🌔'
-		':wc:':                                   '🚾'
-		':weary:':                                '😩'
-		':wedding:':                              '💒'
-		':weight_lifting:':                       '🏋'
-		':weight_lifting_man:':                   '🏋♂'
-		':weight_lifting_woman:':                 '🏋♀'
-		':western_sahara:':                       '🇪🇭'
-		':whale2:':                               '🐋'
-		':whale:':                                '🐳'
-		':wheel_of_dharma:':                      '☸'
-		':wheelchair:':                           '♿'
-		':white_check_mark:':                     '✅'
-		':white_circle:':                         '⚪'
-		':white_flag:':                           '🏳'
-		':white_flower:':                         '💮'
-		':white_haired_man:':                     '👨🦳'
-		':white_haired_woman:':                   '👩🦳'
-		':white_heart:':                          '🤍'
-		':white_large_square:':                   '⬜'
-		':white_medium_small_square:':            '◽'
-		':white_medium_square:':                  '◻'
-		':white_small_square:':                   '▫'
-		':white_square_button:':                  '🔳'
-		':wilted_flower:':                        '🥀'
-		':wind_chime:':                           '🎐'
-		':wind_face:':                            '🌬'
-		':wine_glass:':                           '🍷'
-		':wink:':                                 '😉'
-		':wolf:':                                 '🐺'
-		':woman:':                                '👩'
-		':woman_artist:':                         '👩🎨'
-		':woman_astronaut:':                      '👩🚀'
-		':woman_cartwheeling:':                   '🤸♀'
-		':woman_cook:':                           '👩🍳'
-		':woman_dancing:':                        '💃'
-		':woman_facepalming:':                    '🤦♀'
-		':woman_factory_worker:':                 '👩🏭'
-		':woman_farmer:':                         '👩🌾'
-		':woman_firefighter:':                    '👩🚒'
-		':woman_health_worker:':                  '👩⚕'
-		':woman_in_manual_wheelchair:':           '👩🦽'
-		':woman_in_motorized_wheelchair:':        '👩🦼'
-		':woman_judge:':                          '👩⚖'
-		':woman_juggling:':                       '🤹♀'
-		':woman_mechanic:':                       '👩🔧'
-		':woman_office_worker:':                  '👩💼'
-		':woman_pilot:':                          '👩✈'
-		':woman_playing_handball:':               '🤾♀'
-		':woman_playing_water_polo:':             '🤽♀'
-		':woman_scientist:':                      '👩🔬'
-		':woman_shrugging:':                      '🤷♀'
-		':woman_singer:':                         '👩🎤'
-		':woman_student:':                        '👩🎓'
-		':woman_teacher:':                        '👩🏫'
-		':woman_technologist:':                   '👩💻'
-		':woman_with_headscarf:':                 '🧕'
-		':woman_with_probing_cane:':              '👩🦯'
-		':woman_with_turban:':                    '👳♀'
-		':womans_clothes:':                       '👚'
-		':womans_hat:':                           '👒'
-		':women_wrestling:':                      '🤼♀'
-		':womens:':                               '🚺'
-		':woozy_face:':                           '🥴'
-		':world_map:':                            '🗺'
-		':worried:':                              '😟'
-		':wrench:':                               '🔧'
-		':wrestling:':                            '🤼'
-		':writing_hand:':                         '✍'
-		':x:':                                    '❌'
-		':yarn:':                                 '🧶'
-		':yawning_face:':                         '🥱'
-		':yellow_circle:':                        '🟡'
-		':yellow_heart:':                         '💛'
-		':yellow_square:':                        '🟨'
-		':yemen:':                                '🇾🇪'
-		':yen:':                                  '💴'
-		':yin_yang:':                             '☯'
-		':yo_yo:':                                '🪀'
-		':yum:':                                  '😋'
-		':zambia:':                               '🇿🇲'
-		':zany_face:':                            '🤪'
-		':zap:':                                  '⚡'
-		':zebra:':                                '🦓'
-		':zero:':                                 '0⃣'
-		':zimbabwe:':                             '🇿🇼'
-		':zipper_mouth_face:':                    '🤐'
-		':zombie:':                               '🧟'
-		':zombie_man:':                           '🧟♂'
-		':zombie_woman:':                         '🧟♀'
-		':zzz:':                                  '💤'
+		':+1:': [byte(0xf0), 0x9f, 0x91, 0x8d]
+		':-1:': [byte(0xf0), 0x9f, 0x91, 0x8e]
+		':100:': [byte(0xf0), 0x9f, 0x92, 0xaf]
+		':1234:': [byte(0xf0), 0x9f, 0x94, 0xa2]
+		':1st_place_medal:': [byte(0xf0), 0x9f, 0xa5, 0x87]
+		':2nd_place_medal:': [byte(0xf0), 0x9f, 0xa5, 0x88]
+		':3rd_place_medal:': [byte(0xf0), 0x9f, 0xa5, 0x89]
+		':8ball:': [byte(0xf0), 0x9f, 0x8e, 0xb1]
+		':a:': [byte(0xf0), 0x9f, 0x85, 0xb0]
+		':ab:': [byte(0xf0), 0x9f, 0x86, 0x8e]
+		':abacus:': [byte(0xf0), 0x9f, 0xa7, 0xae]
+		':abc:': [byte(0xf0), 0x9f, 0x94, 0xa4]
+		':abcd:': [byte(0xf0), 0x9f, 0x94, 0xa1]
+		':accept:': [byte(0xf0), 0x9f, 0x89, 0x91]
+		':adhesive_bandage:': [byte(0xf0), 0x9f, 0xa9, 0xb9]
+		':adult:': [byte(0xf0), 0x9f, 0xa7, 0x91]
+		':aerial_tramway:': [byte(0xf0), 0x9f, 0x9a, 0xa1]
+		':afghanistan:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xab]
+		':airplane:': [byte(0xe2), 0x9c, 0x88]
+		':aland_islands:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xbd]
+		':alarm_clock:': [byte(0xe2), 0x8f, 0xb0]
+		':albania:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xb1]
+		':alembic:': [byte(0xe2), 0x9a, 0x97]
+		':algeria:': [byte(0xf0), 0x9f, 0x87, 0xa9, 0xf0, 0x9f, 0x87, 0xbf]
+		':alien:': [byte(0xf0), 0x9f, 0x91, 0xbd]
+		':ambulance:': [byte(0xf0), 0x9f, 0x9a, 0x91]
+		':american_samoa:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xb8]
+		':amphora:': [byte(0xf0), 0x9f, 0x8f, 0xba]
+		':anchor:': [byte(0xe2), 0x9a, 0x93]
+		':andorra:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xa9]
+		':angel:': [byte(0xf0), 0x9f, 0x91, 0xbc]
+		':anger:': [byte(0xf0), 0x9f, 0x92, 0xa2]
+		':angola:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xb4]
+		':angry:': [byte(0xf0), 0x9f, 0x98, 0xa0]
+		':anguilla:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xae]
+		':anguished:': [byte(0xf0), 0x9f, 0x98, 0xa7]
+		':ant:': [byte(0xf0), 0x9f, 0x90, 0x9c]
+		':antarctica:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xb6]
+		':antigua_barbuda:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xac]
+		':apple:': [byte(0xf0), 0x9f, 0x8d, 0x8e]
+		':aquarius:': [byte(0xe2), 0x99, 0x92]
+		':argentina:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xb7]
+		':aries:': [byte(0xe2), 0x99, 0x88]
+		':armenia:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xb2]
+		':arrow_backward:': [byte(0xe2), 0x97, 0x80]
+		':arrow_double_down:': [byte(0xe2), 0x8f, 0xac]
+		':arrow_double_up:': [byte(0xe2), 0x8f, 0xab]
+		':arrow_down:': [byte(0xe2), 0xac, 0x87]
+		':arrow_down_small:': [byte(0xf0), 0x9f, 0x94, 0xbd]
+		':arrow_forward:': [byte(0xe2), 0x96, 0xb6]
+		':arrow_heading_down:': [byte(0xe2), 0xa4, 0xb5]
+		':arrow_heading_up:': [byte(0xe2), 0xa4, 0xb4]
+		':arrow_left:': [byte(0xe2), 0xac, 0x85]
+		':arrow_lower_left:': [byte(0xe2), 0x86, 0x99]
+		':arrow_lower_right:': [byte(0xe2), 0x86, 0x98]
+		':arrow_right:': [byte(0xe2), 0x9e, 0xa1]
+		':arrow_right_hook:': [byte(0xe2), 0x86, 0xaa]
+		':arrow_up:': [byte(0xe2), 0xac, 0x86]
+		':arrow_up_down:': [byte(0xe2), 0x86, 0x95]
+		':arrow_up_small:': [byte(0xf0), 0x9f, 0x94, 0xbc]
+		':arrow_upper_left:': [byte(0xe2), 0x86, 0x96]
+		':arrow_upper_right:': [byte(0xe2), 0x86, 0x97]
+		':arrows_clockwise:': [byte(0xf0), 0x9f, 0x94, 0x83]
+		':arrows_counterclockwise:': [byte(0xf0), 0x9f, 0x94, 0x84]
+		':art:': [byte(0xf0), 0x9f, 0x8e, 0xa8]
+		':articulated_lorry:': [byte(0xf0), 0x9f, 0x9a, 0x9b]
+		':artificial_satellite:': [byte(0xf0), 0x9f, 0x9b, 0xb0]
+		':artist:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x8e, 0xa8]
+		':aruba:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xbc]
+		':ascension_island:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xa8]
+		':asterisk:': [byte(0x2a), 0xe2, 0x83, 0xa3]
+		':astonished:': [byte(0xf0), 0x9f, 0x98, 0xb2]
+		':astronaut:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x9a, 0x80]
+		':athletic_shoe:': [byte(0xf0), 0x9f, 0x91, 0x9f]
+		':atm:': [byte(0xf0), 0x9f, 0x8f, 0xa7]
+		':atom_symbol:': [byte(0xe2), 0x9a, 0x9b]
+		':australia:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xba]
+		':austria:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xb9]
+		':auto_rickshaw:': [byte(0xf0), 0x9f, 0x9b, 0xba]
+		':avocado:': [byte(0xf0), 0x9f, 0xa5, 0x91]
+		':axe:': [byte(0xf0), 0x9f, 0xaa, 0x93]
+		':azerbaijan:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xbf]
+		':b:': [byte(0xf0), 0x9f, 0x85, 0xb1]
+		':baby:': [byte(0xf0), 0x9f, 0x91, 0xb6]
+		':baby_bottle:': [byte(0xf0), 0x9f, 0x8d, 0xbc]
+		':baby_chick:': [byte(0xf0), 0x9f, 0x90, 0xa4]
+		':baby_symbol:': [byte(0xf0), 0x9f, 0x9a, 0xbc]
+		':back:': [byte(0xf0), 0x9f, 0x94, 0x99]
+		':bacon:': [byte(0xf0), 0x9f, 0xa5, 0x93]
+		':badger:': [byte(0xf0), 0x9f, 0xa6, 0xa1]
+		':badminton:': [byte(0xf0), 0x9f, 0x8f, 0xb8]
+		':bagel:': [byte(0xf0), 0x9f, 0xa5, 0xaf]
+		':baggage_claim:': [byte(0xf0), 0x9f, 0x9b, 0x84]
+		':baguette_bread:': [byte(0xf0), 0x9f, 0xa5, 0x96]
+		':bahamas:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xb8]
+		':bahrain:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xad]
+		':balance_scale:': [byte(0xe2), 0x9a, 0x96]
+		':bald_man:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0xa6, 0xb2]
+		':bald_woman:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0xa6, 0xb2]
+		':ballet_shoes:': [byte(0xf0), 0x9f, 0xa9, 0xb0]
+		':balloon:': [byte(0xf0), 0x9f, 0x8e, 0x88]
+		':ballot_box:': [byte(0xf0), 0x9f, 0x97, 0xb3]
+		':ballot_box_with_check:': [byte(0xe2), 0x98, 0x91]
+		':bamboo:': [byte(0xf0), 0x9f, 0x8e, 0x8d]
+		':banana:': [byte(0xf0), 0x9f, 0x8d, 0x8c]
+		':bangbang:': [byte(0xe2), 0x80, 0xbc]
+		':bangladesh:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xa9]
+		':banjo:': [byte(0xf0), 0x9f, 0xaa, 0x95]
+		':bank:': [byte(0xf0), 0x9f, 0x8f, 0xa6]
+		':bar_chart:': [byte(0xf0), 0x9f, 0x93, 0x8a]
+		':barbados:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xa7]
+		':barber:': [byte(0xf0), 0x9f, 0x92, 0x88]
+		':baseball:': [byte(0xe2), 0x9a, 0xbe]
+		':basket:': [byte(0xf0), 0x9f, 0xa7, 0xba]
+		':basketball:': [byte(0xf0), 0x9f, 0x8f, 0x80]
+		':basketball_man:': [byte(0xe2), 0x9b, 0xb9, 0xe2, 0x99, 0x82]
+		':basketball_woman:': [byte(0xe2), 0x9b, 0xb9, 0xe2, 0x99, 0x80]
+		':bat:': [byte(0xf0), 0x9f, 0xa6, 0x87]
+		':bath:': [byte(0xf0), 0x9f, 0x9b, 0x80]
+		':bathtub:': [byte(0xf0), 0x9f, 0x9b, 0x81]
+		':battery:': [byte(0xf0), 0x9f, 0x94, 0x8b]
+		':beach_umbrella:': [byte(0xf0), 0x9f, 0x8f, 0x96]
+		':bear:': [byte(0xf0), 0x9f, 0x90, 0xbb]
+		':bearded_person:': [byte(0xf0), 0x9f, 0xa7, 0x94]
+		':bed:': [byte(0xf0), 0x9f, 0x9b, 0x8f]
+		':bee:': [byte(0xf0), 0x9f, 0x90, 0x9d]
+		':beer:': [byte(0xf0), 0x9f, 0x8d, 0xba]
+		':beers:': [byte(0xf0), 0x9f, 0x8d, 0xbb]
+		':beetle:': [byte(0xf0), 0x9f, 0x90, 0x9e]
+		':beginner:': [byte(0xf0), 0x9f, 0x94, 0xb0]
+		':belarus:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xbe]
+		':belgium:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xaa]
+		':belize:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xbf]
+		':bell:': [byte(0xf0), 0x9f, 0x94, 0x94]
+		':bellhop_bell:': [byte(0xf0), 0x9f, 0x9b, 0x8e]
+		':benin:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xaf]
+		':bento:': [byte(0xf0), 0x9f, 0x8d, 0xb1]
+		':bermuda:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xb2]
+		':beverage_box:': [byte(0xf0), 0x9f, 0xa7, 0x83]
+		':bhutan:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xb9]
+		':bicyclist:': [byte(0xf0), 0x9f, 0x9a, 0xb4]
+		':bike:': [byte(0xf0), 0x9f, 0x9a, 0xb2]
+		':biking_man:': [byte(0xf0), 0x9f, 0x9a, 0xb4, 0xe2, 0x99, 0x82]
+		':biking_woman:': [byte(0xf0), 0x9f, 0x9a, 0xb4, 0xe2, 0x99, 0x80]
+		':bikini:': [byte(0xf0), 0x9f, 0x91, 0x99]
+		':billed_cap:': [byte(0xf0), 0x9f, 0xa7, 0xa2]
+		':biohazard:': [byte(0xe2), 0x98, 0xa3]
+		':bird:': [byte(0xf0), 0x9f, 0x90, 0xa6]
+		':birthday:': [byte(0xf0), 0x9f, 0x8e, 0x82]
+		':black_circle:': [byte(0xe2), 0x9a, 0xab]
+		':black_flag:': [byte(0xf0), 0x9f, 0x8f, 0xb4]
+		':black_heart:': [byte(0xf0), 0x9f, 0x96, 0xa4]
+		':black_joker:': [byte(0xf0), 0x9f, 0x83, 0x8f]
+		':black_large_square:': [byte(0xe2), 0xac, 0x9b]
+		':black_medium_small_square:': [byte(0xe2), 0x97, 0xbe]
+		':black_medium_square:': [byte(0xe2), 0x97, 0xbc]
+		':black_nib:': [byte(0xe2), 0x9c, 0x92]
+		':black_small_square:': [byte(0xe2), 0x96, 0xaa]
+		':black_square_button:': [byte(0xf0), 0x9f, 0x94, 0xb2]
+		':blond_haired_man:': [byte(0xf0), 0x9f, 0x91, 0xb1, 0xe2, 0x99, 0x82]
+		':blond_haired_person:': [byte(0xf0), 0x9f, 0x91, 0xb1]
+		':blond_haired_woman:': [byte(0xf0), 0x9f, 0x91, 0xb1, 0xe2, 0x99, 0x80]
+		':blonde_woman:': [byte(0xf0), 0x9f, 0x91, 0xb1, 0xe2, 0x99, 0x80]
+		':blossom:': [byte(0xf0), 0x9f, 0x8c, 0xbc]
+		':blowfish:': [byte(0xf0), 0x9f, 0x90, 0xa1]
+		':blue_book:': [byte(0xf0), 0x9f, 0x93, 0x98]
+		':blue_car:': [byte(0xf0), 0x9f, 0x9a, 0x99]
+		':blue_heart:': [byte(0xf0), 0x9f, 0x92, 0x99]
+		':blue_square:': [byte(0xf0), 0x9f, 0x9f, 0xa6]
+		':blush:': [byte(0xf0), 0x9f, 0x98, 0x8a]
+		':boar:': [byte(0xf0), 0x9f, 0x90, 0x97]
+		':boat:': [byte(0xe2), 0x9b, 0xb5]
+		':bolivia:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xb4]
+		':bomb:': [byte(0xf0), 0x9f, 0x92, 0xa3]
+		':bone:': [byte(0xf0), 0x9f, 0xa6, 0xb4]
+		':book:': [byte(0xf0), 0x9f, 0x93, 0x96]
+		':bookmark:': [byte(0xf0), 0x9f, 0x94, 0x96]
+		':bookmark_tabs:': [byte(0xf0), 0x9f, 0x93, 0x91]
+		':books:': [byte(0xf0), 0x9f, 0x93, 0x9a]
+		':boom:': [byte(0xf0), 0x9f, 0x92, 0xa5]
+		':boot:': [byte(0xf0), 0x9f, 0x91, 0xa2]
+		':bosnia_herzegovina:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xa6]
+		':botswana:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xbc]
+		':bouncing_ball_man:': [byte(0xe2), 0x9b, 0xb9, 0xe2, 0x99, 0x82]
+		':bouncing_ball_person:': [byte(0xe2), 0x9b, 0xb9]
+		':bouncing_ball_woman:': [byte(0xe2), 0x9b, 0xb9, 0xe2, 0x99, 0x80]
+		':bouquet:': [byte(0xf0), 0x9f, 0x92, 0x90]
+		':bouvet_island:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xbb]
+		':bow:': [byte(0xf0), 0x9f, 0x99, 0x87]
+		':bow_and_arrow:': [byte(0xf0), 0x9f, 0x8f, 0xb9]
+		':bowing_man:': [byte(0xf0), 0x9f, 0x99, 0x87, 0xe2, 0x99, 0x82]
+		':bowing_woman:': [byte(0xf0), 0x9f, 0x99, 0x87, 0xe2, 0x99, 0x80]
+		':bowl_with_spoon:': [byte(0xf0), 0x9f, 0xa5, 0xa3]
+		':bowling:': [byte(0xf0), 0x9f, 0x8e, 0xb3]
+		':boxing_glove:': [byte(0xf0), 0x9f, 0xa5, 0x8a]
+		':boy:': [byte(0xf0), 0x9f, 0x91, 0xa6]
+		':brain:': [byte(0xf0), 0x9f, 0xa7, 0xa0]
+		':brazil:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xb7]
+		':bread:': [byte(0xf0), 0x9f, 0x8d, 0x9e]
+		':breast_feeding:': [byte(0xf0), 0x9f, 0xa4, 0xb1]
+		':bricks:': [byte(0xf0), 0x9f, 0xa7, 0xb1]
+		':bride_with_veil:': [byte(0xf0), 0x9f, 0x91, 0xb0]
+		':bridge_at_night:': [byte(0xf0), 0x9f, 0x8c, 0x89]
+		':briefcase:': [byte(0xf0), 0x9f, 0x92, 0xbc]
+		':british_indian_ocean_territory:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xb4]
+		':british_virgin_islands:': [byte(0xf0), 0x9f, 0x87, 0xbb, 0xf0, 0x9f, 0x87, 0xac]
+		':broccoli:': [byte(0xf0), 0x9f, 0xa5, 0xa6]
+		':broken_heart:': [byte(0xf0), 0x9f, 0x92, 0x94]
+		':broom:': [byte(0xf0), 0x9f, 0xa7, 0xb9]
+		':brown_circle:': [byte(0xf0), 0x9f, 0x9f, 0xa4]
+		':brown_heart:': [byte(0xf0), 0x9f, 0xa4, 0x8e]
+		':brown_square:': [byte(0xf0), 0x9f, 0x9f, 0xab]
+		':brunei:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xb3]
+		':bug:': [byte(0xf0), 0x9f, 0x90, 0x9b]
+		':building_construction:': [byte(0xf0), 0x9f, 0x8f, 0x97]
+		':bulb:': [byte(0xf0), 0x9f, 0x92, 0xa1]
+		':bulgaria:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xac]
+		':bullettrain_front:': [byte(0xf0), 0x9f, 0x9a, 0x85]
+		':bullettrain_side:': [byte(0xf0), 0x9f, 0x9a, 0x84]
+		':burkina_faso:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xab]
+		':burrito:': [byte(0xf0), 0x9f, 0x8c, 0xaf]
+		':burundi:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xae]
+		':bus:': [byte(0xf0), 0x9f, 0x9a, 0x8c]
+		':business_suit_levitating:': [byte(0xf0), 0x9f, 0x95, 0xb4]
+		':busstop:': [byte(0xf0), 0x9f, 0x9a, 0x8f]
+		':bust_in_silhouette:': [byte(0xf0), 0x9f, 0x91, 0xa4]
+		':busts_in_silhouette:': [byte(0xf0), 0x9f, 0x91, 0xa5]
+		':butter:': [byte(0xf0), 0x9f, 0xa7, 0x88]
+		':butterfly:': [byte(0xf0), 0x9f, 0xa6, 0x8b]
+		':cactus:': [byte(0xf0), 0x9f, 0x8c, 0xb5]
+		':cake:': [byte(0xf0), 0x9f, 0x8d, 0xb0]
+		':calendar:': [byte(0xf0), 0x9f, 0x93, 0x86]
+		':call_me_hand:': [byte(0xf0), 0x9f, 0xa4, 0x99]
+		':calling:': [byte(0xf0), 0x9f, 0x93, 0xb2]
+		':cambodia:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xad]
+		':camel:': [byte(0xf0), 0x9f, 0x90, 0xab]
+		':camera:': [byte(0xf0), 0x9f, 0x93, 0xb7]
+		':camera_flash:': [byte(0xf0), 0x9f, 0x93, 0xb8]
+		':cameroon:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xb2]
+		':camping:': [byte(0xf0), 0x9f, 0x8f, 0x95]
+		':canada:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xa6]
+		':canary_islands:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xa8]
+		':cancer:': [byte(0xe2), 0x99, 0x8b]
+		':candle:': [byte(0xf0), 0x9f, 0x95, 0xaf]
+		':candy:': [byte(0xf0), 0x9f, 0x8d, 0xac]
+		':canned_food:': [byte(0xf0), 0x9f, 0xa5, 0xab]
+		':canoe:': [byte(0xf0), 0x9f, 0x9b, 0xb6]
+		':cape_verde:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xbb]
+		':capital_abcd:': [byte(0xf0), 0x9f, 0x94, 0xa0]
+		':capricorn:': [byte(0xe2), 0x99, 0x91]
+		':car:': [byte(0xf0), 0x9f, 0x9a, 0x97]
+		':card_file_box:': [byte(0xf0), 0x9f, 0x97, 0x83]
+		':card_index:': [byte(0xf0), 0x9f, 0x93, 0x87]
+		':card_index_dividers:': [byte(0xf0), 0x9f, 0x97, 0x82]
+		':caribbean_netherlands:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xb6]
+		':carousel_horse:': [byte(0xf0), 0x9f, 0x8e, 0xa0]
+		':carrot:': [byte(0xf0), 0x9f, 0xa5, 0x95]
+		':cartwheeling:': [byte(0xf0), 0x9f, 0xa4, 0xb8]
+		':cat2:': [byte(0xf0), 0x9f, 0x90, 0x88]
+		':cat:': [byte(0xf0), 0x9f, 0x90, 0xb1]
+		':cayman_islands:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xbe]
+		':cd:': [byte(0xf0), 0x9f, 0x92, 0xbf]
+		':central_african_republic:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xab]
+		':ceuta_melilla:': [byte(0xf0), 0x9f, 0x87, 0xaa, 0xf0, 0x9f, 0x87, 0xa6]
+		':chad:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xa9]
+		':chains:': [byte(0xe2), 0x9b, 0x93]
+		':chair:': [byte(0xf0), 0x9f, 0xaa, 0x91]
+		':champagne:': [byte(0xf0), 0x9f, 0x8d, 0xbe]
+		':chart:': [byte(0xf0), 0x9f, 0x92, 0xb9]
+		':chart_with_downwards_trend:': [byte(0xf0), 0x9f, 0x93, 0x89]
+		':chart_with_upwards_trend:': [byte(0xf0), 0x9f, 0x93, 0x88]
+		':checkered_flag:': [byte(0xf0), 0x9f, 0x8f, 0x81]
+		':cheese:': [byte(0xf0), 0x9f, 0xa7, 0x80]
+		':cherries:': [byte(0xf0), 0x9f, 0x8d, 0x92]
+		':cherry_blossom:': [byte(0xf0), 0x9f, 0x8c, 0xb8]
+		':chess_pawn:': [byte(0xe2), 0x99, 0x9f]
+		':chestnut:': [byte(0xf0), 0x9f, 0x8c, 0xb0]
+		':chicken:': [byte(0xf0), 0x9f, 0x90, 0x94]
+		':child:': [byte(0xf0), 0x9f, 0xa7, 0x92]
+		':children_crossing:': [byte(0xf0), 0x9f, 0x9a, 0xb8]
+		':chile:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xb1]
+		':chipmunk:': [byte(0xf0), 0x9f, 0x90, 0xbf]
+		':chocolate_bar:': [byte(0xf0), 0x9f, 0x8d, 0xab]
+		':chopsticks:': [byte(0xf0), 0x9f, 0xa5, 0xa2]
+		':christmas_island:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xbd]
+		':christmas_tree:': [byte(0xf0), 0x9f, 0x8e, 0x84]
+		':church:': [byte(0xe2), 0x9b, 0xaa]
+		':cinema:': [byte(0xf0), 0x9f, 0x8e, 0xa6]
+		':circus_tent:': [byte(0xf0), 0x9f, 0x8e, 0xaa]
+		':city_sunrise:': [byte(0xf0), 0x9f, 0x8c, 0x87]
+		':city_sunset:': [byte(0xf0), 0x9f, 0x8c, 0x86]
+		':cityscape:': [byte(0xf0), 0x9f, 0x8f, 0x99]
+		':cl:': [byte(0xf0), 0x9f, 0x86, 0x91]
+		':clamp:': [byte(0xf0), 0x9f, 0x97, 0x9c]
+		':clap:': [byte(0xf0), 0x9f, 0x91, 0x8f]
+		':clapper:': [byte(0xf0), 0x9f, 0x8e, 0xac]
+		':classical_building:': [byte(0xf0), 0x9f, 0x8f, 0x9b]
+		':climbing:': [byte(0xf0), 0x9f, 0xa7, 0x97]
+		':climbing_man:': [byte(0xf0), 0x9f, 0xa7, 0x97, 0xe2, 0x99, 0x82]
+		':climbing_woman:': [byte(0xf0), 0x9f, 0xa7, 0x97, 0xe2, 0x99, 0x80]
+		':clinking_glasses:': [byte(0xf0), 0x9f, 0xa5, 0x82]
+		':clipboard:': [byte(0xf0), 0x9f, 0x93, 0x8b]
+		':clipperton_island:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xb5]
+		':clock1030:': [byte(0xf0), 0x9f, 0x95, 0xa5]
+		':clock10:': [byte(0xf0), 0x9f, 0x95, 0x99]
+		':clock1130:': [byte(0xf0), 0x9f, 0x95, 0xa6]
+		':clock11:': [byte(0xf0), 0x9f, 0x95, 0x9a]
+		':clock1230:': [byte(0xf0), 0x9f, 0x95, 0xa7]
+		':clock12:': [byte(0xf0), 0x9f, 0x95, 0x9b]
+		':clock130:': [byte(0xf0), 0x9f, 0x95, 0x9c]
+		':clock1:': [byte(0xf0), 0x9f, 0x95, 0x90]
+		':clock230:': [byte(0xf0), 0x9f, 0x95, 0x9d]
+		':clock2:': [byte(0xf0), 0x9f, 0x95, 0x91]
+		':clock330:': [byte(0xf0), 0x9f, 0x95, 0x9e]
+		':clock3:': [byte(0xf0), 0x9f, 0x95, 0x92]
+		':clock430:': [byte(0xf0), 0x9f, 0x95, 0x9f]
+		':clock4:': [byte(0xf0), 0x9f, 0x95, 0x93]
+		':clock530:': [byte(0xf0), 0x9f, 0x95, 0xa0]
+		':clock5:': [byte(0xf0), 0x9f, 0x95, 0x94]
+		':clock630:': [byte(0xf0), 0x9f, 0x95, 0xa1]
+		':clock6:': [byte(0xf0), 0x9f, 0x95, 0x95]
+		':clock730:': [byte(0xf0), 0x9f, 0x95, 0xa2]
+		':clock7:': [byte(0xf0), 0x9f, 0x95, 0x96]
+		':clock830:': [byte(0xf0), 0x9f, 0x95, 0xa3]
+		':clock8:': [byte(0xf0), 0x9f, 0x95, 0x97]
+		':clock930:': [byte(0xf0), 0x9f, 0x95, 0xa4]
+		':clock9:': [byte(0xf0), 0x9f, 0x95, 0x98]
+		':closed_book:': [byte(0xf0), 0x9f, 0x93, 0x95]
+		':closed_lock_with_key:': [byte(0xf0), 0x9f, 0x94, 0x90]
+		':closed_umbrella:': [byte(0xf0), 0x9f, 0x8c, 0x82]
+		':cloud:': [byte(0xe2), 0x98, 0x81]
+		':cloud_with_lightning:': [byte(0xf0), 0x9f, 0x8c, 0xa9]
+		':cloud_with_lightning_and_rain:': [byte(0xe2), 0x9b, 0x88]
+		':cloud_with_rain:': [byte(0xf0), 0x9f, 0x8c, 0xa7]
+		':cloud_with_snow:': [byte(0xf0), 0x9f, 0x8c, 0xa8]
+		':clown_face:': [byte(0xf0), 0x9f, 0xa4, 0xa1]
+		':clubs:': [byte(0xe2), 0x99, 0xa3]
+		':cn:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xb3]
+		':coat:': [byte(0xf0), 0x9f, 0xa7, 0xa5]
+		':cocktail:': [byte(0xf0), 0x9f, 0x8d, 0xb8]
+		':coconut:': [byte(0xf0), 0x9f, 0xa5, 0xa5]
+		':cocos_islands:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xa8]
+		':coffee:': [byte(0xe2), 0x98, 0x95]
+		':coffin:': [byte(0xe2), 0x9a, 0xb0]
+		':cold_face:': [byte(0xf0), 0x9f, 0xa5, 0xb6]
+		':cold_sweat:': [byte(0xf0), 0x9f, 0x98, 0xb0]
+		':collision:': [byte(0xf0), 0x9f, 0x92, 0xa5]
+		':colombia:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xb4]
+		':comet:': [byte(0xe2), 0x98, 0x84]
+		':comoros:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xb2]
+		':compass:': [byte(0xf0), 0x9f, 0xa7, 0xad]
+		':computer:': [byte(0xf0), 0x9f, 0x92, 0xbb]
+		':computer_mouse:': [byte(0xf0), 0x9f, 0x96, 0xb1]
+		':confetti_ball:': [byte(0xf0), 0x9f, 0x8e, 0x8a]
+		':confounded:': [byte(0xf0), 0x9f, 0x98, 0x96]
+		':confused:': [byte(0xf0), 0x9f, 0x98, 0x95]
+		':congo_brazzaville:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xac]
+		':congo_kinshasa:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xa9]
+		':congratulations:': [byte(0xe3), 0x8a, 0x97]
+		':construction:': [byte(0xf0), 0x9f, 0x9a, 0xa7]
+		':construction_worker:': [byte(0xf0), 0x9f, 0x91, 0xb7]
+		':construction_worker_man:': [byte(0xf0), 0x9f, 0x91, 0xb7, 0xe2, 0x99, 0x82]
+		':construction_worker_woman:': [byte(0xf0), 0x9f, 0x91, 0xb7, 0xe2, 0x99, 0x80]
+		':control_knobs:': [byte(0xf0), 0x9f, 0x8e, 0x9b]
+		':convenience_store:': [byte(0xf0), 0x9f, 0x8f, 0xaa]
+		':cook:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x8d, 0xb3]
+		':cook_islands:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xb0]
+		':cookie:': [byte(0xf0), 0x9f, 0x8d, 0xaa]
+		':cool:': [byte(0xf0), 0x9f, 0x86, 0x92]
+		':cop:': [byte(0xf0), 0x9f, 0x91, 0xae]
+		':copyright:': [byte(0xc2), 0xa9]
+		':corn:': [byte(0xf0), 0x9f, 0x8c, 0xbd]
+		':costa_rica:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xb7]
+		':cote_divoire:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xae]
+		':couch_and_lamp:': [byte(0xf0), 0x9f, 0x9b, 0x8b]
+		':couple:': [byte(0xf0), 0x9f, 0x91, 0xab]
+		':couple_with_heart:': [byte(0xf0), 0x9f, 0x92, 0x91]
+		':couple_with_heart_man_man:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xe2, 0x9d, 0xa4, 0xf0, 0x9f, 0x91, 0xa8]
+		':couple_with_heart_woman_man:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xe2, 0x9d, 0xa4, 0xf0, 0x9f, 0x91, 0xa8]
+		':couple_with_heart_woman_woman:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xe2, 0x9d, 0xa4, 0xf0, 0x9f, 0x91, 0xa9]
+		':couplekiss:': [byte(0xf0), 0x9f, 0x92, 0x8f]
+		':couplekiss_man_man:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xe2, 0x9d, 0xa4, 0xf0, 0x9f, 0x92, 0x8b, 0xf0, 0x9f, 0x91, 0xa8]
+		':couplekiss_man_woman:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xe2, 0x9d, 0xa4, 0xf0, 0x9f, 0x92, 0x8b, 0xf0, 0x9f, 0x91, 0xa8]
+		':couplekiss_woman_woman:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xe2, 0x9d, 0xa4, 0xf0, 0x9f, 0x92, 0x8b, 0xf0, 0x9f, 0x91, 0xa9]
+		':cow2:': [byte(0xf0), 0x9f, 0x90, 0x84]
+		':cow:': [byte(0xf0), 0x9f, 0x90, 0xae]
+		':cowboy_hat_face:': [byte(0xf0), 0x9f, 0xa4, 0xa0]
+		':crab:': [byte(0xf0), 0x9f, 0xa6, 0x80]
+		':crayon:': [byte(0xf0), 0x9f, 0x96, 0x8d]
+		':credit_card:': [byte(0xf0), 0x9f, 0x92, 0xb3]
+		':crescent_moon:': [byte(0xf0), 0x9f, 0x8c, 0x99]
+		':cricket:': [byte(0xf0), 0x9f, 0xa6, 0x97]
+		':cricket_game:': [byte(0xf0), 0x9f, 0x8f, 0x8f]
+		':croatia:': [byte(0xf0), 0x9f, 0x87, 0xad, 0xf0, 0x9f, 0x87, 0xb7]
+		':crocodile:': [byte(0xf0), 0x9f, 0x90, 0x8a]
+		':croissant:': [byte(0xf0), 0x9f, 0xa5, 0x90]
+		':crossed_fingers:': [byte(0xf0), 0x9f, 0xa4, 0x9e]
+		':crossed_flags:': [byte(0xf0), 0x9f, 0x8e, 0x8c]
+		':crossed_swords:': [byte(0xe2), 0x9a, 0x94]
+		':crown:': [byte(0xf0), 0x9f, 0x91, 0x91]
+		':cry:': [byte(0xf0), 0x9f, 0x98, 0xa2]
+		':crying_cat_face:': [byte(0xf0), 0x9f, 0x98, 0xbf]
+		':crystal_ball:': [byte(0xf0), 0x9f, 0x94, 0xae]
+		':cuba:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xba]
+		':cucumber:': [byte(0xf0), 0x9f, 0xa5, 0x92]
+		':cup_with_straw:': [byte(0xf0), 0x9f, 0xa5, 0xa4]
+		':cupcake:': [byte(0xf0), 0x9f, 0xa7, 0x81]
+		':cupid:': [byte(0xf0), 0x9f, 0x92, 0x98]
+		':curacao:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xbc]
+		':curling_stone:': [byte(0xf0), 0x9f, 0xa5, 0x8c]
+		':curly_haired_man:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0xa6, 0xb1]
+		':curly_haired_woman:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0xa6, 0xb1]
+		':curly_loop:': [byte(0xe2), 0x9e, 0xb0]
+		':currency_exchange:': [byte(0xf0), 0x9f, 0x92, 0xb1]
+		':curry:': [byte(0xf0), 0x9f, 0x8d, 0x9b]
+		':cursing_face:': [byte(0xf0), 0x9f, 0xa4, 0xac]
+		':custard:': [byte(0xf0), 0x9f, 0x8d, 0xae]
+		':customs:': [byte(0xf0), 0x9f, 0x9b, 0x83]
+		':cut_of_meat:': [byte(0xf0), 0x9f, 0xa5, 0xa9]
+		':cyclone:': [byte(0xf0), 0x9f, 0x8c, 0x80]
+		':cyprus:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xbe]
+		':czech_republic:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xbf]
+		':dagger:': [byte(0xf0), 0x9f, 0x97, 0xa1]
+		':dancer:': [byte(0xf0), 0x9f, 0x92, 0x83]
+		':dancers:': [byte(0xf0), 0x9f, 0x91, 0xaf]
+		':dancing_men:': [byte(0xf0), 0x9f, 0x91, 0xaf, 0xe2, 0x99, 0x82]
+		':dancing_women:': [byte(0xf0), 0x9f, 0x91, 0xaf, 0xe2, 0x99, 0x80]
+		':dango:': [byte(0xf0), 0x9f, 0x8d, 0xa1]
+		':dark_sunglasses:': [byte(0xf0), 0x9f, 0x95, 0xb6]
+		':dart:': [byte(0xf0), 0x9f, 0x8e, 0xaf]
+		':dash:': [byte(0xf0), 0x9f, 0x92, 0xa8]
+		':date:': [byte(0xf0), 0x9f, 0x93, 0x85]
+		':de:': [byte(0xf0), 0x9f, 0x87, 0xa9, 0xf0, 0x9f, 0x87, 0xaa]
+		':deaf_man:': [byte(0xf0), 0x9f, 0xa7, 0x8f, 0xe2, 0x99, 0x82]
+		':deaf_person:': [byte(0xf0), 0x9f, 0xa7, 0x8f]
+		':deaf_woman:': [byte(0xf0), 0x9f, 0xa7, 0x8f, 0xe2, 0x99, 0x80]
+		':deciduous_tree:': [byte(0xf0), 0x9f, 0x8c, 0xb3]
+		':deer:': [byte(0xf0), 0x9f, 0xa6, 0x8c]
+		':denmark:': [byte(0xf0), 0x9f, 0x87, 0xa9, 0xf0, 0x9f, 0x87, 0xb0]
+		':department_store:': [byte(0xf0), 0x9f, 0x8f, 0xac]
+		':derelict_house:': [byte(0xf0), 0x9f, 0x8f, 0x9a]
+		':desert:': [byte(0xf0), 0x9f, 0x8f, 0x9c]
+		':desert_island:': [byte(0xf0), 0x9f, 0x8f, 0x9d]
+		':desktop_computer:': [byte(0xf0), 0x9f, 0x96, 0xa5]
+		':detective:': [byte(0xf0), 0x9f, 0x95, 0xb5]
+		':diamond_shape_with_a_dot_inside:': [byte(0xf0), 0x9f, 0x92, 0xa0]
+		':diamonds:': [byte(0xe2), 0x99, 0xa6]
+		':diego_garcia:': [byte(0xf0), 0x9f, 0x87, 0xa9, 0xf0, 0x9f, 0x87, 0xac]
+		':disappointed:': [byte(0xf0), 0x9f, 0x98, 0x9e]
+		':disappointed_relieved:': [byte(0xf0), 0x9f, 0x98, 0xa5]
+		':diving_mask:': [byte(0xf0), 0x9f, 0xa4, 0xbf]
+		':diya_lamp:': [byte(0xf0), 0x9f, 0xaa, 0x94]
+		':dizzy:': [byte(0xf0), 0x9f, 0x92, 0xab]
+		':dizzy_face:': [byte(0xf0), 0x9f, 0x98, 0xb5]
+		':djibouti:': [byte(0xf0), 0x9f, 0x87, 0xa9, 0xf0, 0x9f, 0x87, 0xaf]
+		':dna:': [byte(0xf0), 0x9f, 0xa7, 0xac]
+		':do_not_litter:': [byte(0xf0), 0x9f, 0x9a, 0xaf]
+		':dog2:': [byte(0xf0), 0x9f, 0x90, 0x95]
+		':dog:': [byte(0xf0), 0x9f, 0x90, 0xb6]
+		':dollar:': [byte(0xf0), 0x9f, 0x92, 0xb5]
+		':dolls:': [byte(0xf0), 0x9f, 0x8e, 0x8e]
+		':dolphin:': [byte(0xf0), 0x9f, 0x90, 0xac]
+		':dominica:': [byte(0xf0), 0x9f, 0x87, 0xa9, 0xf0, 0x9f, 0x87, 0xb2]
+		':dominican_republic:': [byte(0xf0), 0x9f, 0x87, 0xa9, 0xf0, 0x9f, 0x87, 0xb4]
+		':door:': [byte(0xf0), 0x9f, 0x9a, 0xaa]
+		':doughnut:': [byte(0xf0), 0x9f, 0x8d, 0xa9]
+		':dove:': [byte(0xf0), 0x9f, 0x95, 0x8a]
+		':dragon:': [byte(0xf0), 0x9f, 0x90, 0x89]
+		':dragon_face:': [byte(0xf0), 0x9f, 0x90, 0xb2]
+		':dress:': [byte(0xf0), 0x9f, 0x91, 0x97]
+		':dromedary_camel:': [byte(0xf0), 0x9f, 0x90, 0xaa]
+		':drooling_face:': [byte(0xf0), 0x9f, 0xa4, 0xa4]
+		':drop_of_blood:': [byte(0xf0), 0x9f, 0xa9, 0xb8]
+		':droplet:': [byte(0xf0), 0x9f, 0x92, 0xa7]
+		':drum:': [byte(0xf0), 0x9f, 0xa5, 0x81]
+		':duck:': [byte(0xf0), 0x9f, 0xa6, 0x86]
+		':dumpling:': [byte(0xf0), 0x9f, 0xa5, 0x9f]
+		':dvd:': [byte(0xf0), 0x9f, 0x93, 0x80]
+		':e-mail:': [byte(0xf0), 0x9f, 0x93, 0xa7]
+		':eagle:': [byte(0xf0), 0x9f, 0xa6, 0x85]
+		':ear:': [byte(0xf0), 0x9f, 0x91, 0x82]
+		':ear_of_rice:': [byte(0xf0), 0x9f, 0x8c, 0xbe]
+		':ear_with_hearing_aid:': [byte(0xf0), 0x9f, 0xa6, 0xbb]
+		':earth_africa:': [byte(0xf0), 0x9f, 0x8c, 0x8d]
+		':earth_americas:': [byte(0xf0), 0x9f, 0x8c, 0x8e]
+		':earth_asia:': [byte(0xf0), 0x9f, 0x8c, 0x8f]
+		':ecuador:': [byte(0xf0), 0x9f, 0x87, 0xaa, 0xf0, 0x9f, 0x87, 0xa8]
+		':egg:': [byte(0xf0), 0x9f, 0xa5, 0x9a]
+		':eggplant:': [byte(0xf0), 0x9f, 0x8d, 0x86]
+		':egypt:': [byte(0xf0), 0x9f, 0x87, 0xaa, 0xf0, 0x9f, 0x87, 0xac]
+		':eight:': [byte(8), 0xe2, 0x83, 0xa3]
+		':eight_pointed_black_star:': [byte(0xe2), 0x9c, 0xb4]
+		':eight_spoked_asterisk:': [byte(0xe2), 0x9c, 0xb3]
+		':eject_button:': [byte(0xe2), 0x8f, 0x8f]
+		':el_salvador:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xbb]
+		':electric_plug:': [byte(0xf0), 0x9f, 0x94, 0x8c]
+		':elephant:': [byte(0xf0), 0x9f, 0x90, 0x98]
+		':elf:': [byte(0xf0), 0x9f, 0xa7, 0x9d]
+		':elf_man:': [byte(0xf0), 0x9f, 0xa7, 0x9d, 0xe2, 0x99, 0x82]
+		':elf_woman:': [byte(0xf0), 0x9f, 0xa7, 0x9d, 0xe2, 0x99, 0x80]
+		':email:': [byte(0xe2), 0x9c, 0x89]
+		':end:': [byte(0xf0), 0x9f, 0x94, 0x9a]
+		':england:': [byte(0xf0), 0x9f, 0x8f, 0xb4, 0xf3, 0xa0, 0x81, 0xa7, 0xf3, 0xa0, 0x81, 0xa2, 0xf3, 0xa0, 0x81, 0xa5, 0xf3, 0xa0, 0x81, 0xae, 0xf3, 0xa0, 0x81, 0xa7, 0xf3, 0xa0, 0x81, 0xbf]
+		':envelope:': [byte(0xe2), 0x9c, 0x89]
+		':envelope_with_arrow:': [byte(0xf0), 0x9f, 0x93, 0xa9]
+		':equatorial_guinea:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xb6]
+		':eritrea:': [byte(0xf0), 0x9f, 0x87, 0xaa, 0xf0, 0x9f, 0x87, 0xb7]
+		':es:': [byte(0xf0), 0x9f, 0x87, 0xaa, 0xf0, 0x9f, 0x87, 0xb8]
+		':estonia:': [byte(0xf0), 0x9f, 0x87, 0xaa, 0xf0, 0x9f, 0x87, 0xaa]
+		':ethiopia:': [byte(0xf0), 0x9f, 0x87, 0xaa, 0xf0, 0x9f, 0x87, 0xb9]
+		':eu:': [byte(0xf0), 0x9f, 0x87, 0xaa, 0xf0, 0x9f, 0x87, 0xba]
+		':euro:': [byte(0xf0), 0x9f, 0x92, 0xb6]
+		':european_castle:': [byte(0xf0), 0x9f, 0x8f, 0xb0]
+		':european_post_office:': [byte(0xf0), 0x9f, 0x8f, 0xa4]
+		':european_union:': [byte(0xf0), 0x9f, 0x87, 0xaa, 0xf0, 0x9f, 0x87, 0xba]
+		':evergreen_tree:': [byte(0xf0), 0x9f, 0x8c, 0xb2]
+		':exclamation:': [byte(0xe2), 0x9d, 0x97]
+		':exploding_head:': [byte(0xf0), 0x9f, 0xa4, 0xaf]
+		':expressionless:': [byte(0xf0), 0x9f, 0x98, 0x91]
+		':eye:': [byte(0xf0), 0x9f, 0x91, 0x81]
+		':eye_speech_bubble:': [byte(0xf0), 0x9f, 0x91, 0x81, 0xf0, 0x9f, 0x97, 0xa8]
+		':eyeglasses:': [byte(0xf0), 0x9f, 0x91, 0x93]
+		':eyes:': [byte(0xf0), 0x9f, 0x91, 0x80]
+		':face_with_head_bandage:': [byte(0xf0), 0x9f, 0xa4, 0x95]
+		':face_with_thermometer:': [byte(0xf0), 0x9f, 0xa4, 0x92]
+		':facepalm:': [byte(0xf0), 0x9f, 0xa4, 0xa6]
+		':facepunch:': [byte(0xf0), 0x9f, 0x91, 0x8a]
+		':factory:': [byte(0xf0), 0x9f, 0x8f, 0xad]
+		':factory_worker:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x8f, 0xad]
+		':fairy:': [byte(0xf0), 0x9f, 0xa7, 0x9a]
+		':fairy_man:': [byte(0xf0), 0x9f, 0xa7, 0x9a, 0xe2, 0x99, 0x82]
+		':fairy_woman:': [byte(0xf0), 0x9f, 0xa7, 0x9a, 0xe2, 0x99, 0x80]
+		':falafel:': [byte(0xf0), 0x9f, 0xa7, 0x86]
+		':falkland_islands:': [byte(0xf0), 0x9f, 0x87, 0xab, 0xf0, 0x9f, 0x87, 0xb0]
+		':fallen_leaf:': [byte(0xf0), 0x9f, 0x8d, 0x82]
+		':family:': [byte(0xf0), 0x9f, 0x91, 0xaa]
+		':family_man_boy:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_man_boy_boy:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa6, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_man_girl:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa7]
+		':family_man_girl_boy:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa7, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_man_girl_girl:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa7, 0xf0, 0x9f, 0x91, 0xa7]
+		':family_man_man_boy:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_man_man_boy_boy:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa6, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_man_man_girl:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa7]
+		':family_man_man_girl_boy:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa7, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_man_man_girl_girl:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa7, 0xf0, 0x9f, 0x91, 0xa7]
+		':family_man_woman_boy:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_man_woman_boy_boy:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa6, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_man_woman_girl:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa7]
+		':family_man_woman_girl_boy:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa7, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_man_woman_girl_girl:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa7, 0xf0, 0x9f, 0x91, 0xa7]
+		':family_woman_boy:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_woman_boy_boy:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa6, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_woman_girl:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa7]
+		':family_woman_girl_boy:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa7, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_woman_girl_girl:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa7, 0xf0, 0x9f, 0x91, 0xa7]
+		':family_woman_woman_boy:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_woman_woman_boy_boy:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa6, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_woman_woman_girl:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa7]
+		':family_woman_woman_girl_boy:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa7, 0xf0, 0x9f, 0x91, 0xa6]
+		':family_woman_woman_girl_girl:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x91, 0xa7, 0xf0, 0x9f, 0x91, 0xa7]
+		':farmer:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x8c, 0xbe]
+		':faroe_islands:': [byte(0xf0), 0x9f, 0x87, 0xab, 0xf0, 0x9f, 0x87, 0xb4]
+		':fast_forward:': [byte(0xe2), 0x8f, 0xa9]
+		':fax:': [byte(0xf0), 0x9f, 0x93, 0xa0]
+		':fearful:': [byte(0xf0), 0x9f, 0x98, 0xa8]
+		':feet:': [byte(0xf0), 0x9f, 0x90, 0xbe]
+		':female_detective:': [byte(0xf0), 0x9f, 0x95, 0xb5, 0xe2, 0x99, 0x80]
+		':female_sign:': [byte(0xe2), 0x99, 0x80]
+		':ferris_wheel:': [byte(0xf0), 0x9f, 0x8e, 0xa1]
+		':ferry:': [byte(0xe2), 0x9b, 0xb4]
+		':field_hockey:': [byte(0xf0), 0x9f, 0x8f, 0x91]
+		':fiji:': [byte(0xf0), 0x9f, 0x87, 0xab, 0xf0, 0x9f, 0x87, 0xaf]
+		':file_cabinet:': [byte(0xf0), 0x9f, 0x97, 0x84]
+		':file_folder:': [byte(0xf0), 0x9f, 0x93, 0x81]
+		':film_projector:': [byte(0xf0), 0x9f, 0x93, 0xbd]
+		':film_strip:': [byte(0xf0), 0x9f, 0x8e, 0x9e]
+		':finland:': [byte(0xf0), 0x9f, 0x87, 0xab, 0xf0, 0x9f, 0x87, 0xae]
+		':fire:': [byte(0xf0), 0x9f, 0x94, 0xa5]
+		':fire_engine:': [byte(0xf0), 0x9f, 0x9a, 0x92]
+		':fire_extinguisher:': [byte(0xf0), 0x9f, 0xa7, 0xaf]
+		':firecracker:': [byte(0xf0), 0x9f, 0xa7, 0xa8]
+		':firefighter:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x9a, 0x92]
+		':fireworks:': [byte(0xf0), 0x9f, 0x8e, 0x86]
+		':first_quarter_moon:': [byte(0xf0), 0x9f, 0x8c, 0x93]
+		':first_quarter_moon_with_face:': [byte(0xf0), 0x9f, 0x8c, 0x9b]
+		':fish:': [byte(0xf0), 0x9f, 0x90, 0x9f]
+		':fish_cake:': [byte(0xf0), 0x9f, 0x8d, 0xa5]
+		':fishing_pole_and_fish:': [byte(0xf0), 0x9f, 0x8e, 0xa3]
+		':fist:': [byte(0xe2), 0x9c, 0x8a]
+		':fist_left:': [byte(0xf0), 0x9f, 0xa4, 0x9b]
+		':fist_oncoming:': [byte(0xf0), 0x9f, 0x91, 0x8a]
+		':fist_raised:': [byte(0xe2), 0x9c, 0x8a]
+		':fist_right:': [byte(0xf0), 0x9f, 0xa4, 0x9c]
+		':five:': [byte(5), 0xe2, 0x83, 0xa3]
+		':flags:': [byte(0xf0), 0x9f, 0x8e, 0x8f]
+		':flamingo:': [byte(0xf0), 0x9f, 0xa6, 0xa9]
+		':flashlight:': [byte(0xf0), 0x9f, 0x94, 0xa6]
+		':flat_shoe:': [byte(0xf0), 0x9f, 0xa5, 0xbf]
+		':fleur_de_lis:': [byte(0xe2), 0x9a, 0x9c]
+		':flight_arrival:': [byte(0xf0), 0x9f, 0x9b, 0xac]
+		':flight_departure:': [byte(0xf0), 0x9f, 0x9b, 0xab]
+		':flipper:': [byte(0xf0), 0x9f, 0x90, 0xac]
+		':floppy_disk:': [byte(0xf0), 0x9f, 0x92, 0xbe]
+		':flower_playing_cards:': [byte(0xf0), 0x9f, 0x8e, 0xb4]
+		':flushed:': [byte(0xf0), 0x9f, 0x98, 0xb3]
+		':flying_disc:': [byte(0xf0), 0x9f, 0xa5, 0x8f]
+		':flying_saucer:': [byte(0xf0), 0x9f, 0x9b, 0xb8]
+		':fog:': [byte(0xf0), 0x9f, 0x8c, 0xab]
+		':foggy:': [byte(0xf0), 0x9f, 0x8c, 0x81]
+		':foot:': [byte(0xf0), 0x9f, 0xa6, 0xb6]
+		':football:': [byte(0xf0), 0x9f, 0x8f, 0x88]
+		':footprints:': [byte(0xf0), 0x9f, 0x91, 0xa3]
+		':fork_and_knife:': [byte(0xf0), 0x9f, 0x8d, 0xb4]
+		':fortune_cookie:': [byte(0xf0), 0x9f, 0xa5, 0xa0]
+		':fountain:': [byte(0xe2), 0x9b, 0xb2]
+		':fountain_pen:': [byte(0xf0), 0x9f, 0x96, 0x8b]
+		':four:': [byte(4), 0xe2, 0x83, 0xa3]
+		':four_leaf_clover:': [byte(0xf0), 0x9f, 0x8d, 0x80]
+		':fox_face:': [byte(0xf0), 0x9f, 0xa6, 0x8a]
+		':fr:': [byte(0xf0), 0x9f, 0x87, 0xab, 0xf0, 0x9f, 0x87, 0xb7]
+		':framed_picture:': [byte(0xf0), 0x9f, 0x96, 0xbc]
+		':free:': [byte(0xf0), 0x9f, 0x86, 0x93]
+		':french_guiana:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xab]
+		':french_polynesia:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xab]
+		':french_southern_territories:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xab]
+		':fried_egg:': [byte(0xf0), 0x9f, 0x8d, 0xb3]
+		':fried_shrimp:': [byte(0xf0), 0x9f, 0x8d, 0xa4]
+		':fries:': [byte(0xf0), 0x9f, 0x8d, 0x9f]
+		':frog:': [byte(0xf0), 0x9f, 0x90, 0xb8]
+		':frowning:': [byte(0xf0), 0x9f, 0x98, 0xa6]
+		':frowning_face:': [byte(0xe2), 0x98, 0xb9]
+		':frowning_man:': [byte(0xf0), 0x9f, 0x99, 0x8d, 0xe2, 0x99, 0x82]
+		':frowning_person:': [byte(0xf0), 0x9f, 0x99, 0x8d]
+		':frowning_woman:': [byte(0xf0), 0x9f, 0x99, 0x8d, 0xe2, 0x99, 0x80]
+		':fu:': [byte(0xf0), 0x9f, 0x96, 0x95]
+		':fuelpump:': [byte(0xe2), 0x9b, 0xbd]
+		':full_moon:': [byte(0xf0), 0x9f, 0x8c, 0x95]
+		':full_moon_with_face:': [byte(0xf0), 0x9f, 0x8c, 0x9d]
+		':funeral_urn:': [byte(0xe2), 0x9a, 0xb1]
+		':gabon:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xa6]
+		':gambia:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xb2]
+		':game_die:': [byte(0xf0), 0x9f, 0x8e, 0xb2]
+		':garlic:': [byte(0xf0), 0x9f, 0xa7, 0x84]
+		':gb:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xa7]
+		':gear:': [byte(0xe2), 0x9a, 0x99]
+		':gem:': [byte(0xf0), 0x9f, 0x92, 0x8e]
+		':gemini:': [byte(0xe2), 0x99, 0x8a]
+		':genie:': [byte(0xf0), 0x9f, 0xa7, 0x9e]
+		':genie_man:': [byte(0xf0), 0x9f, 0xa7, 0x9e, 0xe2, 0x99, 0x82]
+		':genie_woman:': [byte(0xf0), 0x9f, 0xa7, 0x9e, 0xe2, 0x99, 0x80]
+		':georgia:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xaa]
+		':ghana:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xad]
+		':ghost:': [byte(0xf0), 0x9f, 0x91, 0xbb]
+		':gibraltar:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xae]
+		':gift:': [byte(0xf0), 0x9f, 0x8e, 0x81]
+		':gift_heart:': [byte(0xf0), 0x9f, 0x92, 0x9d]
+		':giraffe:': [byte(0xf0), 0x9f, 0xa6, 0x92]
+		':girl:': [byte(0xf0), 0x9f, 0x91, 0xa7]
+		':globe_with_meridians:': [byte(0xf0), 0x9f, 0x8c, 0x90]
+		':gloves:': [byte(0xf0), 0x9f, 0xa7, 0xa4]
+		':goal_net:': [byte(0xf0), 0x9f, 0xa5, 0x85]
+		':goat:': [byte(0xf0), 0x9f, 0x90, 0x90]
+		':goggles:': [byte(0xf0), 0x9f, 0xa5, 0xbd]
+		':golf:': [byte(0xe2), 0x9b, 0xb3]
+		':golfing:': [byte(0xf0), 0x9f, 0x8f, 0x8c]
+		':golfing_man:': [byte(0xf0), 0x9f, 0x8f, 0x8c, 0xe2, 0x99, 0x82]
+		':golfing_woman:': [byte(0xf0), 0x9f, 0x8f, 0x8c, 0xe2, 0x99, 0x80]
+		':gorilla:': [byte(0xf0), 0x9f, 0xa6, 0x8d]
+		':grapes:': [byte(0xf0), 0x9f, 0x8d, 0x87]
+		':greece:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xb7]
+		':green_apple:': [byte(0xf0), 0x9f, 0x8d, 0x8f]
+		':green_book:': [byte(0xf0), 0x9f, 0x93, 0x97]
+		':green_circle:': [byte(0xf0), 0x9f, 0x9f, 0xa2]
+		':green_heart:': [byte(0xf0), 0x9f, 0x92, 0x9a]
+		':green_salad:': [byte(0xf0), 0x9f, 0xa5, 0x97]
+		':green_square:': [byte(0xf0), 0x9f, 0x9f, 0xa9]
+		':greenland:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xb1]
+		':grenada:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xa9]
+		':grey_exclamation:': [byte(0xe2), 0x9d, 0x95]
+		':grey_question:': [byte(0xe2), 0x9d, 0x94]
+		':grimacing:': [byte(0xf0), 0x9f, 0x98, 0xac]
+		':grin:': [byte(0xf0), 0x9f, 0x98, 0x81]
+		':grinning:': [byte(0xf0), 0x9f, 0x98, 0x80]
+		':guadeloupe:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xb5]
+		':guam:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xba]
+		':guard:': [byte(0xf0), 0x9f, 0x92, 0x82]
+		':guardsman:': [byte(0xf0), 0x9f, 0x92, 0x82, 0xe2, 0x99, 0x82]
+		':guardswoman:': [byte(0xf0), 0x9f, 0x92, 0x82, 0xe2, 0x99, 0x80]
+		':guatemala:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xb9]
+		':guernsey:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xac]
+		':guide_dog:': [byte(0xf0), 0x9f, 0xa6, 0xae]
+		':guinea:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xb3]
+		':guinea_bissau:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xbc]
+		':guitar:': [byte(0xf0), 0x9f, 0x8e, 0xb8]
+		':gun:': [byte(0xf0), 0x9f, 0x94, 0xab]
+		':guyana:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xbe]
+		':haircut:': [byte(0xf0), 0x9f, 0x92, 0x87]
+		':haircut_man:': [byte(0xf0), 0x9f, 0x92, 0x87, 0xe2, 0x99, 0x82]
+		':haircut_woman:': [byte(0xf0), 0x9f, 0x92, 0x87, 0xe2, 0x99, 0x80]
+		':haiti:': [byte(0xf0), 0x9f, 0x87, 0xad, 0xf0, 0x9f, 0x87, 0xb9]
+		':hamburger:': [byte(0xf0), 0x9f, 0x8d, 0x94]
+		':hammer:': [byte(0xf0), 0x9f, 0x94, 0xa8]
+		':hammer_and_pick:': [byte(0xe2), 0x9a, 0x92]
+		':hammer_and_wrench:': [byte(0xf0), 0x9f, 0x9b, 0xa0]
+		':hamster:': [byte(0xf0), 0x9f, 0x90, 0xb9]
+		':hand:': [byte(0xe2), 0x9c, 0x8b]
+		':hand_over_mouth:': [byte(0xf0), 0x9f, 0xa4, 0xad]
+		':handbag:': [byte(0xf0), 0x9f, 0x91, 0x9c]
+		':handball_person:': [byte(0xf0), 0x9f, 0xa4, 0xbe]
+		':handshake:': [byte(0xf0), 0x9f, 0xa4, 0x9d]
+		':hankey:': [byte(0xf0), 0x9f, 0x92, 0xa9]
+		':hash:': [byte(0x23), 0xe2, 0x83, 0xa3]
+		':hatched_chick:': [byte(0xf0), 0x9f, 0x90, 0xa5]
+		':hatching_chick:': [byte(0xf0), 0x9f, 0x90, 0xa3]
+		':headphones:': [byte(0xf0), 0x9f, 0x8e, 0xa7]
+		':health_worker:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xe2, 0x9a, 0x95]
+		':hear_no_evil:': [byte(0xf0), 0x9f, 0x99, 0x89]
+		':heard_mcdonald_islands:': [byte(0xf0), 0x9f, 0x87, 0xad, 0xf0, 0x9f, 0x87, 0xb2]
+		':heart:': [byte(0xe2), 0x9d, 0xa4]
+		':heart_decoration:': [byte(0xf0), 0x9f, 0x92, 0x9f]
+		':heart_eyes:': [byte(0xf0), 0x9f, 0x98, 0x8d]
+		':heart_eyes_cat:': [byte(0xf0), 0x9f, 0x98, 0xbb]
+		':heartbeat:': [byte(0xf0), 0x9f, 0x92, 0x93]
+		':heartpulse:': [byte(0xf0), 0x9f, 0x92, 0x97]
+		':hearts:': [byte(0xe2), 0x99, 0xa5]
+		':heavy_check_mark:': [byte(0xe2), 0x9c, 0x94]
+		':heavy_division_sign:': [byte(0xe2), 0x9e, 0x97]
+		':heavy_dollar_sign:': [byte(0xf0), 0x9f, 0x92, 0xb2]
+		':heavy_exclamation_mark:': [byte(0xe2), 0x9d, 0x97]
+		':heavy_heart_exclamation:': [byte(0xe2), 0x9d, 0xa3]
+		':heavy_minus_sign:': [byte(0xe2), 0x9e, 0x96]
+		':heavy_multiplication_x:': [byte(0xe2), 0x9c, 0x96]
+		':heavy_plus_sign:': [byte(0xe2), 0x9e, 0x95]
+		':hedgehog:': [byte(0xf0), 0x9f, 0xa6, 0x94]
+		':helicopter:': [byte(0xf0), 0x9f, 0x9a, 0x81]
+		':herb:': [byte(0xf0), 0x9f, 0x8c, 0xbf]
+		':hibiscus:': [byte(0xf0), 0x9f, 0x8c, 0xba]
+		':high_brightness:': [byte(0xf0), 0x9f, 0x94, 0x86]
+		':high_heel:': [byte(0xf0), 0x9f, 0x91, 0xa0]
+		':hiking_boot:': [byte(0xf0), 0x9f, 0xa5, 0xbe]
+		':hindu_temple:': [byte(0xf0), 0x9f, 0x9b, 0x95]
+		':hippopotamus:': [byte(0xf0), 0x9f, 0xa6, 0x9b]
+		':hocho:': [byte(0xf0), 0x9f, 0x94, 0xaa]
+		':hole:': [byte(0xf0), 0x9f, 0x95, 0xb3]
+		':honduras:': [byte(0xf0), 0x9f, 0x87, 0xad, 0xf0, 0x9f, 0x87, 0xb3]
+		':honey_pot:': [byte(0xf0), 0x9f, 0x8d, 0xaf]
+		':honeybee:': [byte(0xf0), 0x9f, 0x90, 0x9d]
+		':hong_kong:': [byte(0xf0), 0x9f, 0x87, 0xad, 0xf0, 0x9f, 0x87, 0xb0]
+		':horse:': [byte(0xf0), 0x9f, 0x90, 0xb4]
+		':horse_racing:': [byte(0xf0), 0x9f, 0x8f, 0x87]
+		':hospital:': [byte(0xf0), 0x9f, 0x8f, 0xa5]
+		':hot_face:': [byte(0xf0), 0x9f, 0xa5, 0xb5]
+		':hot_pepper:': [byte(0xf0), 0x9f, 0x8c, 0xb6]
+		':hotdog:': [byte(0xf0), 0x9f, 0x8c, 0xad]
+		':hotel:': [byte(0xf0), 0x9f, 0x8f, 0xa8]
+		':hotsprings:': [byte(0xe2), 0x99, 0xa8]
+		':hourglass:': [byte(0xe2), 0x8c, 0x9b]
+		':hourglass_flowing_sand:': [byte(0xe2), 0x8f, 0xb3]
+		':house:': [byte(0xf0), 0x9f, 0x8f, 0xa0]
+		':house_with_garden:': [byte(0xf0), 0x9f, 0x8f, 0xa1]
+		':houses:': [byte(0xf0), 0x9f, 0x8f, 0x98]
+		':hugs:': [byte(0xf0), 0x9f, 0xa4, 0x97]
+		':hungary:': [byte(0xf0), 0x9f, 0x87, 0xad, 0xf0, 0x9f, 0x87, 0xba]
+		':hushed:': [byte(0xf0), 0x9f, 0x98, 0xaf]
+		':ice_cream:': [byte(0xf0), 0x9f, 0x8d, 0xa8]
+		':ice_cube:': [byte(0xf0), 0x9f, 0xa7, 0x8a]
+		':ice_hockey:': [byte(0xf0), 0x9f, 0x8f, 0x92]
+		':ice_skate:': [byte(0xe2), 0x9b, 0xb8]
+		':icecream:': [byte(0xf0), 0x9f, 0x8d, 0xa6]
+		':iceland:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xb8]
+		':id:': [byte(0xf0), 0x9f, 0x86, 0x94]
+		':ideograph_advantage:': [byte(0xf0), 0x9f, 0x89, 0x90]
+		':imp:': [byte(0xf0), 0x9f, 0x91, 0xbf]
+		':inbox_tray:': [byte(0xf0), 0x9f, 0x93, 0xa5]
+		':incoming_envelope:': [byte(0xf0), 0x9f, 0x93, 0xa8]
+		':india:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xb3]
+		':indonesia:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xa9]
+		':infinity:': [byte(0xe2), 0x99, 0xbe]
+		':information_desk_person:': [byte(0xf0), 0x9f, 0x92, 0x81]
+		':information_source:': [byte(0xe2), 0x84, 0xb9]
+		':innocent:': [byte(0xf0), 0x9f, 0x98, 0x87]
+		':interrobang:': [byte(0xe2), 0x81, 0x89]
+		':iphone:': [byte(0xf0), 0x9f, 0x93, 0xb1]
+		':iran:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xb7]
+		':iraq:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xb6]
+		':ireland:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xaa]
+		':isle_of_man:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xb2]
+		':israel:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xb1]
+		':it:': [byte(0xf0), 0x9f, 0x87, 0xae, 0xf0, 0x9f, 0x87, 0xb9]
+		':izakaya_lantern:': [byte(0xf0), 0x9f, 0x8f, 0xae]
+		':jack_o_lantern:': [byte(0xf0), 0x9f, 0x8e, 0x83]
+		':jamaica:': [byte(0xf0), 0x9f, 0x87, 0xaf, 0xf0, 0x9f, 0x87, 0xb2]
+		':japan:': [byte(0xf0), 0x9f, 0x97, 0xbe]
+		':japanese_castle:': [byte(0xf0), 0x9f, 0x8f, 0xaf]
+		':japanese_goblin:': [byte(0xf0), 0x9f, 0x91, 0xba]
+		':japanese_ogre:': [byte(0xf0), 0x9f, 0x91, 0xb9]
+		':jeans:': [byte(0xf0), 0x9f, 0x91, 0x96]
+		':jersey:': [byte(0xf0), 0x9f, 0x87, 0xaf, 0xf0, 0x9f, 0x87, 0xaa]
+		':jigsaw:': [byte(0xf0), 0x9f, 0xa7, 0xa9]
+		':jordan:': [byte(0xf0), 0x9f, 0x87, 0xaf, 0xf0, 0x9f, 0x87, 0xb4]
+		':joy:': [byte(0xf0), 0x9f, 0x98, 0x82]
+		':joy_cat:': [byte(0xf0), 0x9f, 0x98, 0xb9]
+		':joystick:': [byte(0xf0), 0x9f, 0x95, 0xb9]
+		':jp:': [byte(0xf0), 0x9f, 0x87, 0xaf, 0xf0, 0x9f, 0x87, 0xb5]
+		':judge:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xe2, 0x9a, 0x96]
+		':juggling_person:': [byte(0xf0), 0x9f, 0xa4, 0xb9]
+		':kaaba:': [byte(0xf0), 0x9f, 0x95, 0x8b]
+		':kangaroo:': [byte(0xf0), 0x9f, 0xa6, 0x98]
+		':kazakhstan:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xbf]
+		':kenya:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xaa]
+		':key:': [byte(0xf0), 0x9f, 0x94, 0x91]
+		':keyboard:': [byte(0xe2), 0x8c, 0xa8]
+		':keycap_ten:': [byte(0xf0), 0x9f, 0x94, 0x9f]
+		':kick_scooter:': [byte(0xf0), 0x9f, 0x9b, 0xb4]
+		':kimono:': [byte(0xf0), 0x9f, 0x91, 0x98]
+		':kiribati:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xae]
+		':kiss:': [byte(0xf0), 0x9f, 0x92, 0x8b]
+		':kissing:': [byte(0xf0), 0x9f, 0x98, 0x97]
+		':kissing_cat:': [byte(0xf0), 0x9f, 0x98, 0xbd]
+		':kissing_closed_eyes:': [byte(0xf0), 0x9f, 0x98, 0x9a]
+		':kissing_heart:': [byte(0xf0), 0x9f, 0x98, 0x98]
+		':kissing_smiling_eyes:': [byte(0xf0), 0x9f, 0x98, 0x99]
+		':kite:': [byte(0xf0), 0x9f, 0xaa, 0x81]
+		':kiwi_fruit:': [byte(0xf0), 0x9f, 0xa5, 0x9d]
+		':kneeling_man:': [byte(0xf0), 0x9f, 0xa7, 0x8e, 0xe2, 0x99, 0x82]
+		':kneeling_person:': [byte(0xf0), 0x9f, 0xa7, 0x8e]
+		':kneeling_woman:': [byte(0xf0), 0x9f, 0xa7, 0x8e, 0xe2, 0x99, 0x80]
+		':knife:': [byte(0xf0), 0x9f, 0x94, 0xaa]
+		':koala:': [byte(0xf0), 0x9f, 0x90, 0xa8]
+		':koko:': [byte(0xf0), 0x9f, 0x88, 0x81]
+		':kosovo:': [byte(0xf0), 0x9f, 0x87, 0xbd, 0xf0, 0x9f, 0x87, 0xb0]
+		':kr:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xb7]
+		':kuwait:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xbc]
+		':kyrgyzstan:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xac]
+		':lab_coat:': [byte(0xf0), 0x9f, 0xa5, 0xbc]
+		':label:': [byte(0xf0), 0x9f, 0x8f, 0xb7]
+		':lacrosse:': [byte(0xf0), 0x9f, 0xa5, 0x8d]
+		':lantern:': [byte(0xf0), 0x9f, 0x8f, 0xae]
+		':laos:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xa6]
+		':large_blue_circle:': [byte(0xf0), 0x9f, 0x94, 0xb5]
+		':large_blue_diamond:': [byte(0xf0), 0x9f, 0x94, 0xb7]
+		':large_orange_diamond:': [byte(0xf0), 0x9f, 0x94, 0xb6]
+		':last_quarter_moon:': [byte(0xf0), 0x9f, 0x8c, 0x97]
+		':last_quarter_moon_with_face:': [byte(0xf0), 0x9f, 0x8c, 0x9c]
+		':latin_cross:': [byte(0xe2), 0x9c, 0x9d]
+		':latvia:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xbb]
+		':laughing:': [byte(0xf0), 0x9f, 0x98, 0x86]
+		':leafy_green:': [byte(0xf0), 0x9f, 0xa5, 0xac]
+		':leaves:': [byte(0xf0), 0x9f, 0x8d, 0x83]
+		':lebanon:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xa7]
+		':ledger:': [byte(0xf0), 0x9f, 0x93, 0x92]
+		':left_luggage:': [byte(0xf0), 0x9f, 0x9b, 0x85]
+		':left_right_arrow:': [byte(0xe2), 0x86, 0x94]
+		':left_speech_bubble:': [byte(0xf0), 0x9f, 0x97, 0xa8]
+		':leftwards_arrow_with_hook:': [byte(0xe2), 0x86, 0xa9]
+		':leg:': [byte(0xf0), 0x9f, 0xa6, 0xb5]
+		':lemon:': [byte(0xf0), 0x9f, 0x8d, 0x8b]
+		':leo:': [byte(0xe2), 0x99, 0x8c]
+		':leopard:': [byte(0xf0), 0x9f, 0x90, 0x86]
+		':lesotho:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xb8]
+		':level_slider:': [byte(0xf0), 0x9f, 0x8e, 0x9a]
+		':liberia:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xb7]
+		':libra:': [byte(0xe2), 0x99, 0x8e]
+		':libya:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xbe]
+		':liechtenstein:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xae]
+		':light_rail:': [byte(0xf0), 0x9f, 0x9a, 0x88]
+		':link:': [byte(0xf0), 0x9f, 0x94, 0x97]
+		':lion:': [byte(0xf0), 0x9f, 0xa6, 0x81]
+		':lips:': [byte(0xf0), 0x9f, 0x91, 0x84]
+		':lipstick:': [byte(0xf0), 0x9f, 0x92, 0x84]
+		':lithuania:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xb9]
+		':lizard:': [byte(0xf0), 0x9f, 0xa6, 0x8e]
+		':llama:': [byte(0xf0), 0x9f, 0xa6, 0x99]
+		':lobster:': [byte(0xf0), 0x9f, 0xa6, 0x9e]
+		':lock:': [byte(0xf0), 0x9f, 0x94, 0x92]
+		':lock_with_ink_pen:': [byte(0xf0), 0x9f, 0x94, 0x8f]
+		':lollipop:': [byte(0xf0), 0x9f, 0x8d, 0xad]
+		':loop:': [byte(0xe2), 0x9e, 0xbf]
+		':lotion_bottle:': [byte(0xf0), 0x9f, 0xa7, 0xb4]
+		':lotus_position:': [byte(0xf0), 0x9f, 0xa7, 0x98]
+		':lotus_position_man:': [byte(0xf0), 0x9f, 0xa7, 0x98, 0xe2, 0x99, 0x82]
+		':lotus_position_woman:': [byte(0xf0), 0x9f, 0xa7, 0x98, 0xe2, 0x99, 0x80]
+		':loud_sound:': [byte(0xf0), 0x9f, 0x94, 0x8a]
+		':loudspeaker:': [byte(0xf0), 0x9f, 0x93, 0xa2]
+		':love_hotel:': [byte(0xf0), 0x9f, 0x8f, 0xa9]
+		':love_letter:': [byte(0xf0), 0x9f, 0x92, 0x8c]
+		':love_you_gesture:': [byte(0xf0), 0x9f, 0xa4, 0x9f]
+		':low_brightness:': [byte(0xf0), 0x9f, 0x94, 0x85]
+		':luggage:': [byte(0xf0), 0x9f, 0xa7, 0xb3]
+		':luxembourg:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xba]
+		':lying_face:': [byte(0xf0), 0x9f, 0xa4, 0xa5]
+		':m:': [byte(0xe2), 0x93, 0x82]
+		':macau:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xb4]
+		':macedonia:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xb0]
+		':madagascar:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xac]
+		':mag:': [byte(0xf0), 0x9f, 0x94, 0x8d]
+		':mag_right:': [byte(0xf0), 0x9f, 0x94, 0x8e]
+		':mage:': [byte(0xf0), 0x9f, 0xa7, 0x99]
+		':mage_man:': [byte(0xf0), 0x9f, 0xa7, 0x99, 0xe2, 0x99, 0x82]
+		':mage_woman:': [byte(0xf0), 0x9f, 0xa7, 0x99, 0xe2, 0x99, 0x80]
+		':magnet:': [byte(0xf0), 0x9f, 0xa7, 0xb2]
+		':mahjong:': [byte(0xf0), 0x9f, 0x80, 0x84]
+		':mailbox:': [byte(0xf0), 0x9f, 0x93, 0xab]
+		':mailbox_closed:': [byte(0xf0), 0x9f, 0x93, 0xaa]
+		':mailbox_with_mail:': [byte(0xf0), 0x9f, 0x93, 0xac]
+		':mailbox_with_no_mail:': [byte(0xf0), 0x9f, 0x93, 0xad]
+		':malawi:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xbc]
+		':malaysia:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xbe]
+		':maldives:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xbb]
+		':male_detective:': [byte(0xf0), 0x9f, 0x95, 0xb5, 0xe2, 0x99, 0x82]
+		':male_sign:': [byte(0xe2), 0x99, 0x82]
+		':mali:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xb1]
+		':malta:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xb9]
+		':man:': [byte(0xf0), 0x9f, 0x91, 0xa8]
+		':man_artist:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x8e, 0xa8]
+		':man_astronaut:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x9a, 0x80]
+		':man_cartwheeling:': [byte(0xf0), 0x9f, 0xa4, 0xb8, 0xe2, 0x99, 0x82]
+		':man_cook:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x8d, 0xb3]
+		':man_dancing:': [byte(0xf0), 0x9f, 0x95, 0xba]
+		':man_facepalming:': [byte(0xf0), 0x9f, 0xa4, 0xa6, 0xe2, 0x99, 0x82]
+		':man_factory_worker:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x8f, 0xad]
+		':man_farmer:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x8c, 0xbe]
+		':man_firefighter:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x9a, 0x92]
+		':man_health_worker:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xe2, 0x9a, 0x95]
+		':man_in_manual_wheelchair:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0xa6, 0xbd]
+		':man_in_motorized_wheelchair:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0xa6, 0xbc]
+		':man_in_tuxedo:': [byte(0xf0), 0x9f, 0xa4, 0xb5]
+		':man_judge:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xe2, 0x9a, 0x96]
+		':man_juggling:': [byte(0xf0), 0x9f, 0xa4, 0xb9, 0xe2, 0x99, 0x82]
+		':man_mechanic:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x94, 0xa7]
+		':man_office_worker:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x92, 0xbc]
+		':man_pilot:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xe2, 0x9c, 0x88]
+		':man_playing_handball:': [byte(0xf0), 0x9f, 0xa4, 0xbe, 0xe2, 0x99, 0x82]
+		':man_playing_water_polo:': [byte(0xf0), 0x9f, 0xa4, 0xbd, 0xe2, 0x99, 0x82]
+		':man_scientist:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x94, 0xac]
+		':man_shrugging:': [byte(0xf0), 0x9f, 0xa4, 0xb7, 0xe2, 0x99, 0x82]
+		':man_singer:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x8e, 0xa4]
+		':man_student:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x8e, 0x93]
+		':man_teacher:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x8f, 0xab]
+		':man_technologist:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0x92, 0xbb]
+		':man_with_gua_pi_mao:': [byte(0xf0), 0x9f, 0x91, 0xb2]
+		':man_with_probing_cane:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0xa6, 0xaf]
+		':man_with_turban:': [byte(0xf0), 0x9f, 0x91, 0xb3, 0xe2, 0x99, 0x82]
+		':mandarin:': [byte(0xf0), 0x9f, 0x8d, 0x8a]
+		':mango:': [byte(0xf0), 0x9f, 0xa5, 0xad]
+		':mans_shoe:': [byte(0xf0), 0x9f, 0x91, 0x9e]
+		':mantelpiece_clock:': [byte(0xf0), 0x9f, 0x95, 0xb0]
+		':manual_wheelchair:': [byte(0xf0), 0x9f, 0xa6, 0xbd]
+		':maple_leaf:': [byte(0xf0), 0x9f, 0x8d, 0x81]
+		':marshall_islands:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xad]
+		':martial_arts_uniform:': [byte(0xf0), 0x9f, 0xa5, 0x8b]
+		':martinique:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xb6]
+		':mask:': [byte(0xf0), 0x9f, 0x98, 0xb7]
+		':massage:': [byte(0xf0), 0x9f, 0x92, 0x86]
+		':massage_man:': [byte(0xf0), 0x9f, 0x92, 0x86, 0xe2, 0x99, 0x82]
+		':massage_woman:': [byte(0xf0), 0x9f, 0x92, 0x86, 0xe2, 0x99, 0x80]
+		':mate:': [byte(0xf0), 0x9f, 0xa7, 0x89]
+		':mauritania:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xb7]
+		':mauritius:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xba]
+		':mayotte:': [byte(0xf0), 0x9f, 0x87, 0xbe, 0xf0, 0x9f, 0x87, 0xb9]
+		':meat_on_bone:': [byte(0xf0), 0x9f, 0x8d, 0x96]
+		':mechanic:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x94, 0xa7]
+		':mechanical_arm:': [byte(0xf0), 0x9f, 0xa6, 0xbe]
+		':mechanical_leg:': [byte(0xf0), 0x9f, 0xa6, 0xbf]
+		':medal_military:': [byte(0xf0), 0x9f, 0x8e, 0x96]
+		':medal_sports:': [byte(0xf0), 0x9f, 0x8f, 0x85]
+		':medical_symbol:': [byte(0xe2), 0x9a, 0x95]
+		':mega:': [byte(0xf0), 0x9f, 0x93, 0xa3]
+		':melon:': [byte(0xf0), 0x9f, 0x8d, 0x88]
+		':memo:': [byte(0xf0), 0x9f, 0x93, 0x9d]
+		':men_wrestling:': [byte(0xf0), 0x9f, 0xa4, 0xbc, 0xe2, 0x99, 0x82]
+		':menorah:': [byte(0xf0), 0x9f, 0x95, 0x8e]
+		':mens:': [byte(0xf0), 0x9f, 0x9a, 0xb9]
+		':mermaid:': [byte(0xf0), 0x9f, 0xa7, 0x9c, 0xe2, 0x99, 0x80]
+		':merman:': [byte(0xf0), 0x9f, 0xa7, 0x9c, 0xe2, 0x99, 0x82]
+		':merperson:': [byte(0xf0), 0x9f, 0xa7, 0x9c]
+		':metal:': [byte(0xf0), 0x9f, 0xa4, 0x98]
+		':metro:': [byte(0xf0), 0x9f, 0x9a, 0x87]
+		':mexico:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xbd]
+		':microbe:': [byte(0xf0), 0x9f, 0xa6, 0xa0]
+		':micronesia:': [byte(0xf0), 0x9f, 0x87, 0xab, 0xf0, 0x9f, 0x87, 0xb2]
+		':microphone:': [byte(0xf0), 0x9f, 0x8e, 0xa4]
+		':microscope:': [byte(0xf0), 0x9f, 0x94, 0xac]
+		':middle_finger:': [byte(0xf0), 0x9f, 0x96, 0x95]
+		':milk_glass:': [byte(0xf0), 0x9f, 0xa5, 0x9b]
+		':milky_way:': [byte(0xf0), 0x9f, 0x8c, 0x8c]
+		':minibus:': [byte(0xf0), 0x9f, 0x9a, 0x90]
+		':minidisc:': [byte(0xf0), 0x9f, 0x92, 0xbd]
+		':mobile_phone_off:': [byte(0xf0), 0x9f, 0x93, 0xb4]
+		':moldova:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xa9]
+		':monaco:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xa8]
+		':money_mouth_face:': [byte(0xf0), 0x9f, 0xa4, 0x91]
+		':money_with_wings:': [byte(0xf0), 0x9f, 0x92, 0xb8]
+		':moneybag:': [byte(0xf0), 0x9f, 0x92, 0xb0]
+		':mongolia:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xb3]
+		':monkey:': [byte(0xf0), 0x9f, 0x90, 0x92]
+		':monkey_face:': [byte(0xf0), 0x9f, 0x90, 0xb5]
+		':monocle_face:': [byte(0xf0), 0x9f, 0xa7, 0x90]
+		':monorail:': [byte(0xf0), 0x9f, 0x9a, 0x9d]
+		':montenegro:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xaa]
+		':montserrat:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xb8]
+		':moon:': [byte(0xf0), 0x9f, 0x8c, 0x94]
+		':moon_cake:': [byte(0xf0), 0x9f, 0xa5, 0xae]
+		':morocco:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xa6]
+		':mortar_board:': [byte(0xf0), 0x9f, 0x8e, 0x93]
+		':mosque:': [byte(0xf0), 0x9f, 0x95, 0x8c]
+		':mosquito:': [byte(0xf0), 0x9f, 0xa6, 0x9f]
+		':motor_boat:': [byte(0xf0), 0x9f, 0x9b, 0xa5]
+		':motor_scooter:': [byte(0xf0), 0x9f, 0x9b, 0xb5]
+		':motorcycle:': [byte(0xf0), 0x9f, 0x8f, 0x8d]
+		':motorized_wheelchair:': [byte(0xf0), 0x9f, 0xa6, 0xbc]
+		':motorway:': [byte(0xf0), 0x9f, 0x9b, 0xa3]
+		':mount_fuji:': [byte(0xf0), 0x9f, 0x97, 0xbb]
+		':mountain:': [byte(0xe2), 0x9b, 0xb0]
+		':mountain_bicyclist:': [byte(0xf0), 0x9f, 0x9a, 0xb5]
+		':mountain_biking_man:': [byte(0xf0), 0x9f, 0x9a, 0xb5, 0xe2, 0x99, 0x82]
+		':mountain_biking_woman:': [byte(0xf0), 0x9f, 0x9a, 0xb5, 0xe2, 0x99, 0x80]
+		':mountain_cableway:': [byte(0xf0), 0x9f, 0x9a, 0xa0]
+		':mountain_railway:': [byte(0xf0), 0x9f, 0x9a, 0x9e]
+		':mountain_snow:': [byte(0xf0), 0x9f, 0x8f, 0x94]
+		':mouse2:': [byte(0xf0), 0x9f, 0x90, 0x81]
+		':mouse:': [byte(0xf0), 0x9f, 0x90, 0xad]
+		':movie_camera:': [byte(0xf0), 0x9f, 0x8e, 0xa5]
+		':moyai:': [byte(0xf0), 0x9f, 0x97, 0xbf]
+		':mozambique:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xbf]
+		':mrs_claus:': [byte(0xf0), 0x9f, 0xa4, 0xb6]
+		':muscle:': [byte(0xf0), 0x9f, 0x92, 0xaa]
+		':mushroom:': [byte(0xf0), 0x9f, 0x8d, 0x84]
+		':musical_keyboard:': [byte(0xf0), 0x9f, 0x8e, 0xb9]
+		':musical_note:': [byte(0xf0), 0x9f, 0x8e, 0xb5]
+		':musical_score:': [byte(0xf0), 0x9f, 0x8e, 0xbc]
+		':mute:': [byte(0xf0), 0x9f, 0x94, 0x87]
+		':myanmar:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xb2]
+		':nail_care:': [byte(0xf0), 0x9f, 0x92, 0x85]
+		':name_badge:': [byte(0xf0), 0x9f, 0x93, 0x9b]
+		':namibia:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xa6]
+		':national_park:': [byte(0xf0), 0x9f, 0x8f, 0x9e]
+		':nauru:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xb7]
+		':nauseated_face:': [byte(0xf0), 0x9f, 0xa4, 0xa2]
+		':nazar_amulet:': [byte(0xf0), 0x9f, 0xa7, 0xbf]
+		':necktie:': [byte(0xf0), 0x9f, 0x91, 0x94]
+		':negative_squared_cross_mark:': [byte(0xe2), 0x9d, 0x8e]
+		':nepal:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xb5]
+		':nerd_face:': [byte(0xf0), 0x9f, 0xa4, 0x93]
+		':netherlands:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xb1]
+		':neutral_face:': [byte(0xf0), 0x9f, 0x98, 0x90]
+		':new:': [byte(0xf0), 0x9f, 0x86, 0x95]
+		':new_caledonia:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xa8]
+		':new_moon:': [byte(0xf0), 0x9f, 0x8c, 0x91]
+		':new_moon_with_face:': [byte(0xf0), 0x9f, 0x8c, 0x9a]
+		':new_zealand:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xbf]
+		':newspaper:': [byte(0xf0), 0x9f, 0x93, 0xb0]
+		':newspaper_roll:': [byte(0xf0), 0x9f, 0x97, 0x9e]
+		':next_track_button:': [byte(0xe2), 0x8f, 0xad]
+		':ng:': [byte(0xf0), 0x9f, 0x86, 0x96]
+		':ng_man:': [byte(0xf0), 0x9f, 0x99, 0x85, 0xe2, 0x99, 0x82]
+		':ng_woman:': [byte(0xf0), 0x9f, 0x99, 0x85, 0xe2, 0x99, 0x80]
+		':nicaragua:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xae]
+		':niger:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xaa]
+		':nigeria:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xac]
+		':night_with_stars:': [byte(0xf0), 0x9f, 0x8c, 0x83]
+		':nine:': [byte(9), 0xe2, 0x83, 0xa3]
+		':niue:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xba]
+		':no_bell:': [byte(0xf0), 0x9f, 0x94, 0x95]
+		':no_bicycles:': [byte(0xf0), 0x9f, 0x9a, 0xb3]
+		':no_entry:': [byte(0xe2), 0x9b, 0x94]
+		':no_entry_sign:': [byte(0xf0), 0x9f, 0x9a, 0xab]
+		':no_good:': [byte(0xf0), 0x9f, 0x99, 0x85]
+		':no_good_man:': [byte(0xf0), 0x9f, 0x99, 0x85, 0xe2, 0x99, 0x82]
+		':no_good_woman:': [byte(0xf0), 0x9f, 0x99, 0x85, 0xe2, 0x99, 0x80]
+		':no_mobile_phones:': [byte(0xf0), 0x9f, 0x93, 0xb5]
+		':no_mouth:': [byte(0xf0), 0x9f, 0x98, 0xb6]
+		':no_pedestrians:': [byte(0xf0), 0x9f, 0x9a, 0xb7]
+		':no_smoking:': [byte(0xf0), 0x9f, 0x9a, 0xad]
+		':non-potable_water:': [byte(0xf0), 0x9f, 0x9a, 0xb1]
+		':norfolk_island:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xab]
+		':north_korea:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xb5]
+		':northern_mariana_islands:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xb5]
+		':norway:': [byte(0xf0), 0x9f, 0x87, 0xb3, 0xf0, 0x9f, 0x87, 0xb4]
+		':nose:': [byte(0xf0), 0x9f, 0x91, 0x83]
+		':notebook:': [byte(0xf0), 0x9f, 0x93, 0x93]
+		':notebook_with_decorative_cover:': [byte(0xf0), 0x9f, 0x93, 0x94]
+		':notes:': [byte(0xf0), 0x9f, 0x8e, 0xb6]
+		':nut_and_bolt:': [byte(0xf0), 0x9f, 0x94, 0xa9]
+		':o2:': [byte(0xf0), 0x9f, 0x85, 0xbe]
+		':o:': [byte(0xe2), 0xad, 0x95]
+		':ocean:': [byte(0xf0), 0x9f, 0x8c, 0x8a]
+		':octopus:': [byte(0xf0), 0x9f, 0x90, 0x99]
+		':oden:': [byte(0xf0), 0x9f, 0x8d, 0xa2]
+		':office:': [byte(0xf0), 0x9f, 0x8f, 0xa2]
+		':office_worker:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x92, 0xbc]
+		':oil_drum:': [byte(0xf0), 0x9f, 0x9b, 0xa2]
+		':ok:': [byte(0xf0), 0x9f, 0x86, 0x97]
+		':ok_hand:': [byte(0xf0), 0x9f, 0x91, 0x8c]
+		':ok_man:': [byte(0xf0), 0x9f, 0x99, 0x86, 0xe2, 0x99, 0x82]
+		':ok_person:': [byte(0xf0), 0x9f, 0x99, 0x86]
+		':ok_woman:': [byte(0xf0), 0x9f, 0x99, 0x86, 0xe2, 0x99, 0x80]
+		':old_key:': [byte(0xf0), 0x9f, 0x97, 0x9d]
+		':older_adult:': [byte(0xf0), 0x9f, 0xa7, 0x93]
+		':older_man:': [byte(0xf0), 0x9f, 0x91, 0xb4]
+		':older_woman:': [byte(0xf0), 0x9f, 0x91, 0xb5]
+		':om:': [byte(0xf0), 0x9f, 0x95, 0x89]
+		':oman:': [byte(0xf0), 0x9f, 0x87, 0xb4, 0xf0, 0x9f, 0x87, 0xb2]
+		':on:': [byte(0xf0), 0x9f, 0x94, 0x9b]
+		':oncoming_automobile:': [byte(0xf0), 0x9f, 0x9a, 0x98]
+		':oncoming_bus:': [byte(0xf0), 0x9f, 0x9a, 0x8d]
+		':oncoming_police_car:': [byte(0xf0), 0x9f, 0x9a, 0x94]
+		':oncoming_taxi:': [byte(0xf0), 0x9f, 0x9a, 0x96]
+		':one:': [byte(1), 0xe2, 0x83, 0xa3]
+		':one_piece_swimsuit:': [byte(0xf0), 0x9f, 0xa9, 0xb1]
+		':onion:': [byte(0xf0), 0x9f, 0xa7, 0x85]
+		':open_book:': [byte(0xf0), 0x9f, 0x93, 0x96]
+		':open_file_folder:': [byte(0xf0), 0x9f, 0x93, 0x82]
+		':open_hands:': [byte(0xf0), 0x9f, 0x91, 0x90]
+		':open_mouth:': [byte(0xf0), 0x9f, 0x98, 0xae]
+		':open_umbrella:': [byte(0xe2), 0x98, 0x82]
+		':ophiuchus:': [byte(0xe2), 0x9b, 0x8e]
+		':orange:': [byte(0xf0), 0x9f, 0x8d, 0x8a]
+		':orange_book:': [byte(0xf0), 0x9f, 0x93, 0x99]
+		':orange_circle:': [byte(0xf0), 0x9f, 0x9f, 0xa0]
+		':orange_heart:': [byte(0xf0), 0x9f, 0xa7, 0xa1]
+		':orange_square:': [byte(0xf0), 0x9f, 0x9f, 0xa7]
+		':orangutan:': [byte(0xf0), 0x9f, 0xa6, 0xa7]
+		':orthodox_cross:': [byte(0xe2), 0x98, 0xa6]
+		':otter:': [byte(0xf0), 0x9f, 0xa6, 0xa6]
+		':outbox_tray:': [byte(0xf0), 0x9f, 0x93, 0xa4]
+		':owl:': [byte(0xf0), 0x9f, 0xa6, 0x89]
+		':ox:': [byte(0xf0), 0x9f, 0x90, 0x82]
+		':oyster:': [byte(0xf0), 0x9f, 0xa6, 0xaa]
+		':package:': [byte(0xf0), 0x9f, 0x93, 0xa6]
+		':page_facing_up:': [byte(0xf0), 0x9f, 0x93, 0x84]
+		':page_with_curl:': [byte(0xf0), 0x9f, 0x93, 0x83]
+		':pager:': [byte(0xf0), 0x9f, 0x93, 0x9f]
+		':paintbrush:': [byte(0xf0), 0x9f, 0x96, 0x8c]
+		':pakistan:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xb0]
+		':palau:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xbc]
+		':palestinian_territories:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xb8]
+		':palm_tree:': [byte(0xf0), 0x9f, 0x8c, 0xb4]
+		':palms_up_together:': [byte(0xf0), 0x9f, 0xa4, 0xb2]
+		':panama:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xa6]
+		':pancakes:': [byte(0xf0), 0x9f, 0xa5, 0x9e]
+		':panda_face:': [byte(0xf0), 0x9f, 0x90, 0xbc]
+		':paperclip:': [byte(0xf0), 0x9f, 0x93, 0x8e]
+		':paperclips:': [byte(0xf0), 0x9f, 0x96, 0x87]
+		':papua_new_guinea:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xac]
+		':parachute:': [byte(0xf0), 0x9f, 0xaa, 0x82]
+		':paraguay:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xbe]
+		':parasol_on_ground:': [byte(0xe2), 0x9b, 0xb1]
+		':parking:': [byte(0xf0), 0x9f, 0x85, 0xbf]
+		':parrot:': [byte(0xf0), 0x9f, 0xa6, 0x9c]
+		':part_alternation_mark:': [byte(0xe3), 0x80, 0xbd]
+		':partly_sunny:': [byte(0xe2), 0x9b, 0x85]
+		':partying_face:': [byte(0xf0), 0x9f, 0xa5, 0xb3]
+		':passenger_ship:': [byte(0xf0), 0x9f, 0x9b, 0xb3]
+		':passport_control:': [byte(0xf0), 0x9f, 0x9b, 0x82]
+		':pause_button:': [byte(0xe2), 0x8f, 0xb8]
+		':paw_prints:': [byte(0xf0), 0x9f, 0x90, 0xbe]
+		':peace_symbol:': [byte(0xe2), 0x98, 0xae]
+		':peach:': [byte(0xf0), 0x9f, 0x8d, 0x91]
+		':peacock:': [byte(0xf0), 0x9f, 0xa6, 0x9a]
+		':peanuts:': [byte(0xf0), 0x9f, 0xa5, 0x9c]
+		':pear:': [byte(0xf0), 0x9f, 0x8d, 0x90]
+		':pen:': [byte(0xf0), 0x9f, 0x96, 0x8a]
+		':pencil2:': [byte(0xe2), 0x9c, 0x8f]
+		':pencil:': [byte(0xf0), 0x9f, 0x93, 0x9d]
+		':penguin:': [byte(0xf0), 0x9f, 0x90, 0xa7]
+		':pensive:': [byte(0xf0), 0x9f, 0x98, 0x94]
+		':people_holding_hands:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0xa4, 0x9d, 0xf0, 0x9f, 0xa7, 0x91]
+		':performing_arts:': [byte(0xf0), 0x9f, 0x8e, 0xad]
+		':persevere:': [byte(0xf0), 0x9f, 0x98, 0xa3]
+		':person_bald:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0xa6, 0xb2]
+		':person_curly_hair:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0xa6, 0xb1]
+		':person_fencing:': [byte(0xf0), 0x9f, 0xa4, 0xba]
+		':person_in_manual_wheelchair:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0xa6, 0xbd]
+		':person_in_motorized_wheelchair:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0xa6, 0xbc]
+		':person_red_hair:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0xa6, 0xb0]
+		':person_white_hair:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0xa6, 0xb3]
+		':person_with_probing_cane:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0xa6, 0xaf]
+		':person_with_turban:': [byte(0xf0), 0x9f, 0x91, 0xb3]
+		':peru:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xaa]
+		':petri_dish:': [byte(0xf0), 0x9f, 0xa7, 0xab]
+		':philippines:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xad]
+		':phone:': [byte(0xe2), 0x98, 0x8e]
+		':pick:': [byte(0xe2), 0x9b, 0x8f]
+		':pie:': [byte(0xf0), 0x9f, 0xa5, 0xa7]
+		':pig2:': [byte(0xf0), 0x9f, 0x90, 0x96]
+		':pig:': [byte(0xf0), 0x9f, 0x90, 0xb7]
+		':pig_nose:': [byte(0xf0), 0x9f, 0x90, 0xbd]
+		':pill:': [byte(0xf0), 0x9f, 0x92, 0x8a]
+		':pilot:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xe2, 0x9c, 0x88]
+		':pinching_hand:': [byte(0xf0), 0x9f, 0xa4, 0x8f]
+		':pineapple:': [byte(0xf0), 0x9f, 0x8d, 0x8d]
+		':ping_pong:': [byte(0xf0), 0x9f, 0x8f, 0x93]
+		':pirate_flag:': [byte(0xf0), 0x9f, 0x8f, 0xb4, 0xe2, 0x98, 0xa0]
+		':pisces:': [byte(0xe2), 0x99, 0x93]
+		':pitcairn_islands:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xb3]
+		':pizza:': [byte(0xf0), 0x9f, 0x8d, 0x95]
+		':place_of_worship:': [byte(0xf0), 0x9f, 0x9b, 0x90]
+		':plate_with_cutlery:': [byte(0xf0), 0x9f, 0x8d, 0xbd]
+		':play_or_pause_button:': [byte(0xe2), 0x8f, 0xaf]
+		':pleading_face:': [byte(0xf0), 0x9f, 0xa5, 0xba]
+		':point_down:': [byte(0xf0), 0x9f, 0x91, 0x87]
+		':point_left:': [byte(0xf0), 0x9f, 0x91, 0x88]
+		':point_right:': [byte(0xf0), 0x9f, 0x91, 0x89]
+		':point_up:': [byte(0xe2), 0x98, 0x9d]
+		':point_up_2:': [byte(0xf0), 0x9f, 0x91, 0x86]
+		':poland:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xb1]
+		':police_car:': [byte(0xf0), 0x9f, 0x9a, 0x93]
+		':police_officer:': [byte(0xf0), 0x9f, 0x91, 0xae]
+		':policeman:': [byte(0xf0), 0x9f, 0x91, 0xae, 0xe2, 0x99, 0x82]
+		':policewoman:': [byte(0xf0), 0x9f, 0x91, 0xae, 0xe2, 0x99, 0x80]
+		':poodle:': [byte(0xf0), 0x9f, 0x90, 0xa9]
+		':poop:': [byte(0xf0), 0x9f, 0x92, 0xa9]
+		':popcorn:': [byte(0xf0), 0x9f, 0x8d, 0xbf]
+		':portugal:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xb9]
+		':post_office:': [byte(0xf0), 0x9f, 0x8f, 0xa3]
+		':postal_horn:': [byte(0xf0), 0x9f, 0x93, 0xaf]
+		':postbox:': [byte(0xf0), 0x9f, 0x93, 0xae]
+		':potable_water:': [byte(0xf0), 0x9f, 0x9a, 0xb0]
+		':potato:': [byte(0xf0), 0x9f, 0xa5, 0x94]
+		':pouch:': [byte(0xf0), 0x9f, 0x91, 0x9d]
+		':poultry_leg:': [byte(0xf0), 0x9f, 0x8d, 0x97]
+		':pound:': [byte(0xf0), 0x9f, 0x92, 0xb7]
+		':pout:': [byte(0xf0), 0x9f, 0x98, 0xa1]
+		':pouting_cat:': [byte(0xf0), 0x9f, 0x98, 0xbe]
+		':pouting_face:': [byte(0xf0), 0x9f, 0x99, 0x8e]
+		':pouting_man:': [byte(0xf0), 0x9f, 0x99, 0x8e, 0xe2, 0x99, 0x82]
+		':pouting_woman:': [byte(0xf0), 0x9f, 0x99, 0x8e, 0xe2, 0x99, 0x80]
+		':pray:': [byte(0xf0), 0x9f, 0x99, 0x8f]
+		':prayer_beads:': [byte(0xf0), 0x9f, 0x93, 0xbf]
+		':pregnant_woman:': [byte(0xf0), 0x9f, 0xa4, 0xb0]
+		':pretzel:': [byte(0xf0), 0x9f, 0xa5, 0xa8]
+		':previous_track_button:': [byte(0xe2), 0x8f, 0xae]
+		':prince:': [byte(0xf0), 0x9f, 0xa4, 0xb4]
+		':princess:': [byte(0xf0), 0x9f, 0x91, 0xb8]
+		':printer:': [byte(0xf0), 0x9f, 0x96, 0xa8]
+		':probing_cane:': [byte(0xf0), 0x9f, 0xa6, 0xaf]
+		':puerto_rico:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xb7]
+		':punch:': [byte(0xf0), 0x9f, 0x91, 0x8a]
+		':purple_circle:': [byte(0xf0), 0x9f, 0x9f, 0xa3]
+		':purple_heart:': [byte(0xf0), 0x9f, 0x92, 0x9c]
+		':purple_square:': [byte(0xf0), 0x9f, 0x9f, 0xaa]
+		':purse:': [byte(0xf0), 0x9f, 0x91, 0x9b]
+		':pushpin:': [byte(0xf0), 0x9f, 0x93, 0x8c]
+		':put_litter_in_its_place:': [byte(0xf0), 0x9f, 0x9a, 0xae]
+		':qatar:': [byte(0xf0), 0x9f, 0x87, 0xb6, 0xf0, 0x9f, 0x87, 0xa6]
+		':question:': [byte(0xe2), 0x9d, 0x93]
+		':rabbit2:': [byte(0xf0), 0x9f, 0x90, 0x87]
+		':rabbit:': [byte(0xf0), 0x9f, 0x90, 0xb0]
+		':raccoon:': [byte(0xf0), 0x9f, 0xa6, 0x9d]
+		':racehorse:': [byte(0xf0), 0x9f, 0x90, 0x8e]
+		':racing_car:': [byte(0xf0), 0x9f, 0x8f, 0x8e]
+		':radio:': [byte(0xf0), 0x9f, 0x93, 0xbb]
+		':radio_button:': [byte(0xf0), 0x9f, 0x94, 0x98]
+		':radioactive:': [byte(0xe2), 0x98, 0xa2]
+		':rage:': [byte(0xf0), 0x9f, 0x98, 0xa1]
+		':railway_car:': [byte(0xf0), 0x9f, 0x9a, 0x83]
+		':railway_track:': [byte(0xf0), 0x9f, 0x9b, 0xa4]
+		':rainbow:': [byte(0xf0), 0x9f, 0x8c, 0x88]
+		':rainbow_flag:': [byte(0xf0), 0x9f, 0x8f, 0xb3, 0xf0, 0x9f, 0x8c, 0x88]
+		':raised_back_of_hand:': [byte(0xf0), 0x9f, 0xa4, 0x9a]
+		':raised_eyebrow:': [byte(0xf0), 0x9f, 0xa4, 0xa8]
+		':raised_hand:': [byte(0xe2), 0x9c, 0x8b]
+		':raised_hand_with_fingers_splayed:': [byte(0xf0), 0x9f, 0x96, 0x90]
+		':raised_hands:': [byte(0xf0), 0x9f, 0x99, 0x8c]
+		':raising_hand:': [byte(0xf0), 0x9f, 0x99, 0x8b]
+		':raising_hand_man:': [byte(0xf0), 0x9f, 0x99, 0x8b, 0xe2, 0x99, 0x82]
+		':raising_hand_woman:': [byte(0xf0), 0x9f, 0x99, 0x8b, 0xe2, 0x99, 0x80]
+		':ram:': [byte(0xf0), 0x9f, 0x90, 0x8f]
+		':ramen:': [byte(0xf0), 0x9f, 0x8d, 0x9c]
+		':rat:': [byte(0xf0), 0x9f, 0x90, 0x80]
+		':razor:': [byte(0xf0), 0x9f, 0xaa, 0x92]
+		':receipt:': [byte(0xf0), 0x9f, 0xa7, 0xbe]
+		':record_button:': [byte(0xe2), 0x8f, 0xba]
+		':recycle:': [byte(0xe2), 0x99, 0xbb]
+		':red_car:': [byte(0xf0), 0x9f, 0x9a, 0x97]
+		':red_circle:': [byte(0xf0), 0x9f, 0x94, 0xb4]
+		':red_envelope:': [byte(0xf0), 0x9f, 0xa7, 0xa7]
+		':red_haired_man:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0xa6, 0xb0]
+		':red_haired_woman:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0xa6, 0xb0]
+		':red_square:': [byte(0xf0), 0x9f, 0x9f, 0xa5]
+		':registered:': [byte(0xc2), 0xae]
+		':relaxed:': [byte(0xe2), 0x98, 0xba]
+		':relieved:': [byte(0xf0), 0x9f, 0x98, 0x8c]
+		':reminder_ribbon:': [byte(0xf0), 0x9f, 0x8e, 0x97]
+		':repeat:': [byte(0xf0), 0x9f, 0x94, 0x81]
+		':repeat_one:': [byte(0xf0), 0x9f, 0x94, 0x82]
+		':rescue_worker_helmet:': [byte(0xe2), 0x9b, 0x91]
+		':restroom:': [byte(0xf0), 0x9f, 0x9a, 0xbb]
+		':reunion:': [byte(0xf0), 0x9f, 0x87, 0xb7, 0xf0, 0x9f, 0x87, 0xaa]
+		':revolving_hearts:': [byte(0xf0), 0x9f, 0x92, 0x9e]
+		':rewind:': [byte(0xe2), 0x8f, 0xaa]
+		':rhinoceros:': [byte(0xf0), 0x9f, 0xa6, 0x8f]
+		':ribbon:': [byte(0xf0), 0x9f, 0x8e, 0x80]
+		':rice:': [byte(0xf0), 0x9f, 0x8d, 0x9a]
+		':rice_ball:': [byte(0xf0), 0x9f, 0x8d, 0x99]
+		':rice_cracker:': [byte(0xf0), 0x9f, 0x8d, 0x98]
+		':rice_scene:': [byte(0xf0), 0x9f, 0x8e, 0x91]
+		':right_anger_bubble:': [byte(0xf0), 0x9f, 0x97, 0xaf]
+		':ring:': [byte(0xf0), 0x9f, 0x92, 0x8d]
+		':ringed_planet:': [byte(0xf0), 0x9f, 0xaa, 0x90]
+		':robot:': [byte(0xf0), 0x9f, 0xa4, 0x96]
+		':rocket:': [byte(0xf0), 0x9f, 0x9a, 0x80]
+		':rofl:': [byte(0xf0), 0x9f, 0xa4, 0xa3]
+		':roll_eyes:': [byte(0xf0), 0x9f, 0x99, 0x84]
+		':roll_of_paper:': [byte(0xf0), 0x9f, 0xa7, 0xbb]
+		':roller_coaster:': [byte(0xf0), 0x9f, 0x8e, 0xa2]
+		':romania:': [byte(0xf0), 0x9f, 0x87, 0xb7, 0xf0, 0x9f, 0x87, 0xb4]
+		':rooster:': [byte(0xf0), 0x9f, 0x90, 0x93]
+		':rose:': [byte(0xf0), 0x9f, 0x8c, 0xb9]
+		':rosette:': [byte(0xf0), 0x9f, 0x8f, 0xb5]
+		':rotating_light:': [byte(0xf0), 0x9f, 0x9a, 0xa8]
+		':round_pushpin:': [byte(0xf0), 0x9f, 0x93, 0x8d]
+		':rowboat:': [byte(0xf0), 0x9f, 0x9a, 0xa3]
+		':rowing_man:': [byte(0xf0), 0x9f, 0x9a, 0xa3, 0xe2, 0x99, 0x82]
+		':rowing_woman:': [byte(0xf0), 0x9f, 0x9a, 0xa3, 0xe2, 0x99, 0x80]
+		':ru:': [byte(0xf0), 0x9f, 0x87, 0xb7, 0xf0, 0x9f, 0x87, 0xba]
+		':rugby_football:': [byte(0xf0), 0x9f, 0x8f, 0x89]
+		':runner:': [byte(0xf0), 0x9f, 0x8f, 0x83]
+		':running:': [byte(0xf0), 0x9f, 0x8f, 0x83]
+		':running_man:': [byte(0xf0), 0x9f, 0x8f, 0x83, 0xe2, 0x99, 0x82]
+		':running_shirt_with_sash:': [byte(0xf0), 0x9f, 0x8e, 0xbd]
+		':running_woman:': [byte(0xf0), 0x9f, 0x8f, 0x83, 0xe2, 0x99, 0x80]
+		':rwanda:': [byte(0xf0), 0x9f, 0x87, 0xb7, 0xf0, 0x9f, 0x87, 0xbc]
+		':sa:': [byte(0xf0), 0x9f, 0x88, 0x82]
+		':safety_pin:': [byte(0xf0), 0x9f, 0xa7, 0xb7]
+		':safety_vest:': [byte(0xf0), 0x9f, 0xa6, 0xba]
+		':sagittarius:': [byte(0xe2), 0x99, 0x90]
+		':sailboat:': [byte(0xe2), 0x9b, 0xb5]
+		':sake:': [byte(0xf0), 0x9f, 0x8d, 0xb6]
+		':salt:': [byte(0xf0), 0x9f, 0xa7, 0x82]
+		':samoa:': [byte(0xf0), 0x9f, 0x87, 0xbc, 0xf0, 0x9f, 0x87, 0xb8]
+		':san_marino:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xb2]
+		':sandal:': [byte(0xf0), 0x9f, 0x91, 0xa1]
+		':sandwich:': [byte(0xf0), 0x9f, 0xa5, 0xaa]
+		':santa:': [byte(0xf0), 0x9f, 0x8e, 0x85]
+		':sao_tome_principe:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xb9]
+		':sari:': [byte(0xf0), 0x9f, 0xa5, 0xbb]
+		':sassy_man:': [byte(0xf0), 0x9f, 0x92, 0x81, 0xe2, 0x99, 0x82]
+		':sassy_woman:': [byte(0xf0), 0x9f, 0x92, 0x81, 0xe2, 0x99, 0x80]
+		':satellite:': [byte(0xf0), 0x9f, 0x93, 0xa1]
+		':satisfied:': [byte(0xf0), 0x9f, 0x98, 0x86]
+		':saudi_arabia:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xa6]
+		':sauna_man:': [byte(0xf0), 0x9f, 0xa7, 0x96, 0xe2, 0x99, 0x82]
+		':sauna_person:': [byte(0xf0), 0x9f, 0xa7, 0x96]
+		':sauna_woman:': [byte(0xf0), 0x9f, 0xa7, 0x96, 0xe2, 0x99, 0x80]
+		':sauropod:': [byte(0xf0), 0x9f, 0xa6, 0x95]
+		':saxophone:': [byte(0xf0), 0x9f, 0x8e, 0xb7]
+		':scarf:': [byte(0xf0), 0x9f, 0xa7, 0xa3]
+		':school:': [byte(0xf0), 0x9f, 0x8f, 0xab]
+		':school_satchel:': [byte(0xf0), 0x9f, 0x8e, 0x92]
+		':scientist:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x94, 0xac]
+		':scissors:': [byte(0xe2), 0x9c, 0x82]
+		':scorpion:': [byte(0xf0), 0x9f, 0xa6, 0x82]
+		':scorpius:': [byte(0xe2), 0x99, 0x8f]
+		':scotland:': [byte(0xf0), 0x9f, 0x8f, 0xb4, 0xf3, 0xa0, 0x81, 0xa7, 0xf3, 0xa0, 0x81, 0xa2, 0xf3, 0xa0, 0x81, 0xb3, 0xf3, 0xa0, 0x81, 0xa3, 0xf3, 0xa0, 0x81, 0xb4, 0xf3, 0xa0, 0x81, 0xbf]
+		':scream:': [byte(0xf0), 0x9f, 0x98, 0xb1]
+		':scream_cat:': [byte(0xf0), 0x9f, 0x99, 0x80]
+		':scroll:': [byte(0xf0), 0x9f, 0x93, 0x9c]
+		':seat:': [byte(0xf0), 0x9f, 0x92, 0xba]
+		':secret:': [byte(0xe3), 0x8a, 0x99]
+		':see_no_evil:': [byte(0xf0), 0x9f, 0x99, 0x88]
+		':seedling:': [byte(0xf0), 0x9f, 0x8c, 0xb1]
+		':selfie:': [byte(0xf0), 0x9f, 0xa4, 0xb3]
+		':senegal:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xb3]
+		':serbia:': [byte(0xf0), 0x9f, 0x87, 0xb7, 0xf0, 0x9f, 0x87, 0xb8]
+		':service_dog:': [byte(0xf0), 0x9f, 0x90, 0x95, 0xf0, 0x9f, 0xa6, 0xba]
+		':seven:': [byte(7), 0xe2, 0x83, 0xa3]
+		':seychelles:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xa8]
+		':shallow_pan_of_food:': [byte(0xf0), 0x9f, 0xa5, 0x98]
+		':shamrock:': [byte(0xe2), 0x98, 0x98]
+		':shark:': [byte(0xf0), 0x9f, 0xa6, 0x88]
+		':shaved_ice:': [byte(0xf0), 0x9f, 0x8d, 0xa7]
+		':sheep:': [byte(0xf0), 0x9f, 0x90, 0x91]
+		':shell:': [byte(0xf0), 0x9f, 0x90, 0x9a]
+		':shield:': [byte(0xf0), 0x9f, 0x9b, 0xa1]
+		':shinto_shrine:': [byte(0xe2), 0x9b, 0xa9]
+		':ship:': [byte(0xf0), 0x9f, 0x9a, 0xa2]
+		':shirt:': [byte(0xf0), 0x9f, 0x91, 0x95]
+		':shit:': [byte(0xf0), 0x9f, 0x92, 0xa9]
+		':shoe:': [byte(0xf0), 0x9f, 0x91, 0x9e]
+		':shopping:': [byte(0xf0), 0x9f, 0x9b, 0x8d]
+		':shopping_cart:': [byte(0xf0), 0x9f, 0x9b, 0x92]
+		':shorts:': [byte(0xf0), 0x9f, 0xa9, 0xb3]
+		':shower:': [byte(0xf0), 0x9f, 0x9a, 0xbf]
+		':shrimp:': [byte(0xf0), 0x9f, 0xa6, 0x90]
+		':shrug:': [byte(0xf0), 0x9f, 0xa4, 0xb7]
+		':shushing_face:': [byte(0xf0), 0x9f, 0xa4, 0xab]
+		':sierra_leone:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xb1]
+		':signal_strength:': [byte(0xf0), 0x9f, 0x93, 0xb6]
+		':singapore:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xac]
+		':singer:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x8e, 0xa4]
+		':sint_maarten:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xbd]
+		':six:': [byte(6), 0xe2, 0x83, 0xa3]
+		':six_pointed_star:': [byte(0xf0), 0x9f, 0x94, 0xaf]
+		':skateboard:': [byte(0xf0), 0x9f, 0x9b, 0xb9]
+		':ski:': [byte(0xf0), 0x9f, 0x8e, 0xbf]
+		':skier:': [byte(0xe2), 0x9b, 0xb7]
+		':skull:': [byte(0xf0), 0x9f, 0x92, 0x80]
+		':skull_and_crossbones:': [byte(0xe2), 0x98, 0xa0]
+		':skunk:': [byte(0xf0), 0x9f, 0xa6, 0xa8]
+		':sled:': [byte(0xf0), 0x9f, 0x9b, 0xb7]
+		':sleeping:': [byte(0xf0), 0x9f, 0x98, 0xb4]
+		':sleeping_bed:': [byte(0xf0), 0x9f, 0x9b, 0x8c]
+		':sleepy:': [byte(0xf0), 0x9f, 0x98, 0xaa]
+		':slightly_frowning_face:': [byte(0xf0), 0x9f, 0x99, 0x81]
+		':slightly_smiling_face:': [byte(0xf0), 0x9f, 0x99, 0x82]
+		':slot_machine:': [byte(0xf0), 0x9f, 0x8e, 0xb0]
+		':sloth:': [byte(0xf0), 0x9f, 0xa6, 0xa5]
+		':slovakia:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xb0]
+		':slovenia:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xae]
+		':small_airplane:': [byte(0xf0), 0x9f, 0x9b, 0xa9]
+		':small_blue_diamond:': [byte(0xf0), 0x9f, 0x94, 0xb9]
+		':small_orange_diamond:': [byte(0xf0), 0x9f, 0x94, 0xb8]
+		':small_red_triangle:': [byte(0xf0), 0x9f, 0x94, 0xba]
+		':small_red_triangle_down:': [byte(0xf0), 0x9f, 0x94, 0xbb]
+		':smile:': [byte(0xf0), 0x9f, 0x98, 0x84]
+		':smile_cat:': [byte(0xf0), 0x9f, 0x98, 0xb8]
+		':smiley:': [byte(0xf0), 0x9f, 0x98, 0x83]
+		':smiley_cat:': [byte(0xf0), 0x9f, 0x98, 0xba]
+		':smiling_face_with_three_hearts:': [byte(0xf0), 0x9f, 0xa5, 0xb0]
+		':smiling_imp:': [byte(0xf0), 0x9f, 0x98, 0x88]
+		':smirk:': [byte(0xf0), 0x9f, 0x98, 0x8f]
+		':smirk_cat:': [byte(0xf0), 0x9f, 0x98, 0xbc]
+		':smoking:': [byte(0xf0), 0x9f, 0x9a, 0xac]
+		':snail:': [byte(0xf0), 0x9f, 0x90, 0x8c]
+		':snake:': [byte(0xf0), 0x9f, 0x90, 0x8d]
+		':sneezing_face:': [byte(0xf0), 0x9f, 0xa4, 0xa7]
+		':snowboarder:': [byte(0xf0), 0x9f, 0x8f, 0x82]
+		':snowflake:': [byte(0xe2), 0x9d, 0x84]
+		':snowman:': [byte(0xe2), 0x9b, 0x84]
+		':snowman_with_snow:': [byte(0xe2), 0x98, 0x83]
+		':soap:': [byte(0xf0), 0x9f, 0xa7, 0xbc]
+		':sob:': [byte(0xf0), 0x9f, 0x98, 0xad]
+		':soccer:': [byte(0xe2), 0x9a, 0xbd]
+		':socks:': [byte(0xf0), 0x9f, 0xa7, 0xa6]
+		':softball:': [byte(0xf0), 0x9f, 0xa5, 0x8e]
+		':solomon_islands:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xa7]
+		':somalia:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xb4]
+		':soon:': [byte(0xf0), 0x9f, 0x94, 0x9c]
+		':sos:': [byte(0xf0), 0x9f, 0x86, 0x98]
+		':sound:': [byte(0xf0), 0x9f, 0x94, 0x89]
+		':south_africa:': [byte(0xf0), 0x9f, 0x87, 0xbf, 0xf0, 0x9f, 0x87, 0xa6]
+		':south_georgia_south_sandwich_islands:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xb8]
+		':south_sudan:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xb8]
+		':space_invader:': [byte(0xf0), 0x9f, 0x91, 0xbe]
+		':spades:': [byte(0xe2), 0x99, 0xa0]
+		':spaghetti:': [byte(0xf0), 0x9f, 0x8d, 0x9d]
+		':sparkle:': [byte(0xe2), 0x9d, 0x87]
+		':sparkler:': [byte(0xf0), 0x9f, 0x8e, 0x87]
+		':sparkles:': [byte(0xe2), 0x9c, 0xa8]
+		':sparkling_heart:': [byte(0xf0), 0x9f, 0x92, 0x96]
+		':speak_no_evil:': [byte(0xf0), 0x9f, 0x99, 0x8a]
+		':speaker:': [byte(0xf0), 0x9f, 0x94, 0x88]
+		':speaking_head:': [byte(0xf0), 0x9f, 0x97, 0xa3]
+		':speech_balloon:': [byte(0xf0), 0x9f, 0x92, 0xac]
+		':speedboat:': [byte(0xf0), 0x9f, 0x9a, 0xa4]
+		':spider:': [byte(0xf0), 0x9f, 0x95, 0xb7]
+		':spider_web:': [byte(0xf0), 0x9f, 0x95, 0xb8]
+		':spiral_calendar:': [byte(0xf0), 0x9f, 0x97, 0x93]
+		':spiral_notepad:': [byte(0xf0), 0x9f, 0x97, 0x92]
+		':sponge:': [byte(0xf0), 0x9f, 0xa7, 0xbd]
+		':spoon:': [byte(0xf0), 0x9f, 0xa5, 0x84]
+		':squid:': [byte(0xf0), 0x9f, 0xa6, 0x91]
+		':sri_lanka:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xb0]
+		':st_barthelemy:': [byte(0xf0), 0x9f, 0x87, 0xa7, 0xf0, 0x9f, 0x87, 0xb1]
+		':st_helena:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xad]
+		':st_kitts_nevis:': [byte(0xf0), 0x9f, 0x87, 0xb0, 0xf0, 0x9f, 0x87, 0xb3]
+		':st_lucia:': [byte(0xf0), 0x9f, 0x87, 0xb1, 0xf0, 0x9f, 0x87, 0xa8]
+		':st_martin:': [byte(0xf0), 0x9f, 0x87, 0xb2, 0xf0, 0x9f, 0x87, 0xab]
+		':st_pierre_miquelon:': [byte(0xf0), 0x9f, 0x87, 0xb5, 0xf0, 0x9f, 0x87, 0xb2]
+		':st_vincent_grenadines:': [byte(0xf0), 0x9f, 0x87, 0xbb, 0xf0, 0x9f, 0x87, 0xa8]
+		':stadium:': [byte(0xf0), 0x9f, 0x8f, 0x9f]
+		':standing_man:': [byte(0xf0), 0x9f, 0xa7, 0x8d, 0xe2, 0x99, 0x82]
+		':standing_person:': [byte(0xf0), 0x9f, 0xa7, 0x8d]
+		':standing_woman:': [byte(0xf0), 0x9f, 0xa7, 0x8d, 0xe2, 0x99, 0x80]
+		':star2:': [byte(0xf0), 0x9f, 0x8c, 0x9f]
+		':star:': [byte(0xe2), 0xad, 0x90]
+		':star_and_crescent:': [byte(0xe2), 0x98, 0xaa]
+		':star_of_david:': [byte(0xe2), 0x9c, 0xa1]
+		':star_struck:': [byte(0xf0), 0x9f, 0xa4, 0xa9]
+		':stars:': [byte(0xf0), 0x9f, 0x8c, 0xa0]
+		':station:': [byte(0xf0), 0x9f, 0x9a, 0x89]
+		':statue_of_liberty:': [byte(0xf0), 0x9f, 0x97, 0xbd]
+		':steam_locomotive:': [byte(0xf0), 0x9f, 0x9a, 0x82]
+		':stethoscope:': [byte(0xf0), 0x9f, 0xa9, 0xba]
+		':stew:': [byte(0xf0), 0x9f, 0x8d, 0xb2]
+		':stop_button:': [byte(0xe2), 0x8f, 0xb9]
+		':stop_sign:': [byte(0xf0), 0x9f, 0x9b, 0x91]
+		':stopwatch:': [byte(0xe2), 0x8f, 0xb1]
+		':straight_ruler:': [byte(0xf0), 0x9f, 0x93, 0x8f]
+		':strawberry:': [byte(0xf0), 0x9f, 0x8d, 0x93]
+		':stuck_out_tongue:': [byte(0xf0), 0x9f, 0x98, 0x9b]
+		':stuck_out_tongue_closed_eyes:': [byte(0xf0), 0x9f, 0x98, 0x9d]
+		':stuck_out_tongue_winking_eye:': [byte(0xf0), 0x9f, 0x98, 0x9c]
+		':student:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x8e, 0x93]
+		':studio_microphone:': [byte(0xf0), 0x9f, 0x8e, 0x99]
+		':stuffed_flatbread:': [byte(0xf0), 0x9f, 0xa5, 0x99]
+		':sudan:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xa9]
+		':sun_behind_large_cloud:': [byte(0xf0), 0x9f, 0x8c, 0xa5]
+		':sun_behind_rain_cloud:': [byte(0xf0), 0x9f, 0x8c, 0xa6]
+		':sun_behind_small_cloud:': [byte(0xf0), 0x9f, 0x8c, 0xa4]
+		':sun_with_face:': [byte(0xf0), 0x9f, 0x8c, 0x9e]
+		':sunflower:': [byte(0xf0), 0x9f, 0x8c, 0xbb]
+		':sunglasses:': [byte(0xf0), 0x9f, 0x98, 0x8e]
+		':sunny:': [byte(0xe2), 0x98, 0x80]
+		':sunrise:': [byte(0xf0), 0x9f, 0x8c, 0x85]
+		':sunrise_over_mountains:': [byte(0xf0), 0x9f, 0x8c, 0x84]
+		':superhero:': [byte(0xf0), 0x9f, 0xa6, 0xb8]
+		':superhero_man:': [byte(0xf0), 0x9f, 0xa6, 0xb8, 0xe2, 0x99, 0x82]
+		':superhero_woman:': [byte(0xf0), 0x9f, 0xa6, 0xb8, 0xe2, 0x99, 0x80]
+		':supervillain:': [byte(0xf0), 0x9f, 0xa6, 0xb9]
+		':supervillain_man:': [byte(0xf0), 0x9f, 0xa6, 0xb9, 0xe2, 0x99, 0x82]
+		':supervillain_woman:': [byte(0xf0), 0x9f, 0xa6, 0xb9, 0xe2, 0x99, 0x80]
+		':surfer:': [byte(0xf0), 0x9f, 0x8f, 0x84]
+		':surfing_man:': [byte(0xf0), 0x9f, 0x8f, 0x84, 0xe2, 0x99, 0x82]
+		':surfing_woman:': [byte(0xf0), 0x9f, 0x8f, 0x84, 0xe2, 0x99, 0x80]
+		':suriname:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xb7]
+		':sushi:': [byte(0xf0), 0x9f, 0x8d, 0xa3]
+		':suspension_railway:': [byte(0xf0), 0x9f, 0x9a, 0x9f]
+		':svalbard_jan_mayen:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xaf]
+		':swan:': [byte(0xf0), 0x9f, 0xa6, 0xa2]
+		':swaziland:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xbf]
+		':sweat:': [byte(0xf0), 0x9f, 0x98, 0x93]
+		':sweat_drops:': [byte(0xf0), 0x9f, 0x92, 0xa6]
+		':sweat_smile:': [byte(0xf0), 0x9f, 0x98, 0x85]
+		':sweden:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xaa]
+		':sweet_potato:': [byte(0xf0), 0x9f, 0x8d, 0xa0]
+		':swim_brief:': [byte(0xf0), 0x9f, 0xa9, 0xb2]
+		':swimmer:': [byte(0xf0), 0x9f, 0x8f, 0x8a]
+		':swimming_man:': [byte(0xf0), 0x9f, 0x8f, 0x8a, 0xe2, 0x99, 0x82]
+		':swimming_woman:': [byte(0xf0), 0x9f, 0x8f, 0x8a, 0xe2, 0x99, 0x80]
+		':switzerland:': [byte(0xf0), 0x9f, 0x87, 0xa8, 0xf0, 0x9f, 0x87, 0xad]
+		':symbols:': [byte(0xf0), 0x9f, 0x94, 0xa3]
+		':synagogue:': [byte(0xf0), 0x9f, 0x95, 0x8d]
+		':syria:': [byte(0xf0), 0x9f, 0x87, 0xb8, 0xf0, 0x9f, 0x87, 0xbe]
+		':syringe:': [byte(0xf0), 0x9f, 0x92, 0x89]
+		':t-rex:': [byte(0xf0), 0x9f, 0xa6, 0x96]
+		':taco:': [byte(0xf0), 0x9f, 0x8c, 0xae]
+		':tada:': [byte(0xf0), 0x9f, 0x8e, 0x89]
+		':taiwan:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xbc]
+		':tajikistan:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xaf]
+		':takeout_box:': [byte(0xf0), 0x9f, 0xa5, 0xa1]
+		':tanabata_tree:': [byte(0xf0), 0x9f, 0x8e, 0x8b]
+		':tangerine:': [byte(0xf0), 0x9f, 0x8d, 0x8a]
+		':tanzania:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xbf]
+		':taurus:': [byte(0xe2), 0x99, 0x89]
+		':taxi:': [byte(0xf0), 0x9f, 0x9a, 0x95]
+		':tea:': [byte(0xf0), 0x9f, 0x8d, 0xb5]
+		':teacher:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x8f, 0xab]
+		':technologist:': [byte(0xf0), 0x9f, 0xa7, 0x91, 0xf0, 0x9f, 0x92, 0xbb]
+		':teddy_bear:': [byte(0xf0), 0x9f, 0xa7, 0xb8]
+		':telephone:': [byte(0xe2), 0x98, 0x8e]
+		':telephone_receiver:': [byte(0xf0), 0x9f, 0x93, 0x9e]
+		':telescope:': [byte(0xf0), 0x9f, 0x94, 0xad]
+		':tennis:': [byte(0xf0), 0x9f, 0x8e, 0xbe]
+		':tent:': [byte(0xe2), 0x9b, 0xba]
+		':test_tube:': [byte(0xf0), 0x9f, 0xa7, 0xaa]
+		':thailand:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xad]
+		':thermometer:': [byte(0xf0), 0x9f, 0x8c, 0xa1]
+		':thinking:': [byte(0xf0), 0x9f, 0xa4, 0x94]
+		':thought_balloon:': [byte(0xf0), 0x9f, 0x92, 0xad]
+		':thread:': [byte(0xf0), 0x9f, 0xa7, 0xb5]
+		':three:': [byte(3), 0xe2, 0x83, 0xa3]
+		':thumbsdown:': [byte(0xf0), 0x9f, 0x91, 0x8e]
+		':thumbsup:': [byte(0xf0), 0x9f, 0x91, 0x8d]
+		':ticket:': [byte(0xf0), 0x9f, 0x8e, 0xab]
+		':tickets:': [byte(0xf0), 0x9f, 0x8e, 0x9f]
+		':tiger2:': [byte(0xf0), 0x9f, 0x90, 0x85]
+		':tiger:': [byte(0xf0), 0x9f, 0x90, 0xaf]
+		':timer_clock:': [byte(0xe2), 0x8f, 0xb2]
+		':timor_leste:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xb1]
+		':tipping_hand_man:': [byte(0xf0), 0x9f, 0x92, 0x81, 0xe2, 0x99, 0x82]
+		':tipping_hand_person:': [byte(0xf0), 0x9f, 0x92, 0x81]
+		':tipping_hand_woman:': [byte(0xf0), 0x9f, 0x92, 0x81, 0xe2, 0x99, 0x80]
+		':tired_face:': [byte(0xf0), 0x9f, 0x98, 0xab]
+		':tm:': [byte(0xe2), 0x84, 0xa2]
+		':togo:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xac]
+		':toilet:': [byte(0xf0), 0x9f, 0x9a, 0xbd]
+		':tokelau:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xb0]
+		':tokyo_tower:': [byte(0xf0), 0x9f, 0x97, 0xbc]
+		':tomato:': [byte(0xf0), 0x9f, 0x8d, 0x85]
+		':tonga:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xb4]
+		':tongue:': [byte(0xf0), 0x9f, 0x91, 0x85]
+		':toolbox:': [byte(0xf0), 0x9f, 0xa7, 0xb0]
+		':tooth:': [byte(0xf0), 0x9f, 0xa6, 0xb7]
+		':top:': [byte(0xf0), 0x9f, 0x94, 0x9d]
+		':tophat:': [byte(0xf0), 0x9f, 0x8e, 0xa9]
+		':tornado:': [byte(0xf0), 0x9f, 0x8c, 0xaa]
+		':tr:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xb7]
+		':trackball:': [byte(0xf0), 0x9f, 0x96, 0xb2]
+		':tractor:': [byte(0xf0), 0x9f, 0x9a, 0x9c]
+		':traffic_light:': [byte(0xf0), 0x9f, 0x9a, 0xa5]
+		':train2:': [byte(0xf0), 0x9f, 0x9a, 0x86]
+		':train:': [byte(0xf0), 0x9f, 0x9a, 0x8b]
+		':tram:': [byte(0xf0), 0x9f, 0x9a, 0x8a]
+		':triangular_flag_on_post:': [byte(0xf0), 0x9f, 0x9a, 0xa9]
+		':triangular_ruler:': [byte(0xf0), 0x9f, 0x93, 0x90]
+		':trident:': [byte(0xf0), 0x9f, 0x94, 0xb1]
+		':trinidad_tobago:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xb9]
+		':tristan_da_cunha:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xa6]
+		':triumph:': [byte(0xf0), 0x9f, 0x98, 0xa4]
+		':trolleybus:': [byte(0xf0), 0x9f, 0x9a, 0x8e]
+		':trophy:': [byte(0xf0), 0x9f, 0x8f, 0x86]
+		':tropical_drink:': [byte(0xf0), 0x9f, 0x8d, 0xb9]
+		':tropical_fish:': [byte(0xf0), 0x9f, 0x90, 0xa0]
+		':truck:': [byte(0xf0), 0x9f, 0x9a, 0x9a]
+		':trumpet:': [byte(0xf0), 0x9f, 0x8e, 0xba]
+		':tshirt:': [byte(0xf0), 0x9f, 0x91, 0x95]
+		':tulip:': [byte(0xf0), 0x9f, 0x8c, 0xb7]
+		':tumbler_glass:': [byte(0xf0), 0x9f, 0xa5, 0x83]
+		':tunisia:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xb3]
+		':turkey:': [byte(0xf0), 0x9f, 0xa6, 0x83]
+		':turkmenistan:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xb2]
+		':turks_caicos_islands:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xa8]
+		':turtle:': [byte(0xf0), 0x9f, 0x90, 0xa2]
+		':tuvalu:': [byte(0xf0), 0x9f, 0x87, 0xb9, 0xf0, 0x9f, 0x87, 0xbb]
+		':tv:': [byte(0xf0), 0x9f, 0x93, 0xba]
+		':twisted_rightwards_arrows:': [byte(0xf0), 0x9f, 0x94, 0x80]
+		':two:': [byte(2), 0xe2, 0x83, 0xa3]
+		':two_hearts:': [byte(0xf0), 0x9f, 0x92, 0x95]
+		':two_men_holding_hands:': [byte(0xf0), 0x9f, 0x91, 0xac]
+		':two_women_holding_hands:': [byte(0xf0), 0x9f, 0x91, 0xad]
+		':u5272:': [byte(0xf0), 0x9f, 0x88, 0xb9]
+		':u5408:': [byte(0xf0), 0x9f, 0x88, 0xb4]
+		':u55b6:': [byte(0xf0), 0x9f, 0x88, 0xba]
+		':u6307:': [byte(0xf0), 0x9f, 0x88, 0xaf]
+		':u6708:': [byte(0xf0), 0x9f, 0x88, 0xb7]
+		':u6709:': [byte(0xf0), 0x9f, 0x88, 0xb6]
+		':u6e80:': [byte(0xf0), 0x9f, 0x88, 0xb5]
+		':u7121:': [byte(0xf0), 0x9f, 0x88, 0x9a]
+		':u7533:': [byte(0xf0), 0x9f, 0x88, 0xb8]
+		':u7981:': [byte(0xf0), 0x9f, 0x88, 0xb2]
+		':u7a7a:': [byte(0xf0), 0x9f, 0x88, 0xb3]
+		':uganda:': [byte(0xf0), 0x9f, 0x87, 0xba, 0xf0, 0x9f, 0x87, 0xac]
+		':uk:': [byte(0xf0), 0x9f, 0x87, 0xac, 0xf0, 0x9f, 0x87, 0xa7]
+		':ukraine:': [byte(0xf0), 0x9f, 0x87, 0xba, 0xf0, 0x9f, 0x87, 0xa6]
+		':umbrella:': [byte(0xe2), 0x98, 0x94]
+		':unamused:': [byte(0xf0), 0x9f, 0x98, 0x92]
+		':underage:': [byte(0xf0), 0x9f, 0x94, 0x9e]
+		':unicorn:': [byte(0xf0), 0x9f, 0xa6, 0x84]
+		':united_arab_emirates:': [byte(0xf0), 0x9f, 0x87, 0xa6, 0xf0, 0x9f, 0x87, 0xaa]
+		':united_nations:': [byte(0xf0), 0x9f, 0x87, 0xba, 0xf0, 0x9f, 0x87, 0xb3]
+		':unlock:': [byte(0xf0), 0x9f, 0x94, 0x93]
+		':up:': [byte(0xf0), 0x9f, 0x86, 0x99]
+		':upside_down_face:': [byte(0xf0), 0x9f, 0x99, 0x83]
+		':uruguay:': [byte(0xf0), 0x9f, 0x87, 0xba, 0xf0, 0x9f, 0x87, 0xbe]
+		':us:': [byte(0xf0), 0x9f, 0x87, 0xba, 0xf0, 0x9f, 0x87, 0xb8]
+		':us_outlying_islands:': [byte(0xf0), 0x9f, 0x87, 0xba, 0xf0, 0x9f, 0x87, 0xb2]
+		':us_virgin_islands:': [byte(0xf0), 0x9f, 0x87, 0xbb, 0xf0, 0x9f, 0x87, 0xae]
+		':uzbekistan:': [byte(0xf0), 0x9f, 0x87, 0xba, 0xf0, 0x9f, 0x87, 0xbf]
+		':v:': [byte(0xe2), 0x9c, 0x8c]
+		':vampire:': [byte(0xf0), 0x9f, 0xa7, 0x9b]
+		':vampire_man:': [byte(0xf0), 0x9f, 0xa7, 0x9b, 0xe2, 0x99, 0x82]
+		':vampire_woman:': [byte(0xf0), 0x9f, 0xa7, 0x9b, 0xe2, 0x99, 0x80]
+		':vanuatu:': [byte(0xf0), 0x9f, 0x87, 0xbb, 0xf0, 0x9f, 0x87, 0xba]
+		':vatican_city:': [byte(0xf0), 0x9f, 0x87, 0xbb, 0xf0, 0x9f, 0x87, 0xa6]
+		':venezuela:': [byte(0xf0), 0x9f, 0x87, 0xbb, 0xf0, 0x9f, 0x87, 0xaa]
+		':vertical_traffic_light:': [byte(0xf0), 0x9f, 0x9a, 0xa6]
+		':vhs:': [byte(0xf0), 0x9f, 0x93, 0xbc]
+		':vibration_mode:': [byte(0xf0), 0x9f, 0x93, 0xb3]
+		':video_camera:': [byte(0xf0), 0x9f, 0x93, 0xb9]
+		':video_game:': [byte(0xf0), 0x9f, 0x8e, 0xae]
+		':vietnam:': [byte(0xf0), 0x9f, 0x87, 0xbb, 0xf0, 0x9f, 0x87, 0xb3]
+		':violin:': [byte(0xf0), 0x9f, 0x8e, 0xbb]
+		':virgo:': [byte(0xe2), 0x99, 0x8d]
+		':volcano:': [byte(0xf0), 0x9f, 0x8c, 0x8b]
+		':volleyball:': [byte(0xf0), 0x9f, 0x8f, 0x90]
+		':vomiting_face:': [byte(0xf0), 0x9f, 0xa4, 0xae]
+		':vs:': [byte(0xf0), 0x9f, 0x86, 0x9a]
+		':vulcan_salute:': [byte(0xf0), 0x9f, 0x96, 0x96]
+		':waffle:': [byte(0xf0), 0x9f, 0xa7, 0x87]
+		':wales:': [byte(0xf0), 0x9f, 0x8f, 0xb4, 0xf3, 0xa0, 0x81, 0xa7, 0xf3, 0xa0, 0x81, 0xa2, 0xf3, 0xa0, 0x81, 0xb7, 0xf3, 0xa0, 0x81, 0xac, 0xf3, 0xa0, 0x81, 0xb3, 0xee, 0x80, 0x87]
+		':walking:': [byte(0xf0), 0x9f, 0x9a, 0xb6]
+		':walking_man:': [byte(0xf0), 0x9f, 0x9a, 0xb6, 0xe2, 0x99, 0x82]
+		':walking_woman:': [byte(0xf0), 0x9f, 0x9a, 0xb6, 0xe2, 0x99, 0x80]
+		':wallis_futuna:': [byte(0xf0), 0x9f, 0x87, 0xbc, 0xf0, 0x9f, 0x87, 0xab]
+		':waning_crescent_moon:': [byte(0xf0), 0x9f, 0x8c, 0x98]
+		':waning_gibbous_moon:': [byte(0xf0), 0x9f, 0x8c, 0x96]
+		':warning:': [byte(0xe2), 0x9a, 0xa0]
+		':wastebasket:': [byte(0xf0), 0x9f, 0x97, 0x91]
+		':watch:': [byte(0xe2), 0x8c, 0x9a]
+		':water_buffalo:': [byte(0xf0), 0x9f, 0x90, 0x83]
+		':water_polo:': [byte(0xf0), 0x9f, 0xa4, 0xbd]
+		':watermelon:': [byte(0xf0), 0x9f, 0x8d, 0x89]
+		':wave:': [byte(0xf0), 0x9f, 0x91, 0x8b]
+		':wavy_dash:': [byte(0xe3), 0x80, 0xb0]
+		':waxing_crescent_moon:': [byte(0xf0), 0x9f, 0x8c, 0x92]
+		':waxing_gibbous_moon:': [byte(0xf0), 0x9f, 0x8c, 0x94]
+		':wc:': [byte(0xf0), 0x9f, 0x9a, 0xbe]
+		':weary:': [byte(0xf0), 0x9f, 0x98, 0xa9]
+		':wedding:': [byte(0xf0), 0x9f, 0x92, 0x92]
+		':weight_lifting:': [byte(0xf0), 0x9f, 0x8f, 0x8b]
+		':weight_lifting_man:': [byte(0xf0), 0x9f, 0x8f, 0x8b, 0xe2, 0x99, 0x82]
+		':weight_lifting_woman:': [byte(0xf0), 0x9f, 0x8f, 0x8b, 0xe2, 0x99, 0x80]
+		':western_sahara:': [byte(0xf0), 0x9f, 0x87, 0xaa, 0xf0, 0x9f, 0x87, 0xad]
+		':whale2:': [byte(0xf0), 0x9f, 0x90, 0x8b]
+		':whale:': [byte(0xf0), 0x9f, 0x90, 0xb3]
+		':wheel_of_dharma:': [byte(0xe2), 0x98, 0xb8]
+		':wheelchair:': [byte(0xe2), 0x99, 0xbf]
+		':white_check_mark:': [byte(0xe2), 0x9c, 0x85]
+		':white_circle:': [byte(0xe2), 0x9a, 0xaa]
+		':white_flag:': [byte(0xf0), 0x9f, 0x8f, 0xb3]
+		':white_flower:': [byte(0xf0), 0x9f, 0x92, 0xae]
+		':white_haired_man:': [byte(0xf0), 0x9f, 0x91, 0xa8, 0xf0, 0x9f, 0xa6, 0xb3]
+		':white_haired_woman:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0xa6, 0xb3]
+		':white_heart:': [byte(0xf0), 0x9f, 0xa4, 0x8d]
+		':white_large_square:': [byte(0xe2), 0xac, 0x9c]
+		':white_medium_small_square:': [byte(0xe2), 0x97, 0xbd]
+		':white_medium_square:': [byte(0xe2), 0x97, 0xbb]
+		':white_small_square:': [byte(0xe2), 0x96, 0xab]
+		':white_square_button:': [byte(0xf0), 0x9f, 0x94, 0xb3]
+		':wilted_flower:': [byte(0xf0), 0x9f, 0xa5, 0x80]
+		':wind_chime:': [byte(0xf0), 0x9f, 0x8e, 0x90]
+		':wind_face:': [byte(0xf0), 0x9f, 0x8c, 0xac]
+		':wine_glass:': [byte(0xf0), 0x9f, 0x8d, 0xb7]
+		':wink:': [byte(0xf0), 0x9f, 0x98, 0x89]
+		':wolf:': [byte(0xf0), 0x9f, 0x90, 0xba]
+		':woman:': [byte(0xf0), 0x9f, 0x91, 0xa9]
+		':woman_artist:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x8e, 0xa8]
+		':woman_astronaut:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x9a, 0x80]
+		':woman_cartwheeling:': [byte(0xf0), 0x9f, 0xa4, 0xb8, 0xe2, 0x99, 0x80]
+		':woman_cook:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x8d, 0xb3]
+		':woman_dancing:': [byte(0xf0), 0x9f, 0x92, 0x83]
+		':woman_facepalming:': [byte(0xf0), 0x9f, 0xa4, 0xa6, 0xe2, 0x99, 0x80]
+		':woman_factory_worker:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x8f, 0xad]
+		':woman_farmer:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x8c, 0xbe]
+		':woman_firefighter:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x9a, 0x92]
+		':woman_health_worker:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xe2, 0x9a, 0x95]
+		':woman_in_manual_wheelchair:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0xa6, 0xbd]
+		':woman_in_motorized_wheelchair:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0xa6, 0xbc]
+		':woman_judge:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xe2, 0x9a, 0x96]
+		':woman_juggling:': [byte(0xf0), 0x9f, 0xa4, 0xb9, 0xe2, 0x99, 0x80]
+		':woman_mechanic:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x94, 0xa7]
+		':woman_office_worker:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x92, 0xbc]
+		':woman_pilot:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xe2, 0x9c, 0x88]
+		':woman_playing_handball:': [byte(0xf0), 0x9f, 0xa4, 0xbe, 0xe2, 0x99, 0x80]
+		':woman_playing_water_polo:': [byte(0xf0), 0x9f, 0xa4, 0xbd, 0xe2, 0x99, 0x80]
+		':woman_scientist:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x94, 0xac]
+		':woman_shrugging:': [byte(0xf0), 0x9f, 0xa4, 0xb7, 0xe2, 0x99, 0x80]
+		':woman_singer:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x8e, 0xa4]
+		':woman_student:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x8e, 0x93]
+		':woman_teacher:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x8f, 0xab]
+		':woman_technologist:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0x92, 0xbb]
+		':woman_with_headscarf:': [byte(0xf0), 0x9f, 0xa7, 0x95]
+		':woman_with_probing_cane:': [byte(0xf0), 0x9f, 0x91, 0xa9, 0xf0, 0x9f, 0xa6, 0xaf]
+		':woman_with_turban:': [byte(0xf0), 0x9f, 0x91, 0xb3, 0xe2, 0x99, 0x80]
+		':womans_clothes:': [byte(0xf0), 0x9f, 0x91, 0x9a]
+		':womans_hat:': [byte(0xf0), 0x9f, 0x91, 0x92]
+		':women_wrestling:': [byte(0xf0), 0x9f, 0xa4, 0xbc, 0xe2, 0x99, 0x80]
+		':womens:': [byte(0xf0), 0x9f, 0x9a, 0xba]
+		':woozy_face:': [byte(0xf0), 0x9f, 0xa5, 0xb4]
+		':world_map:': [byte(0xf0), 0x9f, 0x97, 0xba]
+		':worried:': [byte(0xf0), 0x9f, 0x98, 0x9f]
+		':wrench:': [byte(0xf0), 0x9f, 0x94, 0xa7]
+		':wrestling:': [byte(0xf0), 0x9f, 0xa4, 0xbc]
+		':writing_hand:': [byte(0xe2), 0x9c, 0x8d]
+		':x:': [byte(0xe2), 0x9d, 0x8c]
+		':yarn:': [byte(0xf0), 0x9f, 0xa7, 0xb6]
+		':yawning_face:': [byte(0xf0), 0x9f, 0xa5, 0xb1]
+		':yellow_circle:': [byte(0xf0), 0x9f, 0x9f, 0xa1]
+		':yellow_heart:': [byte(0xf0), 0x9f, 0x92, 0x9b]
+		':yellow_square:': [byte(0xf0), 0x9f, 0x9f, 0xa8]
+		':yemen:': [byte(0xf0), 0x9f, 0x87, 0xbe, 0xf0, 0x9f, 0x87, 0xaa]
+		':yen:': [byte(0xf0), 0x9f, 0x92, 0xb4]
+		':yin_yang:': [byte(0xe2), 0x98, 0xaf]
+		':yo_yo:': [byte(0xf0), 0x9f, 0xaa, 0x80]
+		':yum:': [byte(0xf0), 0x9f, 0x98, 0x8b]
+		':zambia:': [byte(0xf0), 0x9f, 0x87, 0xbf, 0xf0, 0x9f, 0x87, 0xb2]
+		':zany_face:': [byte(0xf0), 0x9f, 0xa4, 0xaa]
+		':zap:': [byte(0xe2), 0x9a, 0xa1]
+		':zebra:': [byte(0xf0), 0x9f, 0xa6, 0x93]
+		':zero:': [byte(0), 0xe2, 0x83, 0xa3]
+		':zimbabwe:': [byte(0xf0), 0x9f, 0x87, 0xbf, 0xf0, 0x9f, 0x87, 0xbc]
+		':zipper_mouth_face:': [byte(0xf0), 0x9f, 0xa4, 0x90]
+		':zombie:': [byte(0xf0), 0x9f, 0xa7, 0x9f]
+		':zombie_man:': [byte(0xf0), 0x9f, 0xa7, 0x9f, 0xe2, 0x99, 0x82]
+		':zombie_woman:': [byte(0xf0), 0x9f, 0xa7, 0x9f, 0xe2, 0x99, 0x80]
+		':zzz:': [byte(0xf0), 0x9f, 0x92, 0xa4]
 	}
 )

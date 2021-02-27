@@ -22,7 +22,8 @@ fn main() {
 	}
 	if args == ['-l'] {
 		for key, value in moji.data {
-			println('$value\t$key')
+			emoji := string(value)
+			println('$emoji\t$key')
 		}
 		return
 	}
