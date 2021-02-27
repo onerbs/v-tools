@@ -1,8 +1,7 @@
 module main
 
 import rs
-import xsh
-import cmd
+import plu
 import rand
 
 // Create random strings
@@ -25,12 +24,8 @@ import rand
 //
 
 fn main() {
-	mut args := xsh.get_args()
-	size := cmd.parse_flag_value(mut args, ['-s'], '16').int()
-	chars := rs.get_ctx(args).get_charset()
+	mut args := plu.get_args()
+	size := plu.parse_flag_value(mut args, ['-s'], '16').int()
+	chars := rs.get_ctx(args).get_chars()
 	println(rand.string_from_set(chars, size))
-}
-
-fn fatal(err string) int {
-	return xsh.fail('rs: $err')
 }

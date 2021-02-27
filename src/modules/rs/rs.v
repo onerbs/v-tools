@@ -63,17 +63,16 @@ const (
 	set_upper_hex   = 'ABCDEF0123456789'
 	set_lower_hex   = 'abcdef0123456789'
 	set_mixed_hex   = 'ABCDEF0123456789abcdef'
-	set_empty       = ''
 )
 
-pub fn (ctx Context) get_charset() string {
+pub fn (ctx Context) get_chars() string {
 	if ctx.charset == .custom {
 		return ctx.custom
 	}
 	if ctx.charset == .digit {
 		return rs.set_digit
 	}
-	mut chars := rs.set_empty
+	mut chars := ''
 	match ctx.charcase {
 		.upper {
 			chars = match ctx.charset {
