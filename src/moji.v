@@ -16,10 +16,7 @@ import moji
 //
 
 fn main() {
-	args := plu.get_args()
-	if args.len == 0 {
-		return
-	}
+	args := plu.need_args(1) or { return }
 	if args == ['-l'] {
 		for key, value in moji.data {
 			emoji := string(value)
