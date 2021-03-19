@@ -6,7 +6,7 @@ pub interface Husher {
 }
 
 pub fn get_husher(kind string) Husher {
-	return match(kind) {
+	return match (kind) {
 		'sha1' {
 			Husher(SHA1Husher{})
 		}
